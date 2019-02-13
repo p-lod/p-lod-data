@@ -1,0 +1,89 @@
+@prefix p-lod-items: <https://p-lod.umasscreate.net/p-lod/id/> .
+@prefix p-lod-vocab: <http://p-lod.umasscreate.net/vocabulary#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+p-lod-items:r1-i10 a p-lod-items:insula ;
+    p-lod-vocab:p-in-p-url <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_1_10.htm> ;
+    p-lod-vocab:spatially-within p-lod-items:r1 .
+
+p-lod-items:r1-i11 a p-lod-items:insula ;
+    p-lod-vocab:p-in-p-url <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_1_11.htm> ;
+    p-lod-vocab:spatially-within p-lod-items:r1 .
+
+p-lod-items:r1-i12 a p-lod-items:insula ;
+    p-lod-vocab:p-in-p-url <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_1_12.htm> ;
+    p-lod-vocab:spatially-within p-lod-items:r1 .
+
+p-lod-items:r1-i13 a p-lod-items:insula ;
+    p-lod-vocab:p-in-p-url <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_1_14.htm> ;
+    p-lod-vocab:spatially-within p-lod-items:r1 .
+
+p-lod-items:r1-i14 a p-lod-items:insula ;
+    p-lod-vocab:p-in-p-url <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_1_15.htm> ;
+    p-lod-vocab:spatially-within p-lod-items:r1 .
+
+p-lod-items:r1-i15 a p-lod-items:insula ;
+    p-lod-vocab:p-in-p-url <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_1_16.htm> ;
+    p-lod-vocab:spatially-within p-lod-items:r1 .
+
+p-lod-items:r1-i16 a p-lod-items:insula ;
+    p-lod-vocab:p-in-p-url <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_1_17.htm> ;
+    p-lod-vocab:spatially-within p-lod-items:r1 .
+
+p-lod-items:r2-i6 a p-lod-items:insula ;
+    p-lod-vocab:p-in-p-url <http://pompeiiinpictures.com/pompeiiinpictures/R2/2%2006%2000%20p1.htm> ;
+    p-lod-vocab:spatially-within p-lod-items:r2 .
+
+p-lod-items:r3 a p-lod-items:region ;
+    p-lod-vocab:p-in-p-url <http://pompeiiinpictures.com/pompeiiinpictures/Plans/regio_2.htm> ;
+    p-lod-vocab:spatially-within p-lod-items:pompeii .
+
+p-lod-items:r4 a p-lod-items:region ;
+    p-lod-vocab:p-in-p-url <http://pompeiiinpictures.com/pompeiiinpictures/Plans/regio_4.htm> ;
+    p-lod-vocab:spatially-within p-lod-items:pompeii .
+
+p-lod-items:r5 a p-lod-items:region ;
+    p-lod-vocab:p-in-p-url <http://pompeiiinpictures.com/pompeiiinpictures/Plans/regio_5.htm> ;
+    p-lod-vocab:spatially-within p-lod-items:pompeii .
+
+p-lod-items:r6 a p-lod-items:region ;
+    p-lod-vocab:p-in-p-url <http://pompeiiinpictures.com/pompeiiinpictures/Plans/regio_6.htm> ;
+    p-lod-vocab:spatially-within p-lod-items:pompeii .
+
+p-lod-items:r7-i8 a p-lod-items:insula ;
+    p-lod-vocab:p-in-p-url <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_7_08.htm> ;
+    p-lod-vocab:spatially-within p-lod-items:r7 .
+
+p-lod-items:r7-i9 a p-lod-items:insula ;
+    p-lod-vocab:p-in-p-url <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_7_09.htm> ;
+    p-lod-vocab:spatially-within p-lod-items:r7 .
+
+p-lod-items:r8 a p-lod-items:region ;
+    p-lod-vocab:p-in-p-url <http://pompeiiinpictures.com/pompeiiinpictures/Plans/regio_8.htm> ;
+    p-lod-vocab:spatially-within p-lod-items:pompeii .
+
+p-lod-items:r9 a p-lod-items:region ;
+    p-lod-vocab:p-in-p-url <http://pompeiiinpictures.com/pompeiiinpictures/Plans/regio_9.htm> ;
+    p-lod-vocab:spatially-within p-lod-items:pompeii .
+
+p-lod-items:r2 a p-lod-items:region ;
+    p-lod-vocab:p-in-p-url <http://pompeiiinpictures.com/pompeiiinpictures/Plans/regio_2.htm> ;
+    p-lod-vocab:spatially-within p-lod-items:pompeii .
+
+p-lod-items:r7 a p-lod-items:region ;
+    p-lod-vocab:p-in-p-url <http://pompeiiinpictures.com/pompeiiinpictures/Plans/regio_7.htm> ;
+    p-lod-vocab:spatially-within p-lod-items:pompeii .
+
+p-lod-items:r1 a p-lod-items:region ;
+    p-lod-vocab:p-in-p-url <http://pompeiiinpictures.com/pompeiiinpictures/Plans/regio_1.htm> ;
+    p-lod-vocab:spatially-within p-lod-items:pompeii .
+
+p-lod-items:pompeii a p-lod-items:city ;
+    p-lod-vocab:getty-lod-url <http://vocab.getty.edu/tgn/7004658> ;
+    p-lod-vocab:p-in-p-url <https://pompeiiinpictures.com/> ;
+    p-lod-vocab:pleiades-url <https://pleiades.stoa.org/places/433032> ;
+    p-lod-vocab:spatially-within <https://pleiades.stoa.org/places/432742> .
+
