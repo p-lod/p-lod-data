@@ -3295,6 +3295,7 @@ p-lod:r6-i9-p6 a p-lod:property ;
     p-lod-vocab:arcgis-id "BLD_000714" ;
     p-lod-vocab:area 1.110649e+03 ;
     p-lod-vocab:p-in-p-url <http://pompeiiinpictures.com/pompeiiinpictures/R6/6%2009%2006%20part%201.htm> ;
+    p-lod-vocab:pleiades-url <https://pleiades.stoa.org/places/364001862> ;
     p-lod-vocab:spatially-within p-lod:r6-i9 .
 
 p-lod:r6-i9-p7 a p-lod:property ;
@@ -6954,6 +6955,7 @@ p-lod:r9-i9-pg a p-lod:property ;
 
 p-lod:villa-of-the-mysteries a p-lod:property ;
     p-lod-vocab:p-in-p-url <http://www.pompeiiinpictures.com/pompeiiinpictures/RV/villa%20mysteries%20plan.htm> ;
+    p-lod-vocab:pleiades-url <https://pleiades.stoa.org/places/396427768> ;
     p-lod-vocab:spatially-within p-lod:pompeii .
 
 p-lod:r2-i5 a p-lod:insula ;
@@ -7053,6 +7055,7 @@ p-lod:r8-i1 a p-lod:insula ;
     p-lod-vocab:spatially-within p-lod:r8 .
 
 p-lod:r1-i1 a p-lod:insula ;
+    p-lod-vocab:p-in-p-url <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_1_01.htm> ;
     p-lod-vocab:spatially-within p-lod:r1 .
 
 p-lod:r2-i8 a p-lod:insula ;
