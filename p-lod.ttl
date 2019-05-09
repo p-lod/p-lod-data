@@ -7503,6 +7503,8 @@ p-lod:r7-i4-p2 a p-lod:property ;
 p-lod:r7-i4-p20 a p-lod:property ;
     p-lod:arcgis-id "BLD_000905" ;
     p-lod:p-in-p-url <http://pompeiiinpictures.com/pompeiiinpictures/R7/7%2004%2020.htm> ;
+    p-lod:plod-english-title "Casa del mercante di vino",
+        "Casa del pavone" ;
     p-lod:spatially-within p-lod:r7-i4 ;
     p-lod:surface-area "167.5835535" ;
     dcterms:description "Shops" ;
@@ -7512,6 +7514,12 @@ p-lod:r7-i4-p20 a p-lod:property ;
 p-lod:r7-i4-p22 a p-lod:property ;
     p-lod:arcgis-id "BLD_000906" ;
     p-lod:p-in-p-url <http://pompeiiinpictures.com/pompeiiinpictures/R7/7%2004%2022.htm> ;
+    p-lod:plod-english-title "Bottega dei frutti secchi",
+        "Casa degli Osti",
+        "Casa del mercante di vino",
+        "Casa del piedistallo impellicciato di marmo",
+        "Domus with the name Trebius",
+        "Dried Fruit Shops" ;
     p-lod:spatially-within p-lod:r7-i4 ;
     p-lod:surface-area "180.4060425" ;
     dcterms:description "Private Dwellings" ;
@@ -7530,6 +7538,7 @@ p-lod:r7-i4-p23 a p-lod:property ;
 p-lod:r7-i4-p24 a p-lod:property ;
     p-lod:arcgis-id "BLD_000908" ;
     p-lod:p-in-p-url <http://pompeiiinpictures.com/pompeiiinpictures/R7/7%2004%2024.htm> ;
+    p-lod:plod-english-title "Officina olearia of Sextus Numisius Iucundus.Secundus et Victor" ;
     p-lod:spatially-within p-lod:r7-i4 ;
     p-lod:surface-area "190.7015005" ;
     dcterms:description "Workshops" ;
@@ -7557,6 +7566,11 @@ p-lod:r7-i4-p28 a p-lod:property ;
 p-lod:r7-i4-p29 a p-lod:property ;
     p-lod:arcgis-id "BLD_000911" ;
     p-lod:p-in-p-url <http://pompeiiinpictures.com/pompeiiinpictures/R7/7%2004%2029.htm> ;
+    p-lod:plod-english-title "Casa del Sileno",
+        "Casa del forno",
+        "Casa del forno a riverbero",
+        "Casa del panettiere",
+        "Casa del pasticciere (pistor dulciarius)" ;
     p-lod:spatially-within p-lod:r7-i4 ;
     p-lod:surface-area "249.1700734" ;
     dcterms:description "Workshops" ;
@@ -7638,6 +7652,7 @@ p-lod:r7-i4-p4 a p-lod:property ;
 p-lod:r7-i4-p42 a p-lod:property ;
     p-lod:arcgis-id "BLD_000920" ;
     p-lod:p-in-p-url <http://pompeiiinpictures.com/pompeiiinpictures/R7/7%2004%2042.htm> ;
+    p-lod:plod-english-title "Lupanare piccolo" ;
     p-lod:spatially-within p-lod:r7-i4 ;
     p-lod:surface-area "6.967123268" ;
     dcterms:description "Entertainment Buildings" ;
@@ -7665,6 +7680,13 @@ p-lod:r7-i4-p47 a p-lod:property ;
 p-lod:r7-i4-p48 a p-lod:property ;
     p-lod:arcgis-id "BLD_000923" ;
     p-lod:p-in-p-url <http://pompeiiinpictures.com/pompeiiinpictures/R7/7%2004%2048%20p1.htm> ;
+    p-lod:plod-english-title "Casa dei bronzi",
+        "Casa della caccia",
+        "Casa della caccia antica",
+        "Casa della pescatrice",
+        "Casa di Dedalo",
+        "Casa di Dedalo e Pasifae",
+        "Domus of Marius and of the Marii" ;
     p-lod:spatially-within p-lod:r7-i4 ;
     p-lod:surface-area "460.6290463" ;
     dcterms:description "Entertainment Buildings" ;
@@ -7728,6 +7750,9 @@ p-lod:r7-i4-p53 a p-lod:property ;
 p-lod:r7-i4-p56 a p-lod:property ;
     p-lod:arcgis-id "BLD_000930" ;
     p-lod:p-in-p-url <http://pompeiiinpictures.com/pompeiiinpictures/R7/7%2004%2056.htm> ;
+    p-lod:plod-english-title "Casa della fontana",
+        "Casa della fontana del Gran Duca",
+        "Casa della fontana del Gran Duca di Toscana" ;
     p-lod:spatially-within p-lod:r7-i4 ;
     p-lod:surface-area "274.1296871" ;
     dcterms:description "Private Dwellings; Shops" ;
@@ -7746,6 +7771,17 @@ p-lod:r7-i4-p57 a p-lod:property ;
 p-lod:r7-i4-p59 a p-lod:property ;
     p-lod:arcgis-id "BLD_000932" ;
     p-lod:p-in-p-url <http://pompeiiinpictures.com/pompeiiinpictures/R7/7%2004%2059.htm> ;
+    p-lod:plod-english-title "Casa degli Amori",
+        "Casa dei bronzi",
+        "Casa dei bronzi e delle erme",
+        "Casa del muro nero",
+        "Casa della muraglia nera",
+        "Casa della parete nera",
+        "Casa delle erme",
+        "Casa delle pareti nere",
+        "Casa di Saturnino, negotiator aerarius",
+        "House of Cupid and Psyche",
+        "House of the Camera Nera" ;
     p-lod:spatially-within p-lod:r7-i4 ;
     p-lod:surface-area "737.0153055" ;
     dcterms:description "Workshops; Shops" ;
@@ -7764,6 +7800,13 @@ p-lod:r7-i4-p6 a p-lod:property ;
 p-lod:r7-i4-p62 a p-lod:property ;
     p-lod:arcgis-id "BLD_000934" ;
     p-lod:p-in-p-url <http://pompeiiinpictures.com/pompeiiinpictures/R7/7%2004%2062.htm> ;
+    p-lod:plod-english-title "Casa delle forme",
+        "Casa delle forme di creta",
+        "Casa delle forme di gesso e creta",
+        "Casa delle forme di terra cotta",
+        "Domus of L. Tullius Faustus",
+        "Domus of M. Tullius",
+        "Officina di un stuccatore" ;
     p-lod:spatially-within p-lod:r7-i4 ;
     p-lod:surface-area "573.5290621" ;
     dcterms:description "Workshops; Shops" ;
@@ -7791,6 +7834,7 @@ p-lod:r7-i4-p7 a p-lod:property ;
 p-lod:r7-i4-p9 a p-lod:property ;
     p-lod:arcgis-id "BLD_000937" ;
     p-lod:p-in-p-url <http://pompeiiinpictures.com/pompeiiinpictures/R7/7%2004%2009.htm> ;
+    p-lod:plod-english-title "Taberna of Euhodus" ;
     p-lod:spatially-within p-lod:r7-i4 ;
     p-lod:surface-area "34.73039905" ;
     dcterms:description "Shops" ;
@@ -7827,6 +7871,8 @@ p-lod:r7-i5-p14 a p-lod:property ;
 p-lod:r7-i5-p15 a p-lod:property ;
     p-lod:arcgis-id "BLD_000941" ;
     p-lod:p-in-p-url <http://pompeiiinpictures.com/pompeiiinpictures/R7/7%2005%2015.htm> ;
+    p-lod:plod-english-title "Scuola dei gladiatori",
+        "Scuola di scherma" ;
     p-lod:spatially-within p-lod:r7-i5 ;
     p-lod:surface-area "73.2926967" ;
     dcterms:description "Shops" ;
@@ -7908,6 +7954,23 @@ p-lod:r7-i5-p23 a p-lod:property ;
 p-lod:r7-i5-p24 a p-lod:property ;
     p-lod:arcgis-id "BLD_000950" ;
     p-lod:p-in-p-url <http://pompeiiinpictures.com/pompeiiinpictures/R7/7%2005%2024%20p1.htm> ;
+    p-lod:plod-english-title "Bagni antichi",
+        "Bagni dei poveri",
+        "Bagni pubblici",
+        "Bain public",
+        "Balineae",
+        "Balneae",
+        "Balneum",
+        "Forumsthermen",
+        "Piccola terma",
+        "Piccole terme",
+        "Pubbliche terme",
+        "Terme del Foro",
+        "Terme della Fortuna",
+        "Terme minori",
+        "Terme pompeiane",
+        "Thermae",
+        "Thermae minores" ;
     p-lod:spatially-within p-lod:r7-i5 ;
     p-lod:surface-area "1312.355953" ;
     dcterms:description "Public Buildings" ;
