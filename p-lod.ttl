@@ -126,27 +126,32 @@ p-lod:andromeda-motif a p-lod:visual-motif ;
     dcterms:identifier "andromeda-motif" ;
     dcterms:title "Andromeda (Visual Motif)" .
 
-p-lod:arch dcterms:description "A public arch." ;
+p-lod:arch a owl:Class ;
+    dcterms:description "A public arch." ;
     dcterms:identifier "arch" ;
     dcterms:title "Public Arch" ;
     rdfs:subClassOf p-lod:spatial-item .
 
-p-lod:city-gate dcterms:description "A city gate of Pompeii." ;
+p-lod:city-gate a owl:Class ;
+    dcterms:description "A city gate of Pompeii." ;
     dcterms:identifier "city-gate" ;
     dcterms:title "City Gate" ;
     rdfs:subClassOf p-lod:spatial-item .
 
-p-lod:city-wall dcterms:description "A city wall, as in defensive circuit, at Pompeii. In the short term there is only one instance of this class." ;
+p-lod:city-wall a owl:Class ;
+    dcterms:description "A city wall, as in defensive circuit, at Pompeii. In the short term there is only one instance of this class." ;
     dcterms:identifier "city-wall" ;
     dcterms:title "City Wall" ;
     rdfs:subClassOf p-lod:spatial-item .
 
-p-lod:coin dcterms:description "A coin." ;
+p-lod:coin a owl:Class ;
+    dcterms:description "A coin." ;
     dcterms:identifier "coin" ;
     dcterms:title "Coin" ;
     rdfs:subClassOf p-lod:item .
 
-p-lod:doorway dcterms:description "A public door of a building at Pompeii. One that faces on to a street and has been given an address." ;
+p-lod:doorway a owl:Class ;
+    dcterms:description "A public door of a building at Pompeii. One that faces on to a street and has been given an address." ;
     dcterms:identifier "doorway" ;
     dcterms:title "Doorway" ;
     rdfs:subClassOf p-lod:spatial-item .
@@ -159,24 +164,29 @@ p-lod:fourth-style a p-lod:pompeian-wall-painting-style ;
     dcterms:identifier "fourth-style" ;
     dcterms:title "Fourth Style of Pompeian Wall Painting" .
 
-p-lod:graffito dcterms:description "Informal writing inscribed or painted on a surface, often a wall." ;
+p-lod:graffito a owl:Class ;
+    dcterms:description "Informal writing inscribed or painted on a surface, often a wall." ;
     dcterms:identifier "graffito" ;
     dcterms:title "Graffito" .
 
-p-lod:inner-door dcterms:description "A door between two rooms." ;
+p-lod:inner-door a owl:Class ;
+    dcterms:description "A door between two rooms." ;
     dcterms:identifier "inner-door" ;
     dcterms:title "Inner door" ;
     rdfs:subClassOf p-lod:spatial-item .
 
-p-lod:major-street dcterms:identifier "major-street" ;
+p-lod:major-street a owl:Class ;
+    dcterms:identifier "major-street" ;
     dcterms:title "Major Street" ;
     rdfs:subClassOf p-lod:street .
 
-p-lod:minor-street dcterms:identifier "minor-street" ;
+p-lod:minor-street a owl:Class ;
+    dcterms:identifier "minor-street" ;
     dcterms:title "Minor Street" ;
     rdfs:subClassOf p-lod:street .
 
-p-lod:necropolis dcterms:description "A necropolis situated outside a city gate at Pompeii. The division and naming of these areas is a modern practice." ;
+p-lod:necropolis a owl:Class ;
+    dcterms:description "A necropolis situated outside a city gate at Pompeii. The division and naming of these areas is a modern practice." ;
     dcterms:identifier "necropolis" ;
     dcterms:title "Necropolis" ;
     rdfs:subClassOf p-lod:spatial-item .
@@ -188,7 +198,8 @@ p-lod:perseus-motif a p-lod:visual-motif ;
     dcterms:identifier "perseus-motif" ;
     dcterms:title "Perseus (Visual Motif)" .
 
-p-lod:press dcterms:description "Press for extracting juice from grapes or oil from olives." ;
+p-lod:press a owl:Class ;
+    dcterms:description "Press for extracting juice from grapes or oil from olives." ;
     dcterms:identifier "press" ;
     dcterms:title "Press" ;
     rdfs:subClassOf p-lod:item .
@@ -8948,6 +8959,11 @@ p-lod:r8-i2-p1 a p-lod:property ;
 p-lod:r8-i2-p10 a p-lod:property ;
     p-lod:arcgis-id "BLD_001167" ;
     p-lod:p-in-p-url <http://pompeiiinpictures.com/pompeiiinpictures/R8/8%2002%2010.htm> ;
+    p-lod:plod-english-title "Aerarium",
+        "Curia",
+        "Edifizio dei duoviri",
+        "Sala dei Duumviri",
+        "Ufficio dei Duumviri" ;
     p-lod:spatially-within p-lod:r7-i8 ;
     p-lod:surface-area "195.5313718" ;
     dcterms:description "Public Buildings" ;
@@ -9667,6 +9683,7 @@ p-lod:r8-i4-p9 a p-lod:property ;
 p-lod:r8-i5-p1 a p-lod:property ;
     p-lod:arcgis-id "BLD_001119" ;
     p-lod:p-in-p-url <http://pompeiiinpictures.com/pompeiiinpictures/R8/8%2005%2001.htm> ;
+    p-lod:plod-english-title "Strada dell'Abbondanza no. 11" ;
     p-lod:spatially-within p-lod:r8-i5 ;
     p-lod:surface-area "47.82290418" ;
     dcterms:description "Shops" ;
@@ -9676,6 +9693,7 @@ p-lod:r8-i5-p1 a p-lod:property ;
 p-lod:r8-i5-p10 a p-lod:property ;
     p-lod:arcgis-id "BLD_001120" ;
     p-lod:p-in-p-url <http://pompeiiinpictures.com/pompeiiinpictures/R8/8%2005%2010.htm> ;
+    p-lod:plod-english-title "Casa dell'Imperatore Francesco I " ;
     p-lod:spatially-within p-lod:r8-i5 ;
     p-lod:surface-area "35.49791489" ;
     dcterms:description "Shops" ;
@@ -9694,6 +9712,10 @@ p-lod:r8-i5-p19 a p-lod:property ;
 p-lod:r8-i5-p2 a p-lod:property ;
     p-lod:arcgis-id "BLD_001122" ;
     p-lod:p-in-p-url <http://pompeiiinpictures.com/pompeiiinpictures/R8/8%2005%2002.htm> ;
+    p-lod:plod-english-title "Casa del gallo",
+        "Casa dell'Imperatore Francesco Giuseppe",
+        "Casa di Francesco Giuseppe",
+        "Haus mit dem Namen Avius" ;
     p-lod:spatially-within p-lod:r8-i5 ;
     p-lod:surface-area "1349.737691" ;
     dcterms:description "Private Dwellings" ;
@@ -9730,6 +9752,10 @@ p-lod:r8-i5-p22 a p-lod:property ;
 p-lod:r8-i5-p24 a p-lod:property ;
     p-lod:arcgis-id "BLD_001126" ;
     p-lod:p-in-p-url <http://pompeiiinpictures.com/pompeiiinpictures/R8/8%2005%2024.htm> ;
+    p-lod:plod-english-title "Casa del chirurgo",
+        "Casa del gallo",
+        "Casa del giudizio di Salomone",
+        "Casa del medico" ;
     p-lod:spatially-within p-lod:r8-i5 ;
     p-lod:surface-area "271.4960592" ;
     dcterms:description "Private Dwellings" ;
@@ -9757,6 +9783,17 @@ p-lod:r8-i5-p27 a p-lod:property ;
 p-lod:r8-i5-p28 a p-lod:property ;
     p-lod:arcgis-id "BLD_001129" ;
     p-lod:p-in-p-url <http://pompeiiinpictures.com/pompeiiinpictures/R8/8%2005%2028.htm> ;
+    p-lod:plod-english-title "Casa dell'Imperatore Francesco I",
+        "Casa dell'Imperatore Francesco II",
+        "Casa della calce",
+        "Casa della zappa",
+        "Casa di Francesco II e di Giuseppe II",
+        "Casa di Fusco",
+        "Casa di Giuseppe Francesco",
+        "Domus of Marcus Tullius",
+        "Domus of the Tullii",
+        "House of the Emporer Joesph the Second",
+        "Maison de Francois I" ;
     p-lod:spatially-within p-lod:r8-i5 ;
     p-lod:surface-area "844.1834075" ;
     dcterms:description "Private Dwellings; Shops" ;
@@ -9811,6 +9848,10 @@ p-lod:r8-i5-p36 a p-lod:property ;
 p-lod:r8-i5-p37 a p-lod:property ;
     p-lod:arcgis-id "BLD_001135" ;
     p-lod:p-in-p-url <http://pompeiiinpictures.com/pompeiiinpictures/R8/8%2005%2037%20p1.htm> ;
+    p-lod:plod-english-title "Casa de E. Sabino",
+        "Casa della parete rossa",
+        "Casa delle pareti rosse",
+        "Domus of the Fabi" ;
     p-lod:spatially-within p-lod:r8-i5 ;
     p-lod:surface-area "1644.778575" ;
     dcterms:description "Private Dwellings" ;
@@ -9820,6 +9861,7 @@ p-lod:r8-i5-p37 a p-lod:property ;
 p-lod:r8-i5-p39 a p-lod:property ;
     p-lod:arcgis-id "BLD_001136" ;
     p-lod:p-in-p-url <http://pompeiiinpictures.com/pompeiiinpictures/R8/8%2005%2039.htm> ;
+    p-lod:plod-english-title "Domus of Acceptus et Euhodia" ;
     p-lod:spatially-within p-lod:r8-i5 ;
     p-lod:surface-area "212.5232667" ;
     dcterms:description "Private Dwellings" ;
@@ -9847,6 +9889,7 @@ p-lod:r8-i5-p7 a p-lod:property ;
 p-lod:r8-i5-p9 a p-lod:property ;
     p-lod:arcgis-id "BLD_001139" ;
     p-lod:p-in-p-url <http://pompeiiinpictures.com/pompeiiinpictures/R8/8%2005%2009.htm> ;
+    p-lod:plod-english-title "Casa del giudizio di Salomone" ;
     p-lod:spatially-within p-lod:r8-i5 ;
     p-lod:surface-area "658.9163777" ;
     dcterms:description "Private Dwellings; Shops" ;
@@ -9924,6 +9967,7 @@ p-lod:r8-i6-p8 a p-lod:property ;
 p-lod:r8-i7-p1 a p-lod:property ;
     p-lod:arcgis-id "BLD_001149" ;
     p-lod:p-in-p-url <http://pompeiiinpictures.com/pompeiiinpictures/R8/8%2007%2001.htm> ;
+    p-lod:plod-english-title "Hospitium -Statio of the muliones" ;
     p-lod:spatially-within p-lod:r8-i7 ;
     p-lod:surface-area "284.9950425" ;
     dcterms:description "Entertainment Buildings; Shops" ;
@@ -9960,6 +10004,33 @@ p-lod:r8-i7-p15 a p-lod:property ;
 p-lod:r8-i7-p16 a p-lod:property ;
     p-lod:arcgis-id "BLD_001154" ;
     p-lod:p-in-p-url <http://pompeiiinpictures.com/pompeiiinpictures/R8/8%2007%2016%20p1.htm> ;
+    p-lod:plod-english-title "Caserma dei gladiatori",
+        "Castro Cazernes",
+        "Castro de soldati",
+        "Castrum",
+        "Castrum militum",
+        "Convitto dei gladiatori",
+        "Foro nundinario",
+        "Foro venale",
+        "Forum Nundinarium",
+        "Ginnasio osco",
+        "Ludus gladiatoris",
+        "Mercato pubblico",
+        "Palestra",
+        "Persistoon",
+        "Piazza del piccolo teatro",
+        "Place of Arms",
+        "Portico dei teatri",
+        "Portico dell'Odeo",
+        "Porticus theatri maioris",
+        "Quadriportico del teatro grande",
+        "Quartiere",
+        "Quartiere dei soldati",
+        "Quartiere per soldati",
+        "Schola gladiatoria",
+        "Statio of the classiarii misenantes at Pompeii",
+        "Tetrastoon",
+        "Theaterportikus" ;
     p-lod:spatially-within p-lod:r8-i7 ;
     p-lod:surface-area "3971.58902" ;
     dcterms:description "Public Buildings" ;
@@ -9969,6 +10040,21 @@ p-lod:r8-i7-p16 a p-lod:property ;
 p-lod:r8-i7-p19 a p-lod:property ;
     p-lod:arcgis-id "BLD_001155" ;
     p-lod:p-in-p-url <http://pompeiiinpictures.com/pompeiiinpictures/R8/8%2007%2019.htm> ;
+    p-lod:plod-english-title "Corridoio de' teatri",
+        "Odeion",
+        "Odeo",
+        "Odeon",
+        "Odeum",
+        "Secondo teatro",
+        "Teatro Odeo",
+        "Teatro comico",
+        "Teatro coperto",
+        "Teatro di musica",
+        "Teatro lirico",
+        "Teatro piccolo",
+        "Tempio greco",
+        "Theatrum minus",
+        "Theatrum tectum" ;
     p-lod:spatially-within p-lod:r8-i7 ;
     p-lod:surface-area "1082.397288" ;
     dcterms:description "Public Buildings" ;
@@ -9978,6 +10064,14 @@ p-lod:r8-i7-p19 a p-lod:property ;
 p-lod:r8-i7-p20 a p-lod:property ;
     p-lod:arcgis-id "BLD_001156" ;
     p-lod:p-in-p-url <http://pompeiiinpictures.com/pompeiiinpictures/R8/8%2007%2020%20p1.htm> ;
+    p-lod:plod-english-title "Teathrum nudum",
+        "Teatro",
+        "Teatro delle fontane",
+        "Teatro grande",
+        "Teatro scoperto",
+        "Teatro tragico",
+        "Theatrum",
+        "Theatrum maius" ;
     p-lod:spatially-within p-lod:r8-i7 ;
     p-lod:surface-area "3623.920658" ;
     dcterms:description "Public Buildings" ;
@@ -9988,6 +10082,15 @@ p-lod:r8-i7-p24 a p-lod:property ;
     p-lod:arcgis-id "BLD_001157",
         "BLD_001158" ;
     p-lod:p-in-p-url <http://pompeiiinpictures.com/pompeiiinpictures/R8/8%2007%2024.htm> ;
+    p-lod:plod-english-title "Abitazione del marmorajo",
+        "Casa dell'atrio calcareo",
+        "Casa dello scultore",
+        "Marmorarius",
+        "Officina da marmoraro",
+        "Officina dello statuario",
+        "Officina et domus of a sculptor",
+        "Officina staturaria",
+        "Studio e domicilio dello scultore" ;
     p-lod:spatially-within p-lod:r8-i7 ;
     p-lod:surface-area "173.7960263",
         "536.4414456" ;
@@ -9998,6 +10101,22 @@ p-lod:r8-i7-p24 a p-lod:property ;
 p-lod:r8-i7-p25 a p-lod:property ;
     p-lod:arcgis-id "BLD_001159" ;
     p-lod:p-in-p-url <http://pompeiiinpictures.com/pompeiiinpictures/R8/8%2007%2025.htm> ;
+    p-lod:plod-english-title "Aedes Iovis",
+        "Aedes Iovis et Iunonis",
+        "Aedes Milichius",
+        "Aedes if Aesculapius et Hygia",
+        "Aedes of Iuppiter Meilichus",
+        "Aedes of Zeus Meilichios",
+        "Sacrarium",
+        "Tempietto di Giove e di Giunone",
+        "Tempio dalla Triade Capitolina",
+        "Tempio di Esculapio",
+        "Tempio di Giove e di Giunone",
+        "Tempio di Priapo",
+        "Tempio greco",
+        "Temple de Neptune",
+        "Templum",
+        "Templum of Iuppiter, Iuno et Minerva" ;
     p-lod:spatially-within p-lod:r8-i7 ;
     p-lod:surface-area "172.2080837" ;
     dcterms:description "Temples" ;
@@ -10007,6 +10126,7 @@ p-lod:r8-i7-p25 a p-lod:property ;
 p-lod:r8-i7-p26 a p-lod:property ;
     p-lod:arcgis-id "BLD_001160" ;
     p-lod:p-in-p-url <http://pompeiiinpictures.com/pompeiiinpictures/R8/8%2007%2026.htm> ;
+    p-lod:plod-english-title "Strada del Tempio d'Iside nos. 3.4.5" ;
     p-lod:spatially-within p-lod:r8-i7 ;
     p-lod:surface-area "148.0114608" ;
     dcterms:description "Private Dwellings" ;
@@ -10025,6 +10145,26 @@ p-lod:r8-i7-p27a a p-lod:property ;
 p-lod:r8-i7-p29 a p-lod:property ;
     p-lod:arcgis-id "BLD_001163" ;
     p-lod:p-in-p-url <http://pompeiiinpictures.com/pompeiiinpictures/R8/8%2007%2029.htm> ;
+    p-lod:plod-english-title "Area et porticus of Vibius Vinicus",
+        "Area et porticus of Vinicius",
+        "Curia",
+        "Curia isiaca",
+        "Edifizio detto Trebus",
+        "Edifizio detto Tribos",
+        "Edifizio detto Triibus",
+        "Gymnasium",
+        "Liceo",
+        "Marche public",
+        "Palaestra",
+        "Palaestra di Vinicio",
+        "Palaestra sannitica",
+        "Peristylon di Venicio",
+        "Piccola palestra",
+        "Scuola",
+        "Scuola d'Iside",
+        "Scuola di Pompei",
+        "Tribuna",
+        "Tribunale" ;
     p-lod:spatially-within p-lod:r8-i7 ;
     p-lod:surface-area "503.56694" ;
     dcterms:description "Public Buildings" ;
@@ -10034,6 +10174,27 @@ p-lod:r8-i7-p29 a p-lod:property ;
 p-lod:r8-i7-p30 a p-lod:property ;
     p-lod:arcgis-id "BLD_001164" ;
     p-lod:p-in-p-url <http://pompeiiinpictures.com/pompeiiinpictures/R8/8%2007%2030%20p1.htm> ;
+    p-lod:plod-english-title "Acropoli pompeiana",
+        "Acropolis",
+        "Contrada etrusca",
+        "Dromoi",
+        "Edificio di Minerva",
+        "Foro triangolare",
+        "Forum",
+        "Forum triangulare",
+        "Ginnasio",
+        "Hecatonstylon di Eusebio",
+        "Hekatonstylon",
+        "Piazza del teatro",
+        "Portici superiori del teatro",
+        "Portico dei teatri",
+        "Portico delle cento colonne",
+        "Portico superiore",
+        "Portico trilatero de'teatri",
+        "Propilei",
+        "Propylaeon",
+        "Propylon",
+        "Temenos del tempio dorico" ;
     p-lod:spatially-within p-lod:r8-i7 ;
     p-lod:surface-area "5248.841321" ;
     dcterms:description "Public Buildings" ;
@@ -10052,6 +10213,8 @@ p-lod:r8-i7-p6 a p-lod:property ;
 p-lod:r8-i7-p8 a p-lod:property ;
     p-lod:arcgis-id "BLD_001166" ;
     p-lod:p-in-p-url <http://pompeiiinpictures.com/pompeiiinpictures/R8/8%2007%2008.htm> ;
+    p-lod:plod-english-title "Taberna of M. Surus",
+        "Taberna of M. Syrus, garasenus" ;
     p-lod:spatially-within p-lod:r8-i7 ;
     p-lod:surface-area "144.3163173" ;
     dcterms:description "Workshops" ;
@@ -11638,7 +11801,8 @@ p-lod:r9-i9-pg a p-lod:property ;
     dcterms:identifier "r9-i9-pg" ;
     dcterms:title "Property IX.9.g" .
 
-p-lod:temple dcterms:identifier "temple" ;
+p-lod:temple a owl:Class ;
+    dcterms:identifier "temple" ;
     dcterms:title "Temple" ;
     rdfs:subClassOf p-lod:spatial-item .
 
@@ -11646,7 +11810,8 @@ p-lod:third-style a p-lod:pompeian-wall-painting-style ;
     dcterms:identifier "third-style" ;
     dcterms:title "Third Style of Pompeian Wall Painting" .
 
-p-lod:tomb dcterms:description "A tomb." ;
+p-lod:tomb a owl:Class ;
+    dcterms:description "A tomb." ;
     dcterms:identifier "tomb" ;
     dcterms:title "Tomb" ;
     rdfs:subClassOf p-lod:spatial-item .
@@ -12064,7 +12229,8 @@ p-lod:bacchus-motif a p-lod:visual-motif ;
     dcterms:identifier "bacchus-motif" ;
     dcterms:title "Bacchus (Visual Motif)" .
 
-p-lod:city dcterms:description "A large and complex settlement." ;
+p-lod:city a owl:Class ;
+    dcterms:description "A large and complex settlement." ;
     dcterms:identifier "city" ;
     dcterms:title "City" ;
     rdfs:subClassOf p-lod:spatial-item .
@@ -12223,7 +12389,12 @@ p-lod:r8-i7-p28 a p-lod:property ;
     p-lod:arcgis-id "BLD_001162" ;
     p-lod:image-url <https://www.pompeiiinpictures.com/pompeiiinpictures/R8/8%2007%2028%20plan%202.jpg> ;
     p-lod:p-in-p-url <http://pompeiiinpictures.com/pompeiiinpictures/R8/8%2007%2028%20p1.htm> ;
-    p-lod:plod-english-title "Precinct of the Temple of Isis" ;
+    p-lod:plod-english-title "Aedes of Isis",
+        "Iseion",
+        "Iseum",
+        "Isium",
+        "Precinct of the Temple of Isis",
+        "Tempio d'Iside" ;
     p-lod:spatially-within p-lod:r8-i7 ;
     p-lod:surface-area "792.9375368" ;
     dcterms:description "Temple complex dedicated to Isis." ;
@@ -12265,7 +12436,8 @@ p-lod:seven-days-of-the-week-motif a p-lod:visual-motif ;
     dcterms:identifier "seven-days-of-the-week-motif" ;
     dcterms:title "Seven Days of the Week (Visual Motif)" .
 
-p-lod:statue dcterms:description "A sculpture in the form of a person or animal." ;
+p-lod:statue a owl:Class ;
+    dcterms:description "A sculpture in the form of a person or animal." ;
     dcterms:identifier "statue" ;
     dcterms:title "Statue" ;
     rdfs:subClassOf p-lod:item .
@@ -12311,7 +12483,8 @@ p-lod:mercury-motif a p-lod:visual-motif ;
     dcterms:identifier "mercury-motif" ;
     dcterms:title "The god Mercury (Visual Motif)" .
 
-p-lod:mosaic dcterms:description "An artistic representation formed from patterns of small cut or natural stones." ;
+p-lod:mosaic a owl:Class ;
+    dcterms:description "An artistic representation formed from patterns of small cut or natural stones." ;
     dcterms:identifier "mosaic" ;
     dcterms:title "Mosaic" ;
     rdfs:subClassOf p-lod:item .
@@ -12540,12 +12713,14 @@ p-lod:r8-i1 a p-lod:insula ;
     dcterms:identifier "r8-i1" ;
     dcterms:title "Insula VIII.1" .
 
-p-lod:room dcterms:description "A room in a property/building." ;
+p-lod:room a owl:Class ;
+    dcterms:description "A room in a property/building." ;
     dcterms:identifier "room" ;
     dcterms:title "Room" ;
     rdfs:subClassOf p-lod:spatial-item .
 
-p-lod:pompeian-wall-painting-style dcterms:description "Any one of the four Pompeian styles of wall painting." ;
+p-lod:pompeian-wall-painting-style a owl:Class ;
+    dcterms:description "Any one of the four Pompeian styles of wall painting." ;
     dcterms:identifier "pompeian-wall-painting-style" ;
     dcterms:title "Pompeian Wall-Painting Style" ;
     rdfs:subClassOf p-lod:item .
@@ -12751,7 +12926,8 @@ p-lod:r9-i12 a p-lod:insula ;
     dcterms:identifier "r9-i12" ;
     dcterms:title "Insula IX.12" .
 
-p-lod:wall-face dcterms:identifier "wall-face" ;
+p-lod:wall-face a owl:Class ;
+    dcterms:identifier "wall-face" ;
     dcterms:title "Wall Face" ;
     rdfs:subClassOf p-lod:spatial-item .
 
@@ -12797,7 +12973,8 @@ p-lod:r7-i10 a p-lod:insula ;
     dcterms:identifier "r7-i10" ;
     dcterms:title "Insula VII.10" .
 
-p-lod:item dcterms:description "The root class of P-LOD Omeka S items." ;
+p-lod:item a owl:Class ;
+    dcterms:description "The root class of P-LOD Omeka S items." ;
     dcterms:identifier "item" ;
     dcterms:title "P-LOD Item" .
 
@@ -12815,7 +12992,8 @@ p-lod:r8-i6 a p-lod:insula ;
     dcterms:identifier "r8-i6" ;
     dcterms:title "Insula VIII.6" .
 
-p-lod:exterior-wall-face dcterms:description "Wall face on the outside of a building." ;
+p-lod:exterior-wall-face a owl:Class ;
+    dcterms:description "Wall face on the outside of a building." ;
     dcterms:identifier "exterior-wall-face" ;
     dcterms:title "Exterior Wall Face" ;
     rdfs:subClassOf p-lod:spatial-item .
@@ -12883,7 +13061,8 @@ p-lod:r9-i9 a p-lod:insula ;
     dcterms:identifier "r9-i9" ;
     dcterms:title "Insula IX.9" .
 
-p-lod:region dcterms:description "A region, 'regio' in Italian, at Pompeii as defined by the modern excavations." ;
+p-lod:region a owl:Class ;
+    dcterms:description "A region, 'regio' in Italian, at Pompeii as defined by the modern excavations." ;
     dcterms:identifier "region" ;
     dcterms:title "Region" ;
     rdfs:subClassOf p-lod:spatial-item .
@@ -13165,7 +13344,8 @@ p-lod:r9-i6 a p-lod:insula ;
     dcterms:identifier "r9-i6" ;
     dcterms:title "Insula IX.6" .
 
-p-lod:visual-motif dcterms:description "An individual element of an artwork that represents a concept, such as a person (whether or not identifiable), scene, or object. This is the class of all of related motifs that are put into a hierarchy using a p-lod:broader-concept property." ;
+p-lod:visual-motif a owl:Class ;
+    dcterms:description "An individual element of an artwork that represents a concept, such as a person (whether or not identifiable), scene, or object. This is the class of all of related motifs that are put into a hierarchy using a p-lod:broader-concept property." ;
     dcterms:identifier "visual-motif" ;
     dcterms:title "Visual Motif" ;
     rdfs:subClassOf p-lod:item .
@@ -13257,7 +13437,8 @@ p-lod:r9-i3 a p-lod:insula ;
     dcterms:identifier "r9-i3" ;
     dcterms:title "Insula IX.3" .
 
-p-lod:spatial-item dcterms:description "Any P-LOD item with generally fixed location. It is preferred practice to give an item a more specific type, though this class can be useful when the identity of an item is known but there is no more specific class defined." ;
+p-lod:spatial-item a owl:Class ;
+    dcterms:description "Any P-LOD item with generally fixed location. It is preferred practice to give an item a more specific type, though this class can be useful when the identity of an item is known but there is no more specific class defined." ;
     dcterms:identifier "spatial-item" ;
     dcterms:title "P-LOD Spatial Item" ;
     rdfs:subClassOf p-lod:item .
@@ -13290,7 +13471,8 @@ p-lod:r8-i2 a p-lod:insula ;
     dcterms:identifier "r8-i2" ;
     dcterms:title "Insula VIII.2" .
 
-p-lod:wall-painting dcterms:description "A wall painting." ;
+p-lod:wall-painting a owl:Class ;
+    dcterms:description "A wall painting." ;
     dcterms:identifier "wall-painting" ;
     dcterms:title "Wall Painting" ;
     rdfs:subClassOf p-lod:spatial-item .
@@ -13446,17 +13628,20 @@ p-lod:r7-i9 a p-lod:insula ;
     dcterms:identifier "r7-i9" ;
     dcterms:title "Insula VII.9" .
 
-p-lod:street dcterms:description "A street at Pompeii. There are two subclasses, \"Major Street\" and \"Minor Street\". Best practice is to use one of the subclasses." ;
+p-lod:street a owl:Class ;
+    dcterms:description "A street at Pompeii. There are two subclasses, \"Major Street\" and \"Minor Street\". Best practice is to use one of the subclasses." ;
     dcterms:identifier "street" ;
     dcterms:title "Street" ;
     rdfs:subClassOf p-lod:spatial-item .
 
-p-lod:insula dcterms:description "An insula, or city block, of the modern archaeological site of Pompeii." ;
+p-lod:insula a owl:Class ;
+    dcterms:description "An insula, or city block, of the modern archaeological site of Pompeii." ;
     dcterms:identifier "insula" ;
     dcterms:title "Insula" ;
     rdfs:subClassOf p-lod:spatial-item .
 
-p-lod:property dcterms:description "A property at Pompeii as identified by the P-LOD by evaluating reports of archaeological work." ;
+p-lod:property a owl:Class ;
+    dcterms:description "A property at Pompeii as identified by the P-LOD by evaluating reports of archaeological work." ;
     dcterms:identifier "property" ;
     dcterms:title "Property" ;
     rdfs:subClassOf p-lod:spatial-item .
