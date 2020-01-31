@@ -1,4 +1,0 @@
-rdflib>=4.2.2
-rdflib-jsonld>=0.0.0
-requests-cache>=0.4.13
-
