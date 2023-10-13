@@ -1,0 +1,62 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix p-lod: <urn:p-lod:id:> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+owl:bottomDataProperty a owl:DatatypeProperty ;
+    rdfs:label "bottomDataProperty" ;
+    rdfs:comment "The data property that does not relate any individual to any data value." ;
+    rdfs:domain owl:Thing ;
+    rdfs:isDefinedBy owl: ;
+    rdfs:range rdfs:Literal .
+
+owl:topDataProperty a owl:DatatypeProperty ;
+    rdfs:label "topDataProperty" ;
+    rdfs:comment "The data property that relates every individual to every data value." ;
+    rdfs:domain owl:Thing ;
+    rdfs:isDefinedBy owl: ;
+    rdfs:range rdfs:Literal .
+
+p-lod:arcgis-id a owl:DatatypeProperty ;
+    rdfs:label "ArcGIS Id" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:description a owl:DatatypeProperty ;
+    rdfs:label "Description" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:geojson a owl:DatatypeProperty ;
+    rdfs:label "Geojson String" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:has-action a owl:DatatypeProperty ;
+    rdfs:label "Has action" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:identifier a owl:DatatypeProperty ;
+    rdfs:label "Identifier" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:is-plural a owl:DatatypeProperty ;
+    rdfs:label "Is plural" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:length a owl:DatatypeProperty ;
+    rdfs:label "Length (meters)" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:nam-inventory-number a owl:DatatypeProperty ;
+    rdfs:label "NAM Inventory Number" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:other-collection-inventory-number a owl:DatatypeProperty ;
+    rdfs:label "Other Collection Inventory Number" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:plod-english-title a owl:DatatypeProperty ;
+    rdfs:label "English Title" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:surface-area a owl:DatatypeProperty ;
+    rdfs:label "Surface Area (in meters)" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+

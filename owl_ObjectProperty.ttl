@@ -1,0 +1,115 @@
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix p-lod: <urn:p-lod:id:> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+owl:bottomObjectProperty a owl:ObjectProperty ;
+    rdfs:label "bottomObjectProperty" ;
+    rdfs:comment "The object property that does not relate any two individuals." ;
+    rdfs:domain owl:Thing ;
+    rdfs:isDefinedBy owl: ;
+    rdfs:range owl:Thing .
+
+owl:topObjectProperty a owl:ObjectProperty ;
+    rdfs:label "topObjectProperty" ;
+    rdfs:comment "The object property that relates every two individuals." ;
+    rdfs:domain owl:Thing ;
+    rdfs:isDefinedBy owl: ;
+    rdfs:range owl:Thing .
+
+p-lod:best-image a owl:ObjectProperty ;
+    rdfs:label "Best Image" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:broader a owl:ObjectProperty ;
+    rdfs:label "Broader" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:created-on-surface-of a owl:ObjectProperty ;
+    rdfs:label "Created on Surface Of" ;
+    rdfs:subPropertyOf p-lod:is-part-of ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:depicts a owl:ObjectProperty ;
+    rdfs:label "Depicts" ;
+    owl:equivalentProperty <http://www.cidoc-crm.org/cidoc-crm/P62_depicts> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:faces-toward a owl:ObjectProperty ;
+    rdfs:label "Faces Toward" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:found-in-association-with a owl:ObjectProperty ;
+    rdfs:label "Found in Association With" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:found-within a owl:ObjectProperty ;
+    rdfs:label "Found Within" ;
+    rdfs:subPropertyOf p-lod:is-part-of ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:getty-lod-url a owl:ObjectProperty ;
+    rdfs:label "Getty LOD URL" ;
+    owl:equivalentProperty rdfs:seeAlso ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:has-color a owl:ObjectProperty ;
+    rdfs:label "Has color" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:has-pompeian-wall-painting-style a owl:ObjectProperty ;
+    rdfs:label "Has Pompeian Wall-Painting Style" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:image-url a owl:ObjectProperty ;
+    rdfs:label "Image URL" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:neighbor-of a owl:ObjectProperty ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:p-in-p-url a owl:ObjectProperty ;
+    rdfs:label "Pompeii-in-Pictures URL" ;
+    owl:equivalentProperty rdfs:seeAlso ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:pbmp-zotero-entry a owl:ObjectProperty ;
+    rdfs:label "PBMP Zotero Entry" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:pleiades-url a owl:ObjectProperty ;
+    rdfs:label "Pleiades URL" ;
+    owl:equivalentProperty rdfs:seeAlso ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:spatially-within a owl:ObjectProperty ;
+    rdfs:label "Spatially Within" ;
+    rdfs:subPropertyOf p-lod:is-part-of ;
+    owl:equivalentProperty <http://www.cidoc-crm.org/cidoc-crm/P89_falls_within>,
+        geo:sfWithin ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:wiki-en-url a owl:ObjectProperty ;
+    rdfs:label "Wikipedia (EN) URL" ;
+    owl:equivalentProperty rdfs:seeAlso ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:wiki-it-url a owl:ObjectProperty ;
+    rdfs:label "Wikipedia (IT) URL" ;
+    owl:equivalentProperty rdfs:seeAlso ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:wikidata-url a owl:ObjectProperty ;
+    rdfs:label "Wikidata URL" ;
+    owl:equivalentProperty rdfs:seeAlso ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:x-source a owl:ObjectProperty ;
+    rdfs:label "x-source" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:is-part-of a owl:ObjectProperty ;
+    rdfs:label "Is Part Of" ;
+    owl:equivalentProperty <http://www.wikidata.org/entity/P361> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+

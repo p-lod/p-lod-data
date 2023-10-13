@@ -1,0 +1,4169 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix p-lod: <urn:p-lod:id:> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+p-lod:acanthus a p-lod:concept ;
+    rdfs:label "Acanthus" ;
+    p-lod:broader p-lod:plant ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q158091> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:achilles a p-lod:concept ;
+    rdfs:label "Achilles" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:acroterion a p-lod:concept ;
+    rdfs:label "Acroterion" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q421214> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:actaeon a p-lod:concept ;
+    rdfs:label "Actaeon" ;
+    p-lod:broader p-lod:mythological_figure ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q208531> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:actor a p-lod:concept ;
+    rdfs:label "Actor" ;
+    p-lod:broader p-lod:generic_human_figure ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:admeto a p-lod:concept ;
+    rdfs:label "Admeto" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:admetus a p-lod:concept .
+
+p-lod:adonis a p-lod:concept ;
+    rdfs:label "Adonis" ;
+    p-lod:broader p-lod:mythological_figure ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q163920> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:aediculum a p-lod:concept ;
+    rdfs:label "Aediculum" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q507286> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:aegis a p-lod:concept ;
+    rdfs:label "Aegis" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:aenas a p-lod:concept .
+
+p-lod:aeneas a p-lod:concept ;
+    rdfs:label "Aeneas" ;
+    p-lod:broader p-lod:mythological_figure ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q82732> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:aethra a p-lod:concept ;
+    rdfs:label "Aethra" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:agave a p-lod:concept .
+
+p-lod:ajax a p-lod:concept ;
+    rdfs:label "Ajax" ;
+    p-lod:broader p-lod:mythological_figure ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:alabastron a p-lod:concept .
+
+p-lod:alcestis a p-lod:concept ;
+    rdfs:label "Alcestis" ;
+    p-lod:broader p-lod:mythological_figure ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:alcmene a p-lod:concept ;
+    rdfs:label "Alcmene" ;
+    p-lod:broader p-lod:mythological_figure ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:alcove a p-lod:concept ;
+    rdfs:label "Alcove" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q1067091> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:alemena a p-lod:concept .
+
+p-lod:aloe a p-lod:concept ;
+    rdfs:label "Aloe" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:altar a p-lod:concept ;
+    rdfs:label "Altar" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q101687> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:amazon a p-lod:concept ;
+    rdfs:label "Amazon" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q134154> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:amor a p-lod:concept ;
+    rdfs:label "Amor" ;
+    p-lod:broader p-lod:deity ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:amphitrite a p-lod:concept .
+
+p-lod:amphitryton a p-lod:concept .
+
+p-lod:amphora a p-lod:concept ;
+    rdfs:label "Amphora" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q178401> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:ampitheater a p-lod:concept ;
+    rdfs:label "Ampitheater" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q7362268> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:amulet a p-lod:concept ;
+    rdfs:label "Amulet" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:amymone a p-lod:concept ;
+    rdfs:label "Amymone" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:anchor a p-lod:concept ;
+    rdfs:label "Anchor" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:andromeda a p-lod:concept ;
+    rdfs:label "Andromeda" ;
+    p-lod:broader p-lod:mythological_figure ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:anfitrione a p-lod:concept ;
+    rdfs:label "Anfitrione" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:animal-skin a p-lod:concept ;
+    rdfs:label "Animal-skin" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q3291230> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:animal_emblem a p-lod:concept ;
+    rdfs:label "Animal_emblem" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q100989638> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:animals_\(mythological\) a p-lod:concept .
+
+p-lod:ankh a p-lod:concept ;
+    rdfs:label "Ankh" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q180439> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:anta a p-lod:concept ;
+    rdfs:label "Anta" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q101659> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:antefix a p-lod:concept ;
+    rdfs:label "Antefix" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:antelope a p-lod:concept ;
+    rdfs:label "Antelope" ;
+    p-lod:broader p-lod:animal ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:antilope a p-lod:concept ;
+    rdfs:label "Antilope" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q1416078> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:antiopa a p-lod:concept ;
+    rdfs:label "Antiopa" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:antiope a p-lod:concept ;
+    rdfs:label "Antiope" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:anvil a p-lod:concept ;
+    rdfs:label "Anvil" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:ape a p-lod:concept ;
+    rdfs:label "Ape" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q102470> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:aphrodite a p-lod:concept ;
+    rdfs:label "Aphrodite" ;
+    p-lod:broader p-lod:olympian_deity ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q35500> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:apis a p-lod:concept ;
+    rdfs:label "Apis" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q208150> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:apollo a p-lod:concept ;
+    rdfs:label "Apollo" ;
+    p-lod:broader p-lod:olympian_deity ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q37340> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:apotropiac_foul a p-lod:concept .
+
+p-lod:apple a p-lod:concept ;
+    rdfs:label "Apple" ;
+    p-lod:broader p-lod:fruit ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q89> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:apse a p-lod:concept ;
+    rdfs:label "Apse" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q170463> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:aquaria_\(assemblages_of_fish_in_water\) a p-lod:concept ;
+    rdfs:label "Aquaria_(assemblages_of_fish_in_water)" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:aquatic_plant a p-lod:concept ;
+    rdfs:label "Aquatic_plant" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:aqueduct a p-lod:concept ;
+    rdfs:label "Aqueduct" ;
+    p-lod:broader p-lod:architecture ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q474> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:arch a p-lod:concept ;
+    rdfs:label "Arch" ;
+    p-lod:broader p-lod:architecture ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q12277> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:arched_opening a p-lod:concept ;
+    rdfs:label "Arched_opening" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q12277> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:archway a p-lod:concept ;
+    rdfs:label "Archway" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q40097962> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:ares a p-lod:concept ;
+    rdfs:label "Ares" ;
+    p-lod:broader p-lod:olympian_deity ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q40901> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:argo a p-lod:concept ;
+    rdfs:label "Argo" ;
+    p-lod:broader p-lod:mythological_figure ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:argos a p-lod:concept .
+
+p-lod:ariadne a p-lod:concept ;
+    rdfs:label "Ariadne" ;
+    p-lod:broader p-lod:mythological_figure ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q184874> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:arimaspian a p-lod:concept ;
+    rdfs:label "Arimaspian" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q661584> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:arion a p-lod:concept ;
+    rdfs:label "Arion" ;
+    p-lod:broader p-lod:poet ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:armor a p-lod:concept ;
+    rdfs:label "Armor" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q20793164> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:arrow a p-lod:concept ;
+    rdfs:label "Arrow" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:artemis a p-lod:concept ;
+    rdfs:label "Artemis" ;
+    p-lod:broader p-lod:olympian_deity ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q39503> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:artwork a owl:Class,
+        p-lod:concept ;
+    rdfs:label "Artwork" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:ashlar_block a p-lod:concept ;
+    rdfs:label "Ashlar_block" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:askos a p-lod:concept ;
+    rdfs:label "Askos" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q732286> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:atalanta a p-lod:concept ;
+    rdfs:label "Atalanta" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:atalante a p-lod:concept ;
+    rdfs:label "Atalante" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:athena a p-lod:concept ;
+    rdfs:label "Athena" ;
+    p-lod:broader p-lod:olympian_deity ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:athenian a p-lod:concept .
+
+p-lod:athlete a p-lod:concept ;
+    rdfs:label "Athlete" ;
+    p-lod:broader p-lod:generic_human_figure ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q2066131> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:atlanta a p-lod:concept .
+
+p-lod:attis a p-lod:concept ;
+    rdfs:label "Attis" ;
+    p-lod:broader p-lod:mythological_figure ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q262016> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:auge a p-lod:concept ;
+    rdfs:label "Auge" ;
+    p-lod:broader p-lod:mythological_figure ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q760213> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:autumn a p-lod:concept ;
+    rdfs:label "Autumn" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:averne a p-lod:concept ;
+    rdfs:label "Averne" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:axe a p-lod:concept ;
+    rdfs:label "Axe" ;
+    p-lod:broader p-lod:weapon ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q39397> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:bacchante a p-lod:concept ;
+    rdfs:label "Bacchante" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q2878203> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:bacchus a p-lod:concept ;
+    rdfs:label "Bacchus" ;
+    p-lod:broader p-lod:deity ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:background a p-lod:concept ;
+    rdfs:label "Background" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q13217555> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:bag a p-lod:concept ;
+    rdfs:label "Bag" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:balcony a p-lod:concept ;
+    rdfs:label "Balcony" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:ball a p-lod:concept ;
+    rdfs:label "Ball" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:balustrade a p-lod:concept ;
+    rdfs:label "Balustrade" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q789783> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:band a p-lod:concept .
+
+p-lod:bandage a p-lod:concept .
+
+p-lod:banner a p-lod:concept .
+
+p-lod:base a p-lod:concept ;
+    rdfs:label "Base" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q191360> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:basin a p-lod:concept ;
+    rdfs:label "Basin" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q810524> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:basket a p-lod:concept ;
+    rdfs:label "Basket" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q201097> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:bath a p-lod:concept ;
+    rdfs:label "Bath" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q152095> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:bather a p-lod:concept ;
+    rdfs:label "Bather" ;
+    p-lod:broader p-lod:generic_human_figure ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q327651> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:baton a p-lod:concept .
+
+p-lod:bear a p-lod:concept ;
+    rdfs:label "Bear" ;
+    p-lod:broader p-lod:animal ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q30090244> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:bed a p-lod:concept ;
+    rdfs:label "Bed" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q42177> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:bell a p-lod:concept ;
+    rdfs:label "Bell" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q101401> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:bellerophon a p-lod:concept ;
+    rdfs:label "Bellerophon" ;
+    p-lod:broader p-lod:mythological_figure ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q189872> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:bench a p-lod:concept ;
+    rdfs:label "Bench" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:berry a p-lod:concept .
+
+p-lod:bes a p-lod:concept .
+
+p-lod:betyl a p-lod:concept ;
+    rdfs:label "Betyl" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:bezel a p-lod:concept .
+
+p-lod:bidder a p-lod:concept .
+
+p-lod:boar a p-lod:concept ;
+    rdfs:label "Boar" ;
+    p-lod:broader p-lod:animal ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q58697> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+<urn:p-lod:id:boar's_head> a p-lod:concept .
+
+p-lod:boars_head a p-lod:concept ;
+    rdfs:label "Boar's_head" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:boat a p-lod:concept ;
+    rdfs:label "Boat" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q35872> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:boot a p-lod:concept ;
+    rdfs:label "Boot" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:border a p-lod:concept ;
+    rdfs:label "Border" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:border__frame a p-lod:concept .
+
+p-lod:border__horizontal a p-lod:concept .
+
+p-lod:border__vertical a p-lod:concept .
+
+p-lod:borea a p-lod:concept .
+
+p-lod:boss a p-lod:concept ;
+    rdfs:label "Boss" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:bow a p-lod:concept ;
+    rdfs:label "Bow" ;
+    p-lod:broader p-lod:weapon ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:bowl a p-lod:concept ;
+    rdfs:label "Bowl" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q153988> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:box a p-lod:concept ;
+    rdfs:label "Box" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q188075> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:boxer a p-lod:concept ;
+    rdfs:label "Boxer" ;
+    p-lod:broader p-lod:generic_human_figure ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q11338576> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:braid a p-lod:concept ;
+    rdfs:label "Braid" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q320809> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:branch a p-lod:concept ;
+    rdfs:label "Branch" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q2923673> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:bread a p-lod:concept ;
+    rdfs:label "Bread" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q7802> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:brick a p-lod:concept ;
+    rdfs:label "Brick" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q40089> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:bridge a p-lod:concept ;
+    rdfs:label "Bridge" ;
+    p-lod:broader p-lod:architecture ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q12280> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:bronze a p-lod:concept ;
+    rdfs:label "Bronze" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q34095> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:brooch a p-lod:concept ;
+    rdfs:label "Brooch" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:brush a p-lod:concept ;
+    rdfs:label "Brush" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:bucket a p-lod:concept .
+
+p-lod:bucranium a p-lod:concept ;
+    rdfs:label "Bucranium" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q1003461> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:building a p-lod:concept ;
+    rdfs:label "Building" ;
+    p-lod:broader p-lod:architecture ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q41176> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:bull a p-lod:concept ;
+    rdfs:label "Bull" ;
+    p-lod:broader p-lod:animal ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:bull_skull a p-lod:concept .
+
+p-lod:bulla a p-lod:concept ;
+    rdfs:label "Bulla" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:bush a p-lod:concept ;
+    rdfs:label "Bush" ;
+    p-lod:broader p-lod:plant ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:bust a p-lod:concept ;
+    rdfs:label "Bust" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q17489160> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:butterfly a p-lod:concept ;
+    rdfs:label "Butterfly" ;
+    p-lod:broader p-lod:insect ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:cabin_boat a p-lod:concept ;
+    rdfs:label "Cabin_boat" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q1416670> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:caduces a p-lod:concept ;
+    rdfs:label "Caduces" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:caduceus a p-lod:concept ;
+    rdfs:label "Caduceus" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:caesar a p-lod:concept ;
+    rdfs:label "Caesar" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:cage a p-lod:concept ;
+    rdfs:label "Cage" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:callisto a p-lod:concept .
+
+p-lod:calyces a p-lod:concept ;
+    rdfs:label "Calyces" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q2933965> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:camillus a p-lod:concept ;
+    rdfs:label "Camillus" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:candelabra a p-lod:concept ;
+    rdfs:label "Candelabra" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q548275> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:cane a p-lod:concept ;
+    rdfs:label "Cane" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:cap a p-lod:concept ;
+    rdfs:label "Cap" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:capital a p-lod:concept ;
+    rdfs:label "Capital" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q5119> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:caricature_\(exaggerated\) a p-lod:concept .
+
+p-lod:carpet a p-lod:concept ;
+    rdfs:label "Carpet" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q163446> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:carpet___embroidery_border a p-lod:concept .
+
+p-lod:carpet___embroidery_border_frame a p-lod:concept .
+
+p-lod:carpet___embroidery_border_horizontal a p-lod:concept .
+
+p-lod:carpet___embroidery_border_vertical a p-lod:concept .
+
+p-lod:carpet___embroidery_frame a p-lod:concept .
+
+p-lod:cart a p-lod:concept ;
+    rdfs:label "Cart" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q234668> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:cartoon a p-lod:concept .
+
+p-lod:caryatid a p-lod:concept ;
+    rdfs:label "Caryatid" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q208120> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:casket a p-lod:concept .
+
+p-lod:cassandra a p-lod:concept ;
+    rdfs:label "Cassandra" ;
+    p-lod:broader p-lod:mythological_figure ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:cassiopeia a p-lod:concept ;
+    rdfs:label "Cassiopeia" ;
+    p-lod:broader p-lod:mythological_figure ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:castle a p-lod:concept .
+
+<urn:p-lod:id:cat's_head> a p-lod:concept .
+
+p-lod:cauldron a p-lod:concept ;
+    rdfs:label "Cauldron" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:ceiling a p-lod:concept ;
+    rdfs:label "Ceiling" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:ceiling__coffered a p-lod:concept .
+
+p-lod:censor a p-lod:concept ;
+    rdfs:label "Censor" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:centaur a p-lod:concept ;
+    rdfs:label "Centaur" ;
+    p-lod:broader p-lod:mythological_creature ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q83203> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:ceres a p-lod:concept ;
+    rdfs:label "Ceres" ;
+    p-lod:broader p-lod:roman_deity ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:chain a p-lod:concept ;
+    rdfs:label "Chain" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q2397485> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:chair a p-lod:concept ;
+    rdfs:label "Chair" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:chalice a p-lod:concept ;
+    rdfs:label "Chalice" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:chandelier a p-lod:concept ;
+    rdfs:label "Chandelier" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:chariot a p-lod:concept ;
+    rdfs:label "Chariot" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:charioteer a p-lod:concept ;
+    rdfs:label "Charioteer" ;
+    p-lod:broader p-lod:generic_human_figure ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:checkered___squared a p-lod:concept .
+
+p-lod:cheetah a p-lod:concept ;
+    rdfs:label "Cheetah" ;
+    p-lod:broader p-lod:animal ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:cheiron a p-lod:concept .
+
+p-lod:chelys a p-lod:concept .
+
+p-lod:cherry a p-lod:concept ;
+    rdfs:label "Cherry" ;
+    p-lod:broader p-lod:fruit ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q196> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:chicken a p-lod:concept .
+
+p-lod:child a p-lod:concept ;
+    rdfs:label "Child" ;
+    p-lod:broader p-lod:generic_human_figure ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q7569> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:chiron a p-lod:concept .
+
+p-lod:chiton a p-lod:concept ;
+    rdfs:label "Chiton" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q944031> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:chlamys a p-lod:concept ;
+    rdfs:label "Chlamys" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:circe a p-lod:concept ;
+    rdfs:label "Circe" ;
+    p-lod:broader p-lod:mythological_figure ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:circle a p-lod:concept ;
+    rdfs:label "Circle" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q17278> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:cista a p-lod:concept ;
+    rdfs:label "Cista" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q867621> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:cithara a p-lod:concept ;
+    rdfs:label "Cithara" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:city a p-lod:concept .
+
+p-lod:clio a p-lod:concept ;
+    rdfs:label "Clio" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:clipeus a p-lod:concept ;
+    rdfs:label "Clipeus" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q1101789> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:cloak a p-lod:concept ;
+    rdfs:label "Cloak" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q516992> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:cloth a p-lod:concept ;
+    rdfs:label "Cloth" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:clover a p-lod:concept ;
+    rdfs:label "Clover" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q101538> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:club a p-lod:concept ;
+    rdfs:label "Club" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:cobra a p-lod:concept ;
+    rdfs:label "Cobra" ;
+    p-lod:broader p-lod:snake ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:cocciopesto a p-lod:concept ;
+    rdfs:label "Cocciopesto" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q761421> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:cock a p-lod:concept ;
+    rdfs:label "Cock" ;
+    p-lod:broader p-lod:bird ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q2216236> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:collar a p-lod:concept ;
+    rdfs:label "Collar" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:colonnade a p-lod:concept ;
+    rdfs:label "Colonnade" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q657100> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:column a p-lod:concept ;
+    rdfs:label "Column" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q4817> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:column__engaged a p-lod:concept .
+
+p-lod:column_drum a p-lod:concept ;
+    rdfs:label "Column_drum" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q4817> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:compartment a p-lod:concept ;
+    rdfs:label "Compartment" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q251238> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:compass a p-lod:concept .
+
+p-lod:corbel a p-lod:concept ;
+    rdfs:label "Corbel" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:cord a p-lod:concept ;
+    rdfs:label "Cord" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:coregi a p-lod:concept .
+
+p-lod:corinna a p-lod:concept ;
+    rdfs:label "Corinna" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:corinthian_capital a p-lod:concept ;
+    rdfs:label "Corinthian_capital" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q54124> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:corinthian_column a p-lod:concept .
+
+p-lod:corn a p-lod:concept ;
+    rdfs:label "Corn" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:cornice a p-lod:concept ;
+    rdfs:label "Cornice" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q328092> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:cornucopia a p-lod:concept ;
+    rdfs:label "Cornucopia" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q332682> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:corolla a p-lod:concept ;
+    rdfs:label "Corolla" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q1840192> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:corrina a p-lod:concept ;
+    rdfs:label "Corrina" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:counter a p-lod:concept ;
+    rdfs:label "Counter" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q599007> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:cow a p-lod:concept ;
+    rdfs:label "Cow" ;
+    p-lod:broader p-lod:animal ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q11748378> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:crab a p-lod:concept ;
+    rdfs:label "Crab" ;
+    p-lod:broader p-lod:animal ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q40802> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:crater a p-lod:concept ;
+    rdfs:label "Crater" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q476968> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:crenellation a p-lod:concept ;
+    rdfs:label "Crenellation" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q23423> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:crescent a p-lod:concept ;
+    rdfs:label "Crescent" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:crescent_moon a p-lod:concept ;
+    rdfs:label "Crescent_moon" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:crocodile a p-lod:concept ;
+    rdfs:label "Crocodile" ;
+    p-lod:broader p-lod:animal ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q2535664> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:cross a p-lod:concept ;
+    rdfs:label "Cross" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q40843> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:crow a p-lod:concept ;
+    rdfs:label "Crow" ;
+    p-lod:broader p-lod:bird ;
+    p-lod:wikidata-url <https://www.wikidata.org/entity/Q388450> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:crown a p-lod:concept ;
+    rdfs:label "Crown" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q170984> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:crowning a p-lod:concept ;
+    rdfs:label "Crowning" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q172349> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:cube__perspective a p-lod:concept .
+
+p-lod:cup a p-lod:concept ;
+    rdfs:label "Cup" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:cupid a p-lod:concept ;
+    rdfs:label "Cupid" ;
+    p-lod:broader p-lod:deity ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q5011> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:curtain a p-lod:concept ;
+    rdfs:label "Curtain" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q49005> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:cuttlefish a p-lod:concept ;
+    rdfs:label "Cuttlefish" ;
+    p-lod:broader p-lod:fish ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:cymbal a p-lod:concept ;
+    rdfs:label "Cymbal" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:cyparissus a p-lod:concept .
+
+p-lod:daedalus a p-lod:concept ;
+    rdfs:label "Daedalus" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q134756> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:dagger a p-lod:concept ;
+    rdfs:label "Dagger" ;
+    p-lod:broader p-lod:weapon ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q182780> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:danae a p-lod:concept ;
+    rdfs:label "Danae" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:daphne a p-lod:concept ;
+    rdfs:label "Daphne" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:date a p-lod:concept ;
+    rdfs:label "Date" ;
+    p-lod:broader p-lod:fruit ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:deer a p-lod:concept ;
+    rdfs:label "Deer" ;
+    p-lod:broader p-lod:animal ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q23390> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:deianira a p-lod:concept ;
+    rdfs:label "Deianira" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q272000> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:deidamia a p-lod:concept ;
+    rdfs:label "Deidamia" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:demeter a p-lod:concept ;
+    rdfs:label "Demeter" ;
+    p-lod:broader p-lod:olympian_deity ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q40730> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:dentil a p-lod:concept ;
+    rdfs:label "Dentil" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q143952> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:diadem a p-lod:concept ;
+    rdfs:label "Diadem" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:diamond a p-lod:concept ;
+    rdfs:label "Diamond" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:diana a p-lod:concept ;
+    rdfs:label "Diana" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q132543> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:dido a p-lod:concept ;
+    rdfs:label "Dido" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q905162> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:diomede a p-lod:concept ;
+    rdfs:label "Diomede" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:diomedes a p-lod:concept ;
+    rdfs:label "Diomedes" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:dionysius a p-lod:concept ;
+    rdfs:label "Dionysius" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q41680> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:dioskouros a p-lod:concept ;
+    rdfs:label "Dioskouros" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:diotima a p-lod:concept ;
+    rdfs:label "Diotima" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:dipinto a p-lod:concept ;
+    rdfs:label "Dipinto" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:diptych a p-lod:concept ;
+    rdfs:label "Diptych" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:dipylon a p-lod:concept .
+
+p-lod:dirce a p-lod:concept ;
+    rdfs:label "Dirce" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q850192> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:discus-thrower a p-lod:concept ;
+    rdfs:label "Discus-thrower" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q13381689> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:disk a p-lod:concept ;
+    rdfs:label "Disk" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:dog a p-lod:concept ;
+    rdfs:label "Dog" ;
+    p-lod:broader p-lod:animal ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q144> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:dolphin a p-lod:concept ;
+    rdfs:label "Dolphin" ;
+    p-lod:broader p-lod:animal ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q7369> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:dome a p-lod:concept ;
+    rdfs:label "Dome" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q12493> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:donkey a p-lod:concept ;
+    rdfs:label "Donkey" ;
+    p-lod:broader p-lod:animal ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q19707> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:door a p-lod:concept ;
+    rdfs:label "Door" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q36794> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:doorway a p-lod:concept ;
+    rdfs:label "Doorway" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:dot___dotted a p-lod:concept .
+
+p-lod:dove a p-lod:concept ;
+    rdfs:label "Dove" ;
+    p-lod:broader p-lod:bird ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q2984138> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:dragon a p-lod:concept .
+
+p-lod:drawer a p-lod:concept ;
+    rdfs:label "Drawer" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q223575> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:drinking_horn a p-lod:concept ;
+    rdfs:label "Drinking_horn" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q192771> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:drops a p-lod:concept ;
+    rdfs:label "Drops" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q185789> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:drum a p-lod:concept ;
+    rdfs:label "Drum" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q11404> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:duck a p-lod:concept ;
+    rdfs:label "Duck" ;
+    p-lod:broader p-lod:bird ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q3736439> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:eagle a p-lod:concept ;
+    rdfs:label "Eagle" ;
+    p-lod:broader p-lod:bird ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q2092297> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:eagle-griffin a p-lod:concept ;
+    rdfs:label "Eagle-griffin" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q130223> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:earring a p-lod:concept ;
+    rdfs:label "Earring" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:earrings a p-lod:concept ;
+    rdfs:label "Earrings" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:echo a p-lod:concept ;
+    rdfs:label "Echo" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:eel a p-lod:concept ;
+    rdfs:label "Eel" ;
+    p-lod:broader p-lod:animal ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q128685> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:egg a p-lod:concept ;
+    rdfs:label "Egg" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:egg_and_dart a p-lod:concept ;
+    rdfs:label "Egg_and_dart" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q2458802> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:egyptian a p-lod:concept ;
+    rdfs:label "Egyptian" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:elephant a p-lod:concept ;
+    rdfs:label "Elephant" ;
+    p-lod:broader p-lod:animal ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q7378> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:ellipse a p-lod:concept .
+
+p-lod:emblem a p-lod:concept ;
+    rdfs:label "Emblem" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q112110> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:emblema a p-lod:concept ;
+    rdfs:label "Emblema" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q86048537> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:endymion a p-lod:concept ;
+    rdfs:label "Endymion" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:entablature a p-lod:concept ;
+    rdfs:label "Entablature" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q187459> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:entrance_ a p-lod:concept .
+
+p-lod:epistyle a p-lod:concept ;
+    rdfs:label "Epistyle" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q183448> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:epithymia a p-lod:concept ;
+    rdfs:label "Epithymia" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:eros a p-lod:concept ;
+    rdfs:label "Eros" ;
+    p-lod:broader p-lod:deity ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q121973> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:erotic_scene a p-lod:concept ;
+    rdfs:label "Erotic_scene" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:eteocles a p-lod:concept ;
+    rdfs:label "Eteocles" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:europa a p-lod:concept ;
+    rdfs:label "Europa" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:euterpe a p-lod:concept ;
+    rdfs:label "Euterpe" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:facade a p-lod:concept ;
+    rdfs:label "Facade" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q183061> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:fan a p-lod:concept ;
+    rdfs:label "Fan" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:farmer a p-lod:concept .
+
+p-lod:faun a p-lod:concept ;
+    rdfs:label "Faun" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:feather a p-lod:concept ;
+    rdfs:label "Feather" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:fence a p-lod:concept ;
+    rdfs:label "Fence" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q148571> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:ferculum a p-lod:concept ;
+    rdfs:label "Ferculum" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:fern a p-lod:concept ;
+    rdfs:label "Fern" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:fig a p-lod:concept ;
+    rdfs:label "Fig" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:figural_scene a p-lod:concept ;
+    rdfs:label "Figural_scene" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:figure a p-lod:concept ;
+    rdfs:label "Figure" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q29527347> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:fire a p-lod:concept ;
+    rdfs:label "Fire" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:fisherman a p-lod:concept ;
+    rdfs:label "Fisherman" ;
+    p-lod:broader p-lod:generic_human_figure ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:flecked a p-lod:concept ;
+    rdfs:label "Flecked" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q2429962> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:floor_tile a p-lod:concept ;
+    rdfs:label "Floor_tile" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q17455039> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:flooring a p-lod:concept ;
+    rdfs:label "Flooring" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q1433006> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:floral_candelabra a p-lod:concept ;
+    rdfs:label "Floral_candelabra" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:flower a p-lod:concept ;
+    rdfs:label "Flower" ;
+    p-lod:broader p-lod:plant ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q506> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:flute a p-lod:concept ;
+    rdfs:label "Flute" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:flutting a p-lod:concept ;
+    rdfs:label "Flutting" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:flying a p-lod:concept ;
+    rdfs:label "Flying" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:food a p-lod:concept ;
+    rdfs:label "Food" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q2095> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:footstool a p-lod:concept ;
+    rdfs:label "Footstool" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:foreground a p-lod:concept ;
+    rdfs:label "Foreground" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q2533752> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:fortification a p-lod:concept ;
+    rdfs:label "Fortification" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q57821> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:fortuna a p-lod:concept ;
+    rdfs:label "Fortuna" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:fountain a p-lod:concept ;
+    rdfs:label "Fountain" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q483453> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:fox a p-lod:concept .
+
+p-lod:frame a p-lod:concept ;
+    rdfs:label "Frame" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q860792> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:fresco a p-lod:concept ;
+    rdfs:label "Fresco" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q22669139> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:frieze a p-lod:concept ;
+    rdfs:label "Frieze" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q183272> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:fritillus a p-lod:concept .
+
+p-lod:frog a p-lod:concept ;
+    rdfs:label "Frog" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:front_porch a p-lod:concept ;
+    rdfs:label "Front_porch" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q816741> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:fullonica_ a p-lod:concept .
+
+p-lod:funeral_pyre a p-lod:concept ;
+    rdfs:label "Funeral_pyre" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q736132> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:gable a p-lod:concept ;
+    rdfs:label "Gable" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q1161370> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:galatea a p-lod:concept ;
+    rdfs:label "Galatea" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:galateia a p-lod:concept ;
+    rdfs:label "Galateia" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:ganymede a p-lod:concept ;
+    rdfs:label "Ganymede" ;
+    p-lod:broader p-lod:mythological_figure ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q131588> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:ganymedes a p-lod:concept .
+
+p-lod:garden a p-lod:concept ;
+    rdfs:label "Garden" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q1107656> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:garland a p-lod:concept ;
+    rdfs:label "Garland" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q756600> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:garland__crown a p-lod:concept .
+
+p-lod:garland__frame a p-lod:concept .
+
+p-lod:gate a p-lod:concept ;
+    rdfs:label "Gate" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q53060> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:gazebo a p-lod:concept .
+
+p-lod:gazelle a p-lod:concept ;
+    rdfs:label "Gazelle" ;
+    p-lod:broader p-lod:animal ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:gem a p-lod:concept ;
+    rdfs:label "Gem" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q83437> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:genius a p-lod:concept ;
+    rdfs:label "Genius" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:geometric a p-lod:concept ;
+    rdfs:label "Geometric" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q43114389> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:gift_of_fruit a p-lod:concept ;
+    rdfs:label "Gift_of_fruit" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:gladiator a p-lod:concept ;
+    rdfs:label "Gladiator" ;
+    p-lod:broader p-lod:generic_human_figure ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q482999> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:glass a p-lod:concept ;
+    rdfs:label "Glass" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q11469> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:globe a p-lod:concept ;
+    rdfs:label "Globe" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q133792> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:goat a p-lod:concept ;
+    rdfs:label "Goat" ;
+    p-lod:broader p-lod:animal ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q2934> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:god a p-lod:concept .
+
+p-lod:goose a p-lod:concept .
+
+p-lod:gorgon a p-lod:concept ;
+    rdfs:label "Gorgon" ;
+    p-lod:broader p-lod:mythological_creature ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q102059> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:grace a p-lod:concept ;
+    rdfs:label "Grace" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:graffito a owl:Class,
+        p-lod:concept ;
+    rdfs:label "Graffito" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:grape a p-lod:concept ;
+    rdfs:label "Grape" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q10978> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:grapes a p-lod:concept ;
+    rdfs:label "Grapes" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:grass a p-lod:concept .
+
+p-lod:grasshopper a p-lod:concept ;
+    rdfs:label "Grasshopper" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q18398431> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:greave a p-lod:concept ;
+    rdfs:label "Greave" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:greek a p-lod:concept ;
+    rdfs:label "Greek" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:grenade a p-lod:concept .
+
+p-lod:grid_iron a p-lod:concept ;
+    rdfs:label "Grid_iron" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:griffin a p-lod:concept ;
+    rdfs:label "Griffin" ;
+    p-lod:broader p-lod:mythological_creature ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q130223> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:grooves a p-lod:concept .
+
+p-lod:grotesque a p-lod:concept ;
+    rdfs:label "Grotesque" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q218248> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:guilloche a p-lod:concept ;
+    rdfs:label "Guilloche" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q55416098> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:guinea_hen a p-lod:concept ;
+    rdfs:label "Guinea_hen" ;
+    p-lod:broader p-lod:bird ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q171953> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:gymnasium a p-lod:concept ;
+    rdfs:label "Gymnasium" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q504400> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:ham a p-lod:concept ;
+    rdfs:label "Ham" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:hammer a p-lod:concept .
+
+p-lod:handle a p-lod:concept .
+
+p-lod:hare a p-lod:concept ;
+    rdfs:label "Hare" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q46076> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:harp a p-lod:concept ;
+    rdfs:label "Harp" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q47369> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:harpocrates a p-lod:concept .
+
+p-lod:hat a p-lod:concept ;
+    rdfs:label "Hat" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:hawk a p-lod:concept ;
+    rdfs:label "Hawk" ;
+    p-lod:broader p-lod:bird ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:head a p-lod:concept ;
+    rdfs:label "Head" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:heart a p-lod:concept .
+
+p-lod:hector a p-lod:concept ;
+    rdfs:label "Hector" ;
+    p-lod:broader p-lod:mythological_figure ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q159666> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:hekate a p-lod:concept ;
+    rdfs:label "Hekate" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:held_by a p-lod:concept ;
+    rdfs:label "Held by" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:helen a p-lod:concept ;
+    rdfs:label "Helen" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:helenus a p-lod:concept ;
+    rdfs:label "Helenus" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:helios a p-lod:concept ;
+    rdfs:label "Helios" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:helle a p-lod:concept .
+
+p-lod:hellenistic_rosette a p-lod:concept ;
+    rdfs:label "Hellenistic_rosette" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q1277215> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:helmet a p-lod:concept ;
+    rdfs:label "Helmet" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q173603> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:hephaestus a p-lod:concept ;
+    rdfs:label "Hephaestus" ;
+    p-lod:broader p-lod:olympian_deity ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q44384> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:hera a p-lod:concept ;
+    rdfs:label "Hera" ;
+    p-lod:broader p-lod:olympian_deity ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q38012> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:herb a p-lod:concept .
+
+p-lod:hercules a p-lod:concept ;
+    rdfs:label "Hercules" ;
+    p-lod:broader p-lod:deity ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q122248> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:herm a p-lod:concept ;
+    rdfs:label "Herm" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q376693> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:hermaphrodite a p-lod:concept ;
+    rdfs:label "Hermaphrodite" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:hermes a p-lod:concept ;
+    rdfs:label "Hermes" ;
+    p-lod:broader p-lod:olympian_deity ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q41484> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:hero a p-lod:concept ;
+    rdfs:label "Hero" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:heron a p-lod:concept ;
+    rdfs:label "Heron" ;
+    p-lod:broader p-lod:bird ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q3259077> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:hesione a p-lod:concept ;
+    rdfs:label "Hesione" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:hesperis a p-lod:concept ;
+    rdfs:label "Hesperis" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:hesperos_ a p-lod:concept ;
+    rdfs:label "Hesperos_" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:hesperus a p-lod:concept ;
+    rdfs:label "Hesperus" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:hestia a p-lod:concept ;
+    rdfs:label "Hestia" ;
+    p-lod:broader p-lod:olympian_deity ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q41419> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:hexagon a p-lod:concept ;
+    rdfs:label "Hexagon" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q83043> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:hinge a p-lod:concept ;
+    rdfs:label "Hinge" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q244330> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:hippocamp a p-lod:concept ;
+    rdfs:label "Hippocamp" ;
+    p-lod:broader p-lod:mythological_creature ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q816795> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:hippodamia a p-lod:concept ;
+    rdfs:label "Hippodamia" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:hippolyte a p-lod:concept ;
+    rdfs:label "Hippolyte" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:hippolytus a p-lod:concept ;
+    rdfs:label "Hippolytus" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:hippopotamus a p-lod:concept ;
+    rdfs:label "Hippopotamus" ;
+    p-lod:broader p-lod:animal ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:hole a p-lod:concept .
+
+p-lod:homer a p-lod:concept ;
+    rdfs:label "Homer" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:hook a p-lod:concept ;
+    rdfs:label "Hook" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:hoop a p-lod:concept ;
+    rdfs:label "Hoop" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:horn a p-lod:concept .
+
+p-lod:horse a p-lod:concept ;
+    rdfs:label "Horse" ;
+    p-lod:broader p-lod:animal ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q726> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:horseshoe a p-lod:concept .
+
+p-lod:hortus_conclusus a p-lod:concept .
+
+p-lod:hourglass a p-lod:concept .
+
+p-lod:hunter a p-lod:concept ;
+    rdfs:label "Hunter" ;
+    p-lod:broader p-lod:generic_human_figure ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:hylas a p-lod:concept ;
+    rdfs:label "Hylas" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:hyllus a p-lod:concept ;
+    rdfs:label "Hyllus" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:hymenaios a p-lod:concept ;
+    rdfs:label "Hymenaios" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:hypnos a p-lod:concept ;
+    rdfs:label "Hypnos" ;
+    p-lod:broader p-lod:deity ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:ibis a p-lod:concept ;
+    rdfs:label "Ibis" ;
+    p-lod:broader p-lod:bird ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:icarus a p-lod:concept ;
+    rdfs:label "Icarus" ;
+    p-lod:broader p-lod:mythological_figure ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:ichneumon a p-lod:concept .
+
+p-lod:ilione a p-lod:concept ;
+    rdfs:label "Ilione" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:impluvium a p-lod:concept ;
+    rdfs:label "Impluvium" ;
+    p-lod:broader p-lod:architecture ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q1117244> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:intercolumniation a p-lod:concept ;
+    rdfs:label "Intercolumniation" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q1364172> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:io a p-lod:concept ;
+    rdfs:label "Io" ;
+    p-lod:broader p-lod:mythological_figure ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:iphicles a p-lod:concept ;
+    rdfs:label "Iphicles" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:iphigenia a p-lod:concept ;
+    rdfs:label "Iphigenia" ;
+    p-lod:broader p-lod:mythological_figure ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:iris a p-lod:concept .
+
+p-lod:iron_nail a p-lod:concept .
+
+p-lod:isis a p-lod:concept .
+
+p-lod:isis-fortuna a p-lod:concept .
+
+p-lod:isodomic_block a p-lod:concept ;
+    rdfs:label "Isodomic block" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:ivy a p-lod:concept ;
+    rdfs:label "Ivy" ;
+    p-lod:broader p-lod:plant ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q26354> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:jackal a p-lod:concept ;
+    rdfs:label "Jackal" ;
+    p-lod:broader p-lod:animal ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q125525> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:jar a p-lod:concept ;
+    rdfs:label "Jar" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q1207302> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:jason a p-lod:concept .
+
+p-lod:jay a p-lod:concept ;
+    rdfs:label "Jay" ;
+    p-lod:broader p-lod:bird ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q25354> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:jellyfish a p-lod:concept .
+
+p-lod:jetty a p-lod:concept ;
+    rdfs:label "Jetty" ;
+    p-lod:broader p-lod:architecture ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q3082251> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:jewel a p-lod:concept ;
+    rdfs:label "Jewel" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:jug a p-lod:concept ;
+    rdfs:label "Jug" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q2413314> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:juno a p-lod:concept ;
+    rdfs:label "Juno" ;
+    p-lod:broader p-lod:roman_deity ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q125046> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:jupiter a p-lod:concept ;
+    rdfs:label "Jupiter" ;
+    p-lod:broader p-lod:roman_deity ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q4649> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:kantharos a p-lod:concept ;
+    rdfs:label "Kantharos" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:ketos_\(sea-serpent\) a p-lod:concept ;
+    rdfs:label "Ketos_(sea-serpent)" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q3269950> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:key a p-lod:concept ;
+    rdfs:label "Key" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:knife a p-lod:concept .
+
+p-lod:knucklebones a p-lod:concept ;
+    rdfs:label "Knucklebones" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q20452> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:labrum a p-lod:concept ;
+    rdfs:label "Labrum" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q6467643> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:ladder a p-lod:concept ;
+    rdfs:label "Ladder" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q168639> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:lamb a p-lod:concept ;
+    rdfs:label "Lamb" ;
+    p-lod:broader p-lod:animal ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q4575936> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:lamp a p-lod:concept ;
+    rdfs:label "Lamp" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:lancet a p-lod:concept ;
+    rdfs:label "Lancet" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:landscape a p-lod:concept ;
+    rdfs:label "Landscape" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:laocoon a p-lod:concept ;
+    rdfs:label "Laocoon" ;
+    p-lod:broader p-lod:mythological_figure ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q22878> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:lapith a p-lod:concept ;
+    rdfs:label "Lapith" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q334794> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:lararium a p-lod:concept ;
+    rdfs:label "Lararium" ;
+    p-lod:broader p-lod:architecture ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q1241286> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:lare a p-lod:concept ;
+    rdfs:label "Lare" ;
+    p-lod:broader p-lod:roman_deity ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:lark a p-lod:concept ;
+    rdfs:label "Lark" ;
+    p-lod:broader p-lod:bird ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q29858> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:latchkey a p-lod:concept ;
+    rdfs:label "Latchkey" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q132041> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:latrine a p-lod:concept .
+
+p-lod:lattice a p-lod:concept ;
+    rdfs:label "Lattice" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q1368562> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:laurel a p-lod:concept ;
+    rdfs:label "Laurel" ;
+    p-lod:broader p-lod:plant ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q26006> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:leaf a p-lod:concept ;
+    rdfs:label "Leaf" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q33971> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:leander a p-lod:concept ;
+    rdfs:label "Leander" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:leda a p-lod:concept ;
+    rdfs:label "Leda" ;
+    p-lod:broader p-lod:mythological_figure ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:lekythos a p-lod:concept ;
+    rdfs:label "Lekythos" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:lemon a p-lod:concept ;
+    rdfs:label "Lemon" ;
+    p-lod:broader p-lod:fruit ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q1093742> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:leopard a p-lod:concept ;
+    rdfs:label "Leopard" ;
+    p-lod:broader p-lod:animal ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:limestone a p-lod:concept ;
+    rdfs:label "Limestone" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q23757> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:line a p-lod:concept .
+
+p-lod:lintel a p-lod:concept ;
+    rdfs:label "Lintel" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q1370517> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:lion a p-lod:concept ;
+    rdfs:label "Lion" ;
+    p-lod:broader p-lod:animal ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q140> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:lion_skin a p-lod:concept ;
+    rdfs:label "Lion_skin" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:lizard a p-lod:concept ;
+    rdfs:label "Lizard" ;
+    p-lod:broader p-lod:animal ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:lo a p-lod:concept .
+
+p-lod:lobe a p-lod:concept ;
+    rdfs:label "Lobe" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:lobster a p-lod:concept ;
+    rdfs:label "Lobster" ;
+    p-lod:broader p-lod:animal ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q61864890> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:lotus a p-lod:concept ;
+    rdfs:label "Lotus" ;
+    p-lod:broader p-lod:plant ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q16528> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:lucifer a p-lod:concept ;
+    rdfs:label "Lucifer" ;
+    p-lod:broader p-lod:mythological_figure ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:luna a p-lod:concept ;
+    rdfs:label "Luna" ;
+    p-lod:broader p-lod:deity ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:lunette a p-lod:concept ;
+    rdfs:label "Lunette" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q942787> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:lycomedes a p-lod:concept ;
+    rdfs:label "Lycomedes" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:lycurgus a p-lod:concept ;
+    rdfs:label "Lycurgus" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:lykos a p-lod:concept .
+
+p-lod:lyre a p-lod:concept ;
+    rdfs:label "Lyre" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:maenad a p-lod:concept ;
+    rdfs:label "Maenad" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q209599> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:magpie a p-lod:concept ;
+    rdfs:label "Magpie" ;
+    p-lod:broader p-lod:bird ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q25307> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:man a p-lod:concept ;
+    rdfs:label "Man" ;
+    p-lod:broader p-lod:generic_human_figure ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q8441> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:mantel a p-lod:concept .
+
+p-lod:mantle a p-lod:concept ;
+    rdfs:label "Mantle" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:marble a p-lod:concept ;
+    rdfs:label "Marble" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q40861> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:marine_griffin a p-lod:concept ;
+    rdfs:label "Marine_griffin" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:mars a p-lod:concept ;
+    rdfs:label "Mars" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:marsyas a p-lod:concept ;
+    rdfs:label "Marsyas" ;
+    p-lod:broader p-lod:mythological_creature ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:mask a p-lod:concept ;
+    rdfs:label "Mask" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q161524> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:meander a p-lod:concept ;
+    rdfs:label "Meander" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q898879> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:meat a p-lod:concept ;
+    rdfs:label "Meat" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:medallion a p-lod:concept ;
+    rdfs:label "Medallion" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q131647> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:medea a p-lod:concept ;
+    rdfs:label "Medea" ;
+    p-lod:broader p-lod:mythological_figure ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:medeia a p-lod:concept .
+
+p-lod:medusa a p-lod:concept ;
+    rdfs:label "Medusa" ;
+    p-lod:broader p-lod:mythological_creature ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q160730> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:megalographia a p-lod:concept ;
+    rdfs:label "Megalographia" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:meleager a p-lod:concept ;
+    rdfs:label "Meleager" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:meleagros a p-lod:concept ;
+    rdfs:label "Meleagros" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:melpomene a p-lod:concept ;
+    rdfs:label "Melpomene" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:menelaus a p-lod:concept ;
+    rdfs:label "Menelaus" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:mercury a p-lod:concept ;
+    rdfs:label "Mercury" ;
+    p-lod:broader p-lod:roman_deity ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:mermaid a p-lod:concept ;
+    rdfs:label "Mermaid" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:mestra a p-lod:concept ;
+    rdfs:label "Mestra" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:metope a p-lod:concept ;
+    rdfs:label "Metope" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:micon a p-lod:concept ;
+    rdfs:label "Micon" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:micone a p-lod:concept ;
+    rdfs:label "Micone" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:midas a p-lod:concept ;
+    rdfs:label "Midas" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:midwife a p-lod:concept ;
+    rdfs:label "Midwife" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:minerva a p-lod:concept ;
+    rdfs:label "Minerva" ;
+    p-lod:broader p-lod:roman_deity ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:mini-panel a p-lod:concept ;
+    rdfs:label "Mini-panel" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q1348059> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:minos a p-lod:concept ;
+    rdfs:label "Minos" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:minotaur a p-lod:concept ;
+    rdfs:label "Minotaur" ;
+    p-lod:broader p-lod:mythological_creature ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:mirror a p-lod:concept ;
+    rdfs:label "Mirror" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q35197> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:modillion a p-lod:concept ;
+    rdfs:label "Modillion" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q980198> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:modius a p-lod:concept .
+
+p-lod:mollusc a p-lod:concept ;
+    rdfs:label "Mollusc" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:mongoose a p-lod:concept .
+
+p-lod:monkey a p-lod:concept ;
+    rdfs:label "Monkey" ;
+    p-lod:broader p-lod:animal ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:moon a p-lod:concept ;
+    rdfs:label "Moon" ;
+    p-lod:broader p-lod:celestial_body ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q405> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:mortar a p-lod:concept ;
+    rdfs:label "Mortar" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q189566> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:mosaic a owl:Class,
+        p-lod:concept ;
+    rdfs:label "Mosaic" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q133067> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:moulding a p-lod:concept ;
+    rdfs:label "Moulding" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q1770806> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:mountain a p-lod:concept ;
+    rdfs:label "Mountain" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:mouse a p-lod:concept ;
+    rdfs:label "Mouse" ;
+    p-lod:broader p-lod:animal ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:mule a p-lod:concept ;
+    rdfs:label "Mule" ;
+    p-lod:broader p-lod:animal ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:muse a p-lod:concept ;
+    rdfs:label "Muse" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q66016> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:muse_-_thalia a p-lod:concept ;
+    rdfs:label "Muse_-_thalia" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:musical_instrument a p-lod:concept .
+
+p-lod:myrtis a p-lod:concept .
+
+p-lod:mythological_figures a p-lod:concept .
+
+p-lod:mythological_scene a p-lod:concept ;
+    rdfs:label "Mythological_scene" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:narcissus a p-lod:concept ;
+    rdfs:label "Narcissus" ;
+    p-lod:broader p-lod:mythological_figure ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:narcissus_ a p-lod:concept .
+
+p-lod:narkissos a p-lod:concept .
+
+p-lod:nature a p-lod:concept ;
+    rdfs:label "Nature" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q7860> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:nebris a p-lod:concept ;
+    rdfs:label "Nebris" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q1275155> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:necklace a p-lod:concept ;
+    rdfs:label "Necklace" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:nemesis a p-lod:concept ;
+    rdfs:label "Nemesis" ;
+    p-lod:broader p-lod:deity ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:neoptolemus a p-lod:concept ;
+    rdfs:label "Neoptolemus" ;
+    p-lod:broader p-lod:mythological_figure ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q322639> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:neptune a p-lod:concept ;
+    rdfs:label "Neptune" ;
+    p-lod:broader p-lod:roman_deity ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q3954> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:nereid a p-lod:concept ;
+    rdfs:label "Nereid" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q54230> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:nessus a p-lod:concept ;
+    rdfs:label "Nessus" ;
+    p-lod:broader p-lod:mythological_creature ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q466866> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:nest a p-lod:concept .
+
+p-lod:net a p-lod:concept ;
+    rdfs:label "Net" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:niche a p-lod:concept ;
+    rdfs:label "Niche" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q695992> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:nike a p-lod:concept ;
+    rdfs:label "Nike" ;
+    p-lod:broader p-lod:deity ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:nilotic_landscape a p-lod:concept ;
+    rdfs:label "Nilotic_landscape" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:niobid a p-lod:concept ;
+    rdfs:label "Niobid" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:numidian a p-lod:concept ;
+    rdfs:label "Numidian" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q2916416> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:nut a p-lod:concept ;
+    rdfs:label "Nut" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:nymph a p-lod:concept ;
+    rdfs:label "Nymph" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:oar a p-lod:concept .
+
+p-lod:obelisk a p-lod:concept ;
+    rdfs:label "Obelisk" ;
+    p-lod:broader p-lod:architecture ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:object a p-lod:concept ;
+    rdfs:label "Object" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:obliques a p-lod:concept ;
+    rdfs:label "Obliques" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:oceanus a p-lod:concept ;
+    rdfs:label "Oceanus" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:octagon a p-lod:concept ;
+    rdfs:label "Octagon" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:octopus a p-lod:concept ;
+    rdfs:label "Octopus" ;
+    p-lod:broader p-lod:animal ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q611843> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:odysseus a p-lod:concept ;
+    rdfs:label "Odysseus" ;
+    p-lod:broader p-lod:mythological_figure ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:offerant a p-lod:concept .
+
+p-lod:offerer a p-lod:concept .
+
+p-lod:okeanos a p-lod:concept .
+
+p-lod:oleander a p-lod:concept ;
+    rdfs:label "Oleander" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:olympos a p-lod:concept ;
+    rdfs:label "Olympos" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:olympus a p-lod:concept ;
+    rdfs:label "Olympus" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:omphale a p-lod:concept ;
+    rdfs:label "Omphale" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:omphalos a p-lod:concept ;
+    rdfs:label "Omphalos" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:onion a p-lod:concept .
+
+p-lod:opening a p-lod:concept ;
+    rdfs:label "Opening" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q20204151> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:opus_incertum a p-lod:concept ;
+    rdfs:label "Opus_incertum" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q1326603> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:opus_quadratum a p-lod:concept ;
+    rdfs:label "Opus_quadratum" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q2631941> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:opus_sectile a p-lod:concept ;
+    rdfs:label "Opus_sectile" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q641860> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:orestes a p-lod:concept ;
+    rdfs:label "Orestes" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:ornament__abstract a p-lod:concept .
+
+p-lod:ornament__floral a p-lod:concept .
+
+p-lod:orpheus a p-lod:concept ;
+    rdfs:label "Orpheus" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:orthostate a p-lod:concept ;
+    rdfs:label "Orthostate" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q2738992> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:orthostate__narrow a p-lod:concept .
+
+p-lod:oscillium a p-lod:concept ;
+    rdfs:label "Oscillium" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:osiris a p-lod:concept .
+
+p-lod:oval a p-lod:concept ;
+    rdfs:label "Oval" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:oven a p-lod:concept ;
+    rdfs:label "Oven" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q36539> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:ovule a p-lod:concept ;
+    rdfs:label "Ovule" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:owl a p-lod:concept ;
+    rdfs:label "Owl" ;
+    p-lod:broader p-lod:bird ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:oyster a p-lod:concept .
+
+p-lod:palestra a p-lod:concept ;
+    rdfs:label "Palestra" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:palla a p-lod:concept ;
+    rdfs:label "Palla" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:pallas a p-lod:concept .
+
+p-lod:palm a p-lod:concept ;
+    rdfs:label "Palm" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q2709536> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:palm-tree a p-lod:concept ;
+    rdfs:label "Palm-tree" ;
+    p-lod:broader p-lod:tree ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:palmette a p-lod:concept ;
+    rdfs:label "Palmette" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q677655> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:pan a p-lod:concept ;
+    rdfs:label "Pan" ;
+    p-lod:broader p-lod:deity ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q132582> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:pan-pipe a p-lod:concept .
+
+p-lod:panel a p-lod:concept ;
+    rdfs:label "Panel" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q98972660> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:panel_painting a p-lod:concept ;
+    rdfs:label "Panel_painting" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:panther a p-lod:concept ;
+    rdfs:label "Panther" ;
+    p-lod:broader p-lod:animal ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q659549> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:parapet a p-lod:concept ;
+    rdfs:label "Parapet" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q1286070> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:parca a p-lod:concept ;
+    rdfs:label "Parca" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:paris a p-lod:concept ;
+    rdfs:label "Paris" ;
+    p-lod:broader p-lod:mythological_figure ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:parrot a p-lod:concept ;
+    rdfs:label "Parrot" ;
+    p-lod:broader p-lod:bird ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q31431> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:partition a p-lod:concept ;
+    rdfs:label "Partition" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q518554> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:partridge a p-lod:concept ;
+    rdfs:label "Partridge" ;
+    p-lod:broader p-lod:bird ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q732775> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:pasiphae a p-lod:concept ;
+    rdfs:label "Pasiphae" ;
+    p-lod:broader p-lod:mythological_figure ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:patera a p-lod:concept ;
+    rdfs:label "Patera" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q1109404> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:pavillion a p-lod:concept ;
+    rdfs:label "Pavillion" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q276173> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:peacock a p-lod:concept ;
+    rdfs:label "Peacock" ;
+    p-lod:broader p-lod:bird ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q201251> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:pear a p-lod:concept ;
+    rdfs:label "Pear" ;
+    p-lod:broader p-lod:fruit ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q13099586> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:pearl a p-lod:concept ;
+    rdfs:label "Pearl" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:pedestal a p-lod:concept ;
+    rdfs:label "Pedestal" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q12014132> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:pediment a p-lod:concept ;
+    rdfs:label "Pediment" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q190996> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:pediment__half___broken a p-lod:concept .
+
+p-lod:pedum a p-lod:concept ;
+    rdfs:label "Pedum" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q3108909> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:pegasus a p-lod:concept ;
+    rdfs:label "Pegasus" ;
+    p-lod:broader p-lod:mythological_creature ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q162797> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:peliades a p-lod:concept .
+
+p-lod:pelias a p-lod:concept ;
+    rdfs:label "Pelias" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:pelops___pirithous a p-lod:concept .
+
+p-lod:pelta a p-lod:concept ;
+    rdfs:label "Pelta" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:pen a p-lod:concept ;
+    rdfs:label "Pen" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q165447> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:pendant a p-lod:concept ;
+    rdfs:label "Pendant" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:penelope a p-lod:concept ;
+    rdfs:label "Penelope" ;
+    p-lod:broader p-lod:mythological_figure ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:penthesilea a p-lod:concept ;
+    rdfs:label "Penthesilea" ;
+    p-lod:broader p-lod:mythological_figure ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:pentheus a p-lod:concept .
+
+p-lod:peplos a p-lod:concept ;
+    rdfs:label "Peplos" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:pergola a p-lod:concept ;
+    rdfs:label "Pergola" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q264458> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:peristyle a p-lod:concept ;
+    rdfs:label "Peristyle" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q725453> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:pero a p-lod:concept ;
+    rdfs:label "Pero" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:perseus a p-lod:concept ;
+    rdfs:label "Perseus" ;
+    p-lod:broader p-lod:mythological_figure ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:phaedra a p-lod:concept ;
+    rdfs:label "Phaedra" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:phallus a p-lod:concept ;
+    rdfs:label "Phallus" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:pheonix a p-lod:concept ;
+    rdfs:label "Pheonix" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:phoenix a p-lod:concept .
+
+p-lod:phoinix a p-lod:concept .
+
+p-lod:phrixos a p-lod:concept ;
+    rdfs:label "Phrixos" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:phrixus a p-lod:concept .
+
+p-lod:phrygian_cap a p-lod:concept ;
+    rdfs:label "Phrygian_cap" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q213240> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:phryxus a p-lod:concept .
+
+p-lod:piece_of_meat a p-lod:concept .
+
+p-lod:pig a p-lod:concept ;
+    rdfs:label "Pig" ;
+    p-lod:broader p-lod:animal ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q787> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+<urn:p-lod:id:pig's_head> a p-lod:concept .
+
+p-lod:pigeon a p-lod:concept ;
+    rdfs:label "Pigeon" ;
+    p-lod:broader p-lod:bird ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:pilaster a p-lod:concept ;
+    rdfs:label "Pilaster" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q175112> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:pillar a p-lod:concept ;
+    rdfs:label "Pillar" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q29052406> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:pinax a p-lod:concept ;
+    rdfs:label "Pinax" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:pindar a p-lod:concept ;
+    rdfs:label "Pindar" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:pindaros a p-lod:concept .
+
+p-lod:pine_cone a p-lod:concept ;
+    rdfs:label "Pine_cone" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:pitcher a p-lod:concept ;
+    rdfs:label "Pitcher" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:plaster a p-lod:concept ;
+    rdfs:label "Plaster" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q274988> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:plate a p-lod:concept ;
+    rdfs:label "Plate" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q57216> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:plateau a p-lod:concept .
+
+p-lod:plectrum a p-lod:concept ;
+    rdfs:label "Plectrum" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:plinth a p-lod:concept ;
+    rdfs:label "Plinth" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q268205> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:pluteus a p-lod:concept ;
+    rdfs:label "Pluteus" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q3906813> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:podium a p-lod:concept ;
+    rdfs:label "Podium" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q60142> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:pole a p-lod:concept ;
+    rdfs:label "Pole" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:poliphemus a p-lod:concept ;
+    rdfs:label "Poliphemus" ;
+    p-lod:broader p-lod:mythological_creature ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:polyhymnia a p-lod:concept ;
+    rdfs:label "Polyhymnia" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:polynices a p-lod:concept ;
+    rdfs:label "Polynices" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:polyphemos a p-lod:concept ;
+    rdfs:label "Polyphemos" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:polyphemus a p-lod:concept ;
+    rdfs:label "Polyphemus" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:polyxena a p-lod:concept .
+
+p-lod:pomegranate a p-lod:concept ;
+    rdfs:label "Pomegranate" ;
+    p-lod:broader p-lod:fruit ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q13222088> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:pomegranate_tree a p-lod:concept ;
+    rdfs:label "Pomegranate_tree" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:pool a p-lod:concept ;
+    rdfs:label "Pool" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q3253281> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:porphyrion_\(sultan_chicken\) a p-lod:concept ;
+    rdfs:label "Porphyrion_(sultan_chicken)" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q2914903> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:portrait a p-lod:concept ;
+    rdfs:label "Portrait" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q134307> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:poseidon a p-lod:concept ;
+    rdfs:label "Poseidon" ;
+    p-lod:broader p-lod:olympian_deity ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q41127> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:post a p-lod:concept ;
+    rdfs:label "Post" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:posts a p-lod:concept ;
+    rdfs:label "Posts" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q2180428> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:pot a p-lod:concept ;
+    rdfs:label "Pot" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:predella a p-lod:concept ;
+    rdfs:label "Predella" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q1411766> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:preto a p-lod:concept ;
+    rdfs:label "Preto" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:priam a p-lod:concept ;
+    rdfs:label "Priam" ;
+    p-lod:broader p-lod:mythological_figure ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:priapus a p-lod:concept ;
+    rdfs:label "Priapus" ;
+    p-lod:broader p-lod:roman_deity ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:priene a p-lod:concept .
+
+p-lod:priestess a p-lod:concept ;
+    rdfs:label "Priestess" ;
+    p-lod:broader p-lod:generic_human_figure ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:prosperina a p-lod:concept .
+
+p-lod:protome a p-lod:concept ;
+    rdfs:label "Protome" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:psyche a p-lod:concept ;
+    rdfs:label "Psyche" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:punt-pole a p-lod:concept ;
+    rdfs:label "Punt-pole" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q572738> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:purse a p-lod:concept .
+
+p-lod:pygmy a p-lod:concept ;
+    rdfs:label "Pygmy" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q171927> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:pylades a p-lod:concept ;
+    rdfs:label "Pylades" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:pyramos a p-lod:concept ;
+    rdfs:label "Pyramos" ;
+    p-lod:broader p-lod:mythological_figure ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:pyramus a p-lod:concept .
+
+p-lod:quiver a p-lod:concept ;
+    rdfs:label "Quiver" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:quiver_ a p-lod:concept .
+
+p-lod:rabbit a p-lod:concept ;
+    rdfs:label "Rabbit" ;
+    p-lod:broader p-lod:animal ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q9394> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:ram a p-lod:concept ;
+    rdfs:label "Ram" ;
+    p-lod:broader p-lod:animal ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:recess a p-lod:concept ;
+    rdfs:label "Recess" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q176274> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:rectangle a p-lod:concept ;
+    rdfs:label "Rectangle" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q209> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:reed a p-lod:concept ;
+    rdfs:label "Reed" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:reflection a p-lod:concept ;
+    rdfs:label "Reflection" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:rhombus a p-lod:concept ;
+    rdfs:label "Rhombus" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q41159> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:rhyton a p-lod:concept ;
+    rdfs:label "Rhyton" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q828450> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:ribbon a p-lod:concept ;
+    rdfs:label "Ribbon" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q6918773> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:ridges a p-lod:concept .
+
+p-lod:rim a p-lod:concept ;
+    rdfs:label "Rim" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:ring a p-lod:concept ;
+    rdfs:label "Ring" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:river a p-lod:concept ;
+    rdfs:label "River" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q4022> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:river_deity a p-lod:concept ;
+    rdfs:label "River deity" ;
+    p-lod:broader p-lod:deity ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:robe a p-lod:concept ;
+    rdfs:label "Robe" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:rock a p-lod:concept ;
+    rdfs:label "Rock" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:rod a p-lod:concept ;
+    rdfs:label "Rod" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:roller a p-lod:concept ;
+    rdfs:label "Roller" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:rooster a p-lod:concept .
+
+p-lod:rope a p-lod:concept ;
+    rdfs:label "Rope" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q31029> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:rose a p-lod:concept ;
+    rdfs:label "Rose" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q34687> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:rosetta a p-lod:concept ;
+    rdfs:label "Rosetta" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:rosette a p-lod:concept ;
+    rdfs:label "Rosette" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q753457> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:rostrum a p-lod:concept .
+
+p-lod:roundel a p-lod:concept ;
+    rdfs:label "Roundel" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q115488> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:rudder a p-lod:concept ;
+    rdfs:label "Rudder" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:runner a p-lod:concept ;
+    rdfs:label "Runner" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q14616728> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:sacred_object a p-lod:concept .
+
+p-lod:sandal a p-lod:concept ;
+    rdfs:label "Sandal" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:sangarios a p-lod:concept ;
+    rdfs:label "Sangarios" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:sangaritide a p-lod:concept ;
+    rdfs:label "Sangaritide" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:sappho a p-lod:concept ;
+    rdfs:label "Sappho" ;
+    p-lod:broader p-lod:poet ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:sarcophagus a p-lod:concept .
+
+p-lod:sarnus a p-lod:concept ;
+    rdfs:label "Sarnus" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:saturn a p-lod:concept ;
+    rdfs:label "Saturn" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:satyr a p-lod:concept ;
+    rdfs:label "Satyr" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q163709> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:sausage a p-lod:concept ;
+    rdfs:label "Sausage" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:sausage_ a p-lod:concept .
+
+p-lod:scales a p-lod:concept ;
+    rdfs:label "Scales" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q5454574> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:scendiletto_\(bedside_rug\) a p-lod:concept ;
+    rdfs:label "Scendiletto_(bedside_rug)" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q1989643> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:scepter a p-lod:concept ;
+    rdfs:label "Scepter" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:schola a p-lod:concept ;
+    rdfs:label "Schola" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:scroll a p-lod:concept ;
+    rdfs:label "Scroll" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:sculpture a p-lod:concept ;
+    rdfs:label "Sculpture" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q860861> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:sea a p-lod:concept ;
+    rdfs:label "Sea" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:sea-_monster a p-lod:concept .
+
+p-lod:sea-centaur a p-lod:concept ;
+    rdfs:label "Sea-centaur" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q723865> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:sea-griffin a p-lod:concept ;
+    rdfs:label "Sea-griffin" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:sea-monster a p-lod:concept .
+
+p-lod:sea_battle a p-lod:concept ;
+    rdfs:label "Sea_battle" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:sea_bull a p-lod:concept ;
+    rdfs:label "Sea_bull" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q17033987> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:sea_monster a p-lod:concept ;
+    rdfs:label "Sea_monster" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q920028> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:seahorse a p-lod:concept ;
+    rdfs:label "Seahorse" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q74363> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:seal a p-lod:concept .
+
+p-lod:seascape a p-lod:concept ;
+    rdfs:label "Seascape" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:seashell a p-lod:concept ;
+    rdfs:label "Seashell" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q213096> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:season a p-lod:concept ;
+    rdfs:label "Season" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:selene a p-lod:concept ;
+    rdfs:label "Selene" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:seller a p-lod:concept ;
+    rdfs:label "Seller" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q1762621> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:semi-aediculum a p-lod:concept ;
+    rdfs:label "Semi-aediculum" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q507286> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:semi-dome a p-lod:concept ;
+    rdfs:label "Semi-dome" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:semicircle a p-lod:concept ;
+    rdfs:label "Semicircle" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q1133242> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:serapis a p-lod:concept .
+
+p-lod:serpent a p-lod:concept ;
+    rdfs:label "Serpent" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q2102> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:sheep a p-lod:concept ;
+    rdfs:label "Sheep" ;
+    p-lod:broader p-lod:animal ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:sheet a p-lod:concept ;
+    rdfs:label "Sheet" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q391788> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:shelf a p-lod:concept ;
+    rdfs:label "Shelf" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q2637814> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:shell a p-lod:concept ;
+    rdfs:label "Shell" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q224038> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:shellfish a p-lod:concept ;
+    rdfs:label "Shellfish" ;
+    p-lod:broader p-lod:animal ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:shepherd a p-lod:concept ;
+    rdfs:label "Shepherd" ;
+    p-lod:broader p-lod:generic_human_figure ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+<urn:p-lod:id:shepherd's_crook> a p-lod:concept .
+
+p-lod:shield a p-lod:concept ;
+    rdfs:label "Shield" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q131559> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+<urn:p-lod:id:ship's_prow> a p-lod:concept .
+
+<urn:p-lod:id:ships'_prow> a p-lod:concept .
+
+<urn:p-lod:id:ships'_rudder> a p-lod:concept .
+
+p-lod:ships_prow a p-lod:concept ;
+    rdfs:label "Ship's prow" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q4814120> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:ships_rudder a p-lod:concept ;
+    rdfs:label "Ship's rudder" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q209760> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:shoe a p-lod:concept ;
+    rdfs:label "Shoe" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:shrimp a p-lod:concept ;
+    rdfs:label "Shrimp" ;
+    p-lod:broader p-lod:animal ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:shrubs a p-lod:concept ;
+    rdfs:label "Shrubs" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:sickle a p-lod:concept ;
+    rdfs:label "Sickle" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:silenus a p-lod:concept ;
+    rdfs:label "Silenus" ;
+    p-lod:broader p-lod:mythological_creature ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:siren a p-lod:concept ;
+    rdfs:label "Siren" ;
+    p-lod:broader p-lod:mythological_creature ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:siringa a p-lod:concept ;
+    rdfs:label "Siringa" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:sistrum a p-lod:concept ;
+    rdfs:label "Sistrum" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:situla a p-lod:concept ;
+    rdfs:label "Situla" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:skeleton a p-lod:concept ;
+    rdfs:label "Skeleton" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q7881> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:skewer a p-lod:concept .
+
+p-lod:skyphos a p-lod:concept ;
+    rdfs:label "Skyphos" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:skyros a p-lod:concept ;
+    rdfs:label "Skyros" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q208566> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:small_slope a p-lod:concept ;
+    rdfs:label "Small_slope" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:snail a p-lod:concept ;
+    rdfs:label "Snail" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q308841> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:socle a p-lod:concept ;
+    rdfs:label "Socle" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q2302116> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:socrates a p-lod:concept ;
+    rdfs:label "Socrates" ;
+    p-lod:broader p-lod:philosopher ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:soldier a p-lod:concept ;
+    rdfs:label "Soldier" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:spear a p-lod:concept ;
+    rdfs:label "Spear" ;
+    p-lod:broader p-lod:weapon ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:spearhead a p-lod:concept ;
+    rdfs:label "Spearhead" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:spes a p-lod:concept ;
+    rdfs:label "Spes" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:sphinx a p-lod:concept ;
+    rdfs:label "Sphinx" ;
+    p-lod:broader p-lod:mythological_creature ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q151480> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:spindle a p-lod:concept ;
+    rdfs:label "Spindle" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:spiral a p-lod:concept ;
+    rdfs:label "Spiral" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q189114> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:spit a p-lod:concept .
+
+p-lod:spring a p-lod:concept ;
+    rdfs:label "Spring" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:square a p-lod:concept ;
+    rdfs:label "Square" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q164> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:stable a p-lod:concept ;
+    rdfs:label "Stable" ;
+    p-lod:broader p-lod:architecture ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q214252> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:staff a p-lod:concept ;
+    rdfs:label "Staff" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:stag a p-lod:concept ;
+    rdfs:label "Stag" ;
+    p-lod:broader p-lod:animal ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q685795> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:stage a p-lod:concept ;
+    rdfs:label "Stage" ;
+    p-lod:broader p-lod:architecture ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q194428> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:stairs a p-lod:concept ;
+    rdfs:label "Stairs" ;
+    p-lod:broader p-lod:architecture ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:stairway a p-lod:concept ;
+    rdfs:label "Stairway" ;
+    p-lod:broader p-lod:architecture ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:staple a p-lod:concept ;
+    rdfs:label "Staple" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:star a p-lod:concept ;
+    rdfs:label "Star" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:stars a p-lod:concept ;
+    rdfs:label "Stars" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:statue a owl:Class,
+        p-lod:concept ;
+    rdfs:label "Statue" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q179700> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:stem a p-lod:concept ;
+    rdfs:label "Stem" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q134267> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:stenebeia a p-lod:concept ;
+    rdfs:label "Stenebeia" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:stheneboea a p-lod:concept ;
+    rdfs:label "Stheneboea" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:still-life a p-lod:concept ;
+    rdfs:label "Still-life" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:stolla a p-lod:concept ;
+    rdfs:label "Stolla" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:stool a p-lod:concept ;
+    rdfs:label "Stool" ;
+    p-lod:broader p-lod:furniture ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:stool_ a p-lod:concept .
+
+p-lod:stork a p-lod:concept .
+
+p-lod:strigil a p-lod:concept ;
+    rdfs:label "Strigil" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q282837> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:string a p-lod:concept ;
+    rdfs:label "String" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:string_course a p-lod:concept ;
+    rdfs:label "String_course" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:string_course_block a p-lod:concept ;
+    rdfs:label "String_course_block" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:stripe a p-lod:concept ;
+    rdfs:label "Stripe" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q3421342> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:stucco a p-lod:concept ;
+    rdfs:label "Stucco" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q33526> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:stylobate a p-lod:concept ;
+    rdfs:label "Stylobate" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q465110> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:stylopinakion a p-lod:concept ;
+    rdfs:label "Stylopinakion" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:stylus a p-lod:concept ;
+    rdfs:label "Stylus" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:successus a p-lod:concept ;
+    rdfs:label "Successus" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:summer a p-lod:concept ;
+    rdfs:label "Summer" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:sun a p-lod:concept ;
+    rdfs:label "Sun" ;
+    p-lod:broader p-lod:celestial_body ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:swallow a p-lod:concept ;
+    rdfs:label "Swallow" ;
+    p-lod:broader p-lod:bird ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q1401371> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:swan a p-lod:concept ;
+    rdfs:label "Swan" ;
+    p-lod:broader p-lod:bird ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q34384> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:swastika a p-lod:concept ;
+    rdfs:label "Swastika" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q45513> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:sword a p-lod:concept ;
+    rdfs:label "Sword" ;
+    p-lod:broader p-lod:weapon ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:syringe a p-lod:concept .
+
+p-lod:table a p-lod:concept ;
+    rdfs:label "Table" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q14748> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:tablet a p-lod:concept ;
+    rdfs:label "Tablet" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:tabula_ansata a p-lod:concept ;
+    rdfs:label "Tabula_ansata" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:tambourine a p-lod:concept ;
+    rdfs:label "Tambourine" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q193666> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:tank a p-lod:concept ;
+    rdfs:label "Tank" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q1756525> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:tapestry a p-lod:concept .
+
+p-lod:tapestry_motif a p-lod:concept .
+
+p-lod:tapeworm a p-lod:concept ;
+    rdfs:label "Tapeworm" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:teardrop a p-lod:concept ;
+    rdfs:label "Teardrop" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q185789> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:telamon a p-lod:concept ;
+    rdfs:label "Telamon" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:telamone a p-lod:concept ;
+    rdfs:label "Telamone" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q756079> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:telephus a p-lod:concept .
+
+p-lod:telmo a p-lod:concept .
+
+p-lod:temple a p-lod:concept ;
+    rdfs:label "Temple" ;
+    p-lod:broader p-lod:architecture ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q44539> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:tendril a p-lod:concept ;
+    rdfs:label "Tendril" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q165859> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:tent a p-lod:concept ;
+    rdfs:label "Tent" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:terpsichore a p-lod:concept ;
+    rdfs:label "Terpsichore" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:terra a p-lod:concept .
+
+p-lod:tessellation a p-lod:concept ;
+    rdfs:label "Tessellation" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q214856> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:teti a p-lod:concept ;
+    rdfs:label "Teti" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:tetrapylon a p-lod:concept ;
+    rdfs:label "Tetrapylon" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q492255> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:thalia a p-lod:concept ;
+    rdfs:label "Thalia" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:theseus a p-lod:concept ;
+    rdfs:label "Theseus" ;
+    p-lod:broader p-lod:mythological_figure ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q1320718> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:thetis a p-lod:concept ;
+    rdfs:label "Thetis" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:thisbe a p-lod:concept ;
+    rdfs:label "Thisbe" ;
+    p-lod:broader p-lod:mythological_figure ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:thoas a p-lod:concept ;
+    rdfs:label "Thoas" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:tholos a p-lod:concept ;
+    rdfs:label "Tholos" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:thoth a p-lod:concept .
+
+p-lod:threshold a p-lod:concept ;
+    rdfs:label "Threshold" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q774145> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:throne a p-lod:concept ;
+    rdfs:label "Throne" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q189233> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:thrysus a p-lod:concept .
+
+p-lod:thunderbolt a p-lod:concept ;
+    rdfs:label "Thunderbolt" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q2794866> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:thyias a p-lod:concept ;
+    rdfs:label "Thyias" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q949266> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:thyrsus a p-lod:concept ;
+    rdfs:label "Thrysus" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q536850> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:tibias a p-lod:concept .
+
+p-lod:tibicen a p-lod:concept ;
+    rdfs:label "Tibicen" ;
+    p-lod:broader p-lod:musician ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:tiger a p-lod:concept ;
+    rdfs:label "Tiger" ;
+    p-lod:broader p-lod:animal ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q19939> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+<urn:p-lod:id:tiger's_head> a p-lod:concept .
+
+p-lod:tigers_head a p-lod:concept ;
+    rdfs:label "Tiger's_head" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:toga a p-lod:concept ;
+    rdfs:label "Toga" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:top a p-lod:concept ;
+    rdfs:label "Top" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:torch a p-lod:concept ;
+    rdfs:label "Torch" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q327954> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:tortoise a p-lod:concept .
+
+p-lod:tower a p-lod:concept ;
+    rdfs:label "Tower" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q12518> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:traveler a p-lod:concept .
+
+p-lod:travertine a p-lod:concept ;
+    rdfs:label "Travertine" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q187156> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:tray a p-lod:concept ;
+    rdfs:label "Tray" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:trefoil a p-lod:concept ;
+    rdfs:label "Trefoil" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:triangle a p-lod:concept ;
+    rdfs:label "Triangle" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q19821> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:triclinium a p-lod:concept .
+
+p-lod:trident a p-lod:concept ;
+    rdfs:label "Trident" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q271628> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:triglyph a p-lod:concept ;
+    rdfs:label "Triglyph" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:tripod a p-lod:concept ;
+    rdfs:label "Tripod" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q683906> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:triptolemos a p-lod:concept .
+
+p-lod:triton a p-lod:concept ;
+    rdfs:label "Triton" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q148030> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:trochus a p-lod:concept ;
+    rdfs:label "Trochus" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:trojan a p-lod:concept ;
+    rdfs:label "Trojan" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:trophy a p-lod:concept .
+
+p-lod:trowel a p-lod:concept .
+
+p-lod:troy a p-lod:concept .
+
+p-lod:trumpet a p-lod:concept ;
+    rdfs:label "Trumpet" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:trunk a p-lod:concept ;
+    rdfs:label "Trunk" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:tryglyph a p-lod:concept ;
+    rdfs:label "Tryglyph" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:tunic a p-lod:concept ;
+    rdfs:label "Tunic" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q201714> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:turkey a p-lod:concept .
+
+p-lod:tympanum a p-lod:concept ;
+    rdfs:label "Tympanum" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q223209> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:ulysses a p-lod:concept ;
+    rdfs:label "Ulysses" ;
+    p-lod:broader p-lod:mythological_figure ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:umbrella_pine a p-lod:concept ;
+    rdfs:label "Umbrella_pine" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q3065538> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:unknown a p-lod:concept ;
+    rdfs:label "Unknown" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:urania a p-lod:concept ;
+    rdfs:label "Urania" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:ureaus a p-lod:concept ;
+    rdfs:label "Ureaus" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:urn a p-lod:concept ;
+    rdfs:label "Urn" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:vase a p-lod:concept ;
+    rdfs:label "Vase" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q191851> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:vault a p-lod:concept ;
+    rdfs:label "Vault" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q189771> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:vegetable a p-lod:concept .
+
+p-lod:vegetal_scroll a p-lod:concept ;
+    rdfs:label "Vegetal_scroll" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q106142876> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:vegtable a p-lod:concept ;
+    rdfs:label "Vegtable" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q11004> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:veil a p-lod:concept ;
+    rdfs:label "Veil" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:venus a p-lod:concept ;
+    rdfs:label "Venus" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:vermiculatum a p-lod:concept ;
+    rdfs:label "Vermiculatum" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q370670> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:vessel a p-lod:concept ;
+    rdfs:label "Vessel" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q987767> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:vesuvius a p-lod:concept .
+
+p-lod:viburnum a p-lod:concept ;
+    rdfs:label "Viburnum" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q158492> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:victory a p-lod:concept ;
+    rdfs:label "Victory" ;
+    p-lod:broader p-lod:roman_deity ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:vignette a p-lod:concept ;
+    rdfs:label "Vignette" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q1327260> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:vine a p-lod:concept ;
+    rdfs:label "Vine" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q917284> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:volute a p-lod:concept ;
+    rdfs:label "Volute" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q218626> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:vulcan a p-lod:concept ;
+    rdfs:label "Vulcan" ;
+    p-lod:broader p-lod:roman_deity ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:vulcanus a p-lod:concept .
+
+p-lod:vulture a p-lod:concept .
+
+p-lod:wagon a p-lod:concept .
+
+p-lod:wall a p-lod:concept ;
+    rdfs:label "Wall" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q42948> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:wand a p-lod:concept ;
+    rdfs:label "Wand" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:warp a p-lod:concept ;
+    rdfs:label "Warp" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q738822> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:water a p-lod:concept .
+
+p-lod:wave-crest a p-lod:concept ;
+    rdfs:label "Wave-crest" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q864673> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:wayfarer a p-lod:concept .
+
+p-lod:wheat a p-lod:concept ;
+    rdfs:label "Wheat" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:wheel a p-lod:concept ;
+    rdfs:label "Wheel" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:whip a p-lod:concept ;
+    rdfs:label "Whip" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q152910> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:window a p-lod:concept ;
+    rdfs:label "Window" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q35473> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:window_panel a p-lod:concept ;
+    rdfs:label "Window_panel" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q52711908> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:wine a p-lod:concept .
+
+p-lod:wing a p-lod:concept ;
+    rdfs:label "Wing" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:winged_caryatid_herm a p-lod:concept .
+
+p-lod:wings a p-lod:concept ;
+    rdfs:label "Wings" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:winter a p-lod:concept ;
+    rdfs:label "Winter" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:wolf a p-lod:concept ;
+    rdfs:label "Wolf" ;
+    p-lod:broader p-lod:animal ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+<urn:p-lod:id:wolf's_teeth> a p-lod:concept .
+
+p-lod:woman a p-lod:concept ;
+    rdfs:label "Woman" ;
+    p-lod:broader p-lod:generic_human_figure ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q467> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:worm a p-lod:concept .
+
+p-lod:wreath a p-lod:concept ;
+    rdfs:label "Wreath" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q1201922> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:wrestler a p-lod:concept ;
+    rdfs:label "Wrestler" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q27978698> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:writing a p-lod:concept .
+
+p-lod:zeus a p-lod:concept ;
+    rdfs:label "Zeus" ;
+    p-lod:broader p-lod:olympian_deity ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q34201> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:zeus_ammon a p-lod:concept ;
+    rdfs:label "Zeus_ammon" ;
+    p-lod:broader p-lod:deity ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:zither a p-lod:concept ;
+    rdfs:label "Zither" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:zither_ a p-lod:concept .
+
+p-lod:fish a p-lod:concept ;
+    rdfs:label "Fish" ;
+    p-lod:broader p-lod:animal ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q152> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:insect a p-lod:concept ;
+    rdfs:label "Insect" ;
+    p-lod:broader p-lod:animal ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:musician a p-lod:concept ;
+    rdfs:label "Musician" ;
+    p-lod:broader p-lod:generic_human_figure ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q639669> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:philosopher a p-lod:concept ;
+    rdfs:label "Philosopher" ;
+    p-lod:broader p-lod:generic_human_figure ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q4964182> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:snake a p-lod:concept ;
+    rdfs:label "Snake" ;
+    p-lod:broader p-lod:animal ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q2102> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:tree a p-lod:concept ;
+    rdfs:label "Tree" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q10884> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:celestial_body a p-lod:concept ;
+    rdfs:label "Celestial body" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:poet a p-lod:concept ;
+    rdfs:label "Poet" ;
+    p-lod:broader p-lod:generic_human_figure ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q49757> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:weapon a p-lod:concept ;
+    rdfs:label "Weapon" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:fruit a p-lod:concept ;
+    rdfs:label "Fruit" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q3314483> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:plant a p-lod:concept ;
+    rdfs:label "Plant" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:roman_deity a p-lod:concept ;
+    rdfs:label "Roman deity" ;
+    p-lod:broader p-lod:deity ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:olympian_deity a p-lod:concept ;
+    rdfs:label "Olympian Deity" ;
+    p-lod:broader p-lod:deity ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q113103481> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:architecture a p-lod:concept ;
+    rdfs:label "Architecture" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q12271> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:mythological_creature a p-lod:concept ;
+    rdfs:label "Mythological creature" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:deity a p-lod:concept ;
+    rdfs:label "Deity" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q178885> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:generic_human_figure a p-lod:concept ;
+    rdfs:label "Generic Human Figure" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:bird a p-lod:concept ;
+    rdfs:label "Bird" ;
+    p-lod:broader p-lod:animal ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q5113> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:mythological_figure a p-lod:concept ;
+    rdfs:label "Mythological figure" ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
+p-lod:animal a p-lod:concept ;
+    rdfs:label "Animal" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q729> ;
+    p-lod:x-source p-lod:x-google-lod-triples .
+
