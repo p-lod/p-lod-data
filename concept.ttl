@@ -10,6 +10,7 @@ p-lod:acanthus a p-lod:concept ;
 
 p-lod:achilles a p-lod:concept ;
     rdfs:label "Achilles" ;
+    p-lod:broader p-lod:mythological_figure ;
     p-lod:x-source p-lod:x-google-lod-triples .
 
 p-lod:acroterion a p-lod:concept ;
