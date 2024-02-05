@@ -1,7 +1,7 @@
 @prefix p-lod: <urn:p-lod:id:> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-p-lod:pompeii a p-lod:city-as-physical-entity ;
+p-lod:pompeii a p-lod:city ;
     rdfs:label "Pompeii" ;
     rdfs:seeAlso <https://open.pompeiisites.org> ;
     p-lod:best-image p-lod:luna_img_PALP_23408,
@@ -14,5 +14,5 @@ p-lod:pompeii a p-lod:city-as-physical-entity ;
     p-lod:wiki-en-url <https://en.wikipedia.org/wiki/Pompeii> ;
     p-lod:wiki-it-url <https://it.wikipedia.org/wiki/Pompei_(citt%C3%A0_antica)> ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q43332> ;
-    p-lod:x-source p-lod:x-google-lod-triples .
+    p-lod:x-source p-lod:x-github-p-lod-data .
 
