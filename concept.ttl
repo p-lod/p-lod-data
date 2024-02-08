@@ -299,8 +299,7 @@ p-lod:artemis a p-lod:concept ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q39503> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
-p-lod:artwork a owl:Class,
-        p-lod:concept ;
+p-lod:artwork a p-lod:concept ;
     rdfs:label "Artwork" ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
@@ -1554,8 +1553,7 @@ p-lod:grace a p-lod:concept ;
     rdfs:label "Grace" ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
-p-lod:graffito a owl:Class,
-        p-lod:concept ;
+p-lod:graffito a p-lod:concept ;
     rdfs:label "Graffito" ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
@@ -2324,8 +2322,7 @@ p-lod:mortar a p-lod:concept ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q189566> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
-p-lod:mosaic a owl:Class,
-        p-lod:concept ;
+p-lod:mosaic a p-lod:concept ;
     rdfs:label "Mosaic" ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q133067> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
@@ -3490,8 +3487,7 @@ p-lod:stars a p-lod:concept ;
     rdfs:label "Stars" ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
-p-lod:statue a owl:Class,
-        p-lod:concept ;
+p-lod:statue a p-lod:concept ;
     rdfs:label "Statue" ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q179700> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
