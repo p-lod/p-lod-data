@@ -77,9 +77,6 @@ p-lod:interior-door a owl:Class ;
     rdfs:subClassOf p-lod:spatial-item ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
-p-lod:item a owl:Class ;
-    p-lod:x-source p-lod:x-github-p-lod-data .
-
 p-lod:luna-image a owl:Class ;
     rdfs:label "Image stored in the UMass Amherst Luna Server" ;
     p-lod:x-source p-lod:x-github-p-lod-data .
