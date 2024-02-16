@@ -457,9 +457,18 @@ p-lod:bench a p-lod:concept ;
     rdfs:label "Bench" ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
-p-lod:berry a p-lod:concept .
+p-lod:berry a p-lod:concept ;
+    rdfs:label "Berry" ;
+    p-lod:broader p-lod:fruit ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q13184> ;
+    p-lod:x-source p-lod:x-github-p-lod-data .
 
-p-lod:bes a p-lod:concept .
+
+p-lod:bes a p-lod:concept ;
+    rdfs:label "Bes" ;
+    p-lod:broader p-lod:deity ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q188931> ;
+    p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:betyl a p-lod:concept ;
     rdfs:label "Betyl" ;

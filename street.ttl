@@ -2,32 +2,32 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 p-lod:alley-001 a p-lod:street ;
-    rdfs:label "Alley_001" ;
+    rdfs:label "Alley 1" ;
     p-lod:spatially-within p-lod:r8 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:alley-002 a p-lod:street ;
-    rdfs:label "Alley_002" ;
+    rdfs:label "Alley 2" ;
     p-lod:spatially-within p-lod:r8 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:alley-003 a p-lod:street ;
-    rdfs:label "Alley_003" ;
+    rdfs:label "Alley 3" ;
     p-lod:spatially-within p-lod:r7 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:alley-004 a p-lod:street ;
-    rdfs:label "Alley_004" ;
+    rdfs:label "Alley 4" ;
     p-lod:spatially-within p-lod:r8 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:alley-005 a p-lod:street ;
-    rdfs:label "Alley_005" ;
+    rdfs:label "Alley 5" ;
     p-lod:spatially-within p-lod:r8 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:alley-006 a p-lod:street ;
-    rdfs:label "Alley_006" ;
+    rdfs:label "Alley 6" ;
     p-lod:spatially-within p-lod:r7 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
