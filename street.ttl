@@ -32,726 +32,726 @@ p-lod:alley-006 a p-lod:street ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:amphitheater-area a p-lod:street ;
-    rdfs:label "amphitheater area" ;
+    rdfs:label "Amphitheater Area" ;
     p-lod:spatially-within p-lod:r2 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:projected-via-di-nocera-north a p-lod:street ;
-    rdfs:label "projected via di Nocera (North)" ;
+    rdfs:label "Projected via di Nocera (North)" ;
     p-lod:spatially-within p-lod:pompeii ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:projected-via-mediana a p-lod:street ;
-    rdfs:label "projected via Mediana" ;
+    rdfs:label "Projected via Mediana" ;
     p-lod:spatially-within p-lod:pompeii ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:projected-vicolo-dei-gladiatori a p-lod:street ;
-    rdfs:label "projected vicolo dei Gladiatori" ;
+    rdfs:label "Projected Vicolo dei Gladiatori" ;
     p-lod:spatially-within p-lod:r5 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:projected-vicolo-dei-gladiatori-south a p-lod:street ;
-    rdfs:label "projected vicolo dei Gladiatori (South)" ;
+    rdfs:label "Projected Vicolo dei Gladiatori (South)" ;
     p-lod:spatially-within p-lod:r9 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:projected-vicolo-del-centenario a p-lod:street ;
-    rdfs:label "projected vicolo del Centenario" ;
+    rdfs:label "Projected Vicolo del Centenario" ;
     p-lod:spatially-within p-lod:r9 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:projected-vicolo-del-centenario-north a p-lod:street ;
-    rdfs:label "projected vicolo del Centenario (North)" ;
+    rdfs:label "Projected Vicolo del Centenario (North)" ;
     p-lod:spatially-within p-lod:r5 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:projected-vicolo-del-conciapelle a p-lod:street ;
-    rdfs:label "projected vicolo del Conciapelle" ;
+    rdfs:label "Projected Vicolo del Conciapelle" ;
     p-lod:spatially-within p-lod:r1 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:projected-vicolo-delle-nozze-d-argento a p-lod:street ;
-    rdfs:label "projected vicolo delle Nozze d'Argento" ;
+    rdfs:label "Projected Vicolo delle Nozze d'Argento" ;
     p-lod:spatially-within p-lod:pompeii ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:projected-vicolo-di-cecilio-giocondo a p-lod:street ;
-    rdfs:label "projected vicolo di Cecilio Giocondo" ;
+    rdfs:label "Projected Vicolo di Cecilio Giocondo" ;
     p-lod:spatially-within p-lod:r5 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:projected-vicolo-di-lucrezio-frontone a p-lod:street ;
-    rdfs:label "projected vicolo di Lucrezio Frontone" ;
+    rdfs:label "Projected Vicolo di Lucrezio Frontone" ;
     p-lod:spatially-within p-lod:r5 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:projected-vicolo-di-lucrezio-frontone-south a p-lod:street ;
-    rdfs:label "projected vicolo di Lucrezio Frontone (South)" ;
+    rdfs:label "Projected Vicolo di Lucrezio Frontone (South)" ;
     p-lod:spatially-within p-lod:r9 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:projected-vicolo-r1-i17-r1-i18 a p-lod:street ;
-    rdfs:label "projected vicolo I.17-I.18" ;
+    rdfs:label "Projected Vicolo I.17-I.18" ;
     p-lod:spatially-within <urn:p-lod:id:r#> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:projected-vicolo-r1-i18-r1-i19 a p-lod:street ;
-    rdfs:label "projected vicolo I.18-I.19" ;
+    rdfs:label "Projected Vicolo I.18-I.19" ;
     p-lod:spatially-within p-lod:r1 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:projected-vicolo-r1-i22-r1-i23 a p-lod:street ;
-    rdfs:label "projected vicolo I.22-I.23" ;
+    rdfs:label "Projected Vicolo I.22-I.23" ;
     p-lod:spatially-within p-lod:r1 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:projected-vicolo-r1-i23-r1-i24 a p-lod:street ;
-    rdfs:label "projected vicolo I.23-I.24" ;
+    rdfs:label "Projected Vicolo I.23-I.24" ;
     p-lod:spatially-within p-lod:r1 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:projected-vicolo-r1-i23r1-i24-r1-i25-fortification-wall a p-lod:street ;
-    rdfs:label "projected vicolo I.23-25-Fortification Wall" ;
+    rdfs:label "Projected Vicolo I.23-25-Fortification Wall" ;
     p-lod:spatially-within p-lod:r1 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:projected-vicolo-r3-i1-r3-i2 a p-lod:street ;
-    rdfs:label "projected vicolo III.1-III.2" ;
+    rdfs:label "Projected Vicolo III.1-III.2" ;
     p-lod:spatially-within p-lod:r3 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:projected-vicolo-r3-i10-r3-i11 a p-lod:street ;
-    rdfs:label "projected vicolo III.10-III.11" ;
+    rdfs:label "Projected Vicolo III.10-III.11" ;
     p-lod:spatially-within p-lod:r3 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:projected-vicolo-r3-i11-r3-i12 a p-lod:street ;
-    rdfs:label "projected vicolo III.11-III.12" ;
+    rdfs:label "Projected Vicolo III.11-III.12" ;
     p-lod:spatially-within p-lod:r3 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:projected-vicolo-r3-i12-r3-i13 a p-lod:street ;
-    rdfs:label "projected vicolo III.12-III.13" ;
+    rdfs:label "Projected Vicolo III.12-III.13" ;
     p-lod:spatially-within p-lod:r3 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:projected-vicolo-r3-i13-r3-i14 a p-lod:street ;
-    rdfs:label "projected vicolo III.13-III.14" ;
+    rdfs:label "Projected Vicolo III.13-III.14" ;
     p-lod:spatially-within p-lod:r3 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:projected-vicolo-r3-i2-r3-i3 a p-lod:street ;
-    rdfs:label "projected vicolo III.2-III.3" ;
+    rdfs:label "Projected Vicolo III.2-III.3" ;
     p-lod:spatially-within p-lod:r3 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:projected-vicolo-r3-i4-r3-i5 a p-lod:street ;
-    rdfs:label "projected vicolo III.4-III.5" ;
+    rdfs:label "Projected Vicolo III.4-III.5" ;
     p-lod:spatially-within p-lod:r3 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:projected-vicolo-r3-i5-r3-i6 a p-lod:street ;
-    rdfs:label "projected vicolo III.5-III.6" ;
+    rdfs:label "Projected Vicolo III.5-III.6" ;
     p-lod:spatially-within p-lod:r3 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:projected-vicolo-r3-i6-r3-i7 a p-lod:street ;
-    rdfs:label "projected vicolo III.6-III.7" ;
+    rdfs:label "Projected Vicolo III.6-III.7" ;
     p-lod:spatially-within p-lod:r3 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:projected-vicolo-r3-i7-r3-i12-r3-i13-fortification-wall a p-lod:street ;
-    rdfs:label "projected vicolo III.7,12-Fortification Wall" ;
+    rdfs:label "Projected Vicolo III.7,12-Fortification Wall" ;
     p-lod:spatially-within p-lod:r3 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:projected-vicolo-r3-i8-r3-i9 a p-lod:street ;
-    rdfs:label "projected vicolo III.8-III.9" ;
+    rdfs:label "Projected Vicolo III.8-III.9" ;
     p-lod:spatially-within p-lod:r3 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:projected-vicolo-r3-i9-r3-i10 a p-lod:street ;
-    rdfs:label "projected vicolo III.9-III.10" ;
+    rdfs:label "Projected Vicolo III.9-III.10" ;
     p-lod:spatially-within p-lod:r3 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:projected-vicolo-r4-i1-r4-i2 a p-lod:street ;
-    rdfs:label "projected vicolo IV.1-IV.2" ;
+    rdfs:label "Projected Vicolo IV.1-IV.2" ;
     p-lod:spatially-within p-lod:r4 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:projected-vicolo-r4-i2-r4-i10-fortification-wall a p-lod:street ;
-    rdfs:label "projected vicolo IV.2-10-Fortification Wall" ;
+    rdfs:label "Projected Vicolo IV.2-10-Fortification Wall" ;
     p-lod:spatially-within p-lod:r4 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:projected-vicolo-r4-i2-r4-i3 a p-lod:street ;
-    rdfs:label "projected vicolo IV.2-IV.3" ;
+    rdfs:label "Projected Vicolo IV.2-IV.3" ;
     p-lod:spatially-within p-lod:r4 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:projected-vicolo-r4-i3-r4-i4 a p-lod:street ;
-    rdfs:label "projected vicolo IV.3-IV.4" ;
+    rdfs:label "Projected Vicolo IV.3-IV.4" ;
     p-lod:spatially-within p-lod:r4 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:projected-vicolo-r4-i4-r4-i5 a p-lod:street ;
-    rdfs:label "projected vicolo IV.4-IV.5" ;
+    rdfs:label "Projected Vicolo IV.4-IV.5" ;
     p-lod:spatially-within p-lod:r4 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:projected-vicolo-r5-i5-r4-i1 a p-lod:street ;
-    rdfs:label "projected vicolo V.5-IV.1" ;
+    rdfs:label "Projected Vicolo V.5-IV.1" ;
     p-lod:spatially-within p-lod:pompeii ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:projected-vicolo-r5-i6-r5-i9-fortification-wall a p-lod:street ;
-    rdfs:label "projected vicolo V.6-9-Fortification Wall" ;
+    rdfs:label "Projected Vicolo V.6-9-Fortification Wall" ;
     p-lod:spatially-within p-lod:r5 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:projected-vicolo-r5-i8-r5-i9 a p-lod:street ;
-    rdfs:label "projected vicolo V.8-V.9" ;
+    rdfs:label "Projected Vicolo V.8-V.9" ;
     p-lod:spatially-within p-lod:r5 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:projected-vicolo-r9-i10-r9-i14 a p-lod:street ;
-    rdfs:label "projected vicolo IX.10-IX.14" ;
+    rdfs:label "Projected Vicolo IX.10-IX.14" ;
     p-lod:spatially-within p-lod:r9 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:projected-vicolo-r9-i11-r9-i12 a p-lod:street ;
-    rdfs:label "projected vicolo IX.11-IX.12" ;
+    rdfs:label "Projected Vicolo IX.11-IX.12" ;
     p-lod:spatially-within p-lod:r9 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:projected-vicolo-r9-i12-r9-i13 a p-lod:street ;
-    rdfs:label "projected vicolo IX.12-IX.13" ;
+    rdfs:label "Projected Vicolo IX.12-IX.13" ;
     p-lod:spatially-within p-lod:r9 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:projected-vicolo-r9-i13-r3-i1 a p-lod:street ;
-    rdfs:label "projected vicolo IX.13-III.1" ;
+    rdfs:label "Projected Vicolo IX.13-III.1" ;
     p-lod:spatially-within p-lod:pompeii ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:projected-vicolo-r9-i14-r3-i8 a p-lod:street ;
-    rdfs:label "projected vicolo IX.14-III.8" ;
+    rdfs:label "Projected Vicolo IX.14-III.8" ;
     p-lod:spatially-within p-lod:pompeii ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:projected-vicolo-r9-i7-r9-i11 a p-lod:street ;
-    rdfs:label "projected vicolo IX.7-IX.11" ;
+    rdfs:label "Projected Vicolo IX.7-IX.11" ;
     p-lod:spatially-within p-lod:r9 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:via-consolare a p-lod:street ;
-    rdfs:label "via Consolare" ;
+    rdfs:label "Via Consolare" ;
     p-lod:spatially-within p-lod:r6 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:via-degli-augustali a p-lod:street ;
-    rdfs:label "via degli Augustali" ;
+    rdfs:label "Via degli Augustali" ;
     p-lod:spatially-within p-lod:r7 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:via-dei-teatri a p-lod:street ;
-    rdfs:label "via dei Teatri" ;
+    rdfs:label "Via dei Teatri" ;
     p-lod:spatially-within p-lod:r8 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:via-del-foro a p-lod:street ;
-    rdfs:label "via del Foro" ;
+    rdfs:label "Via del Foro" ;
     p-lod:spatially-within p-lod:r7 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:via-del-tempio-d-iside a p-lod:street ;
-    rdfs:label "via del Tempio d’Iside" ;
+    rdfs:label "Via del Tempio d’Iside" ;
     p-lod:spatially-within p-lod:r8 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:via-del-vesuvio a p-lod:street ;
-    rdfs:label "via del Vesuvio" ;
+    rdfs:label "Via del Vesuvio" ;
     p-lod:spatially-within p-lod:pompeii ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:via-dell-abbondanza a p-lod:street ;
-    rdfs:label "via dell'Abbondanza" ;
+    rdfs:label "Via dell'Abbondanza" ;
     p-lod:spatially-within p-lod:pompeii ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:via-della-fortuna a p-lod:street ;
-    rdfs:label "via della Fortuna" ;
+    rdfs:label "Via della Fortuna" ;
     p-lod:spatially-within p-lod:pompeii ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:via-della-palestra a p-lod:street ;
-    rdfs:label "via della Palestra" ;
+    rdfs:label "Via della Palestra" ;
     p-lod:spatially-within p-lod:Pompeii ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:via-delle-scuole a p-lod:street ;
-    rdfs:label "via delle Scuole" ;
+    rdfs:label "Via delle Scuole" ;
     p-lod:spatially-within p-lod:r8 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:via-delle-terme a p-lod:street ;
-    rdfs:label "via delle Terme" ;
+    rdfs:label "Via delle Terme" ;
     p-lod:spatially-within p-lod:pompeii ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:via-delle-tombe a p-lod:street ;
-    rdfs:label "via delle Tombe" ;
+    rdfs:label "Via delle Tombe" ;
     p-lod:spatially-within p-lod:pompeii ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:via-di-Nocera-north a p-lod:street ;
-    rdfs:label "via di Nocera (North)" ;
+    rdfs:label "Via di Nocera (North)" ;
     p-lod:spatially-within p-lod:pompeii ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:via-di-castricio a p-lod:street ;
-    rdfs:label "via di Castricio" ;
+    rdfs:label "Via di Castricio" ;
     p-lod:spatially-within p-lod:r1 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:via-di-mercurio a p-lod:street ;
-    rdfs:label "via di Mercurio" ;
+    rdfs:label "Via di Mercurio" ;
     p-lod:spatially-within p-lod:r6 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:via-di-nocera a p-lod:street ;
-    rdfs:label "via di Nocera" ;
+    rdfs:label "Via di Nocera" ;
     p-lod:spatially-within p-lod:pompeii ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:via-di-nola a p-lod:street ;
-    rdfs:label "via di Nola" ;
+    rdfs:label "Via di Nola" ;
     p-lod:spatially-within p-lod:pompeii ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:via-marina a p-lod:street ;
-    rdfs:label "via Marina" ;
+    rdfs:label "Via Marina" ;
     p-lod:spatially-within p-lod:pompeii ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:via-mediana a p-lod:street ;
-    rdfs:label "via Mediana" ;
+    rdfs:label "Via Mediana" ;
     p-lod:spatially-within p-lod:pompeii ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:via-stabiana a p-lod:street ;
-    rdfs:label "via Stabiana" ;
+    rdfs:label "Via Stabiana" ;
     p-lod:spatially-within p-lod:pompeii ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:vicolo-dei-12-dei a p-lod:street ;
-    rdfs:label "vicolo dei 12 Dei" ;
+    rdfs:label "Vicolo dei 12 Dei" ;
     p-lod:spatially-within p-lod:r8 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:vicolo-dei-fuggiaschi a p-lod:street ;
-    rdfs:label "vicolo dei Fuggiaschi" ;
+    rdfs:label "Vicolo dei Fuggiaschi" ;
     p-lod:spatially-within p-lod:r1 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:vicolo-dei-gladiatore a p-lod:street ;
-    rdfs:label "vicolo dei Gladiatore" ;
+    rdfs:label "Vicolo dei Gladiatore" ;
     p-lod:spatially-within p-lod:r5 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:vicolo-dei-gladiatori-south a p-lod:street ;
-    rdfs:label "vicolo dei Gladiatori (South)" ;
+    rdfs:label "Vicolo dei Gladiatori (South)" ;
     p-lod:spatially-within p-lod:r9 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:vicolo-dei-soprastanti a p-lod:street ;
-    rdfs:label "vicolo dei Soprastanti" ;
+    rdfs:label "Vicolo dei Soprastanti" ;
     p-lod:spatially-within p-lod:r7 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:vicolo-dei-teatri a p-lod:street ;
-    rdfs:label "vicolo dei Teatri" ;
+    rdfs:label "Vicolo dei Teatri" ;
     p-lod:spatially-within p-lod:r8 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:vicolo-dei-vetti a p-lod:street ;
-    rdfs:label "vicolo del Vetti" ;
+    rdfs:label "Vicolo del Vetti" ;
     p-lod:spatially-within p-lod:r6 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:vicolo-del-balcone-pensile a p-lod:street ;
-    rdfs:label "vicolo dei balcone pensile" ;
+    rdfs:label "Vicolo dei balcone pensile" ;
     p-lod:spatially-within p-lod:r7 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:vicolo-del-basilico a p-lod:street ;
-    rdfs:label "vicolo del Basilico" ;
+    rdfs:label "Vicolo del Basilico" ;
     p-lod:spatially-within p-lod:r8 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:vicolo-del-centenario a p-lod:street ;
-    rdfs:label "vicolo del Centenario" ;
+    rdfs:label "Vicolo del Centenario" ;
     p-lod:spatially-within p-lod:r9 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:vicolo-del-centenario-north a p-lod:street ;
-    rdfs:label "vicolo del Centenario (North)" ;
+    rdfs:label "Vicolo del Centenario (North)" ;
     p-lod:spatially-within p-lod:r9 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:vicolo-del-citarista a p-lod:street ;
-    rdfs:label "vicolo del Citarista" ;
+    rdfs:label "Vicolo del Citarista" ;
     p-lod:spatially-within p-lod:r1 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:vicolo-del-conciapelle a p-lod:street ;
-    rdfs:label "vicolo del Conciapelle" ;
+    rdfs:label "Vicolo del Conciapelle" ;
     p-lod:spatially-within p-lod:r1 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:vicolo-del-farmacista a p-lod:street ;
-    rdfs:label "vicolo del Farmacista" ;
+    rdfs:label "Vicolo del Farmacista" ;
     p-lod:spatially-within p-lod:r7 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:vicolo-del-fauno a p-lod:street ;
-    rdfs:label "vicolo del Fauno" ;
+    rdfs:label "Vicolo del Fauno" ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:vicolo-del-foro a p-lod:street ;
-    rdfs:label "vicolo del Foro" ;
+    rdfs:label "Vicolo del Foro" ;
     p-lod:spatially-within p-lod:r8 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:vicolo-del-gallo a p-lod:street ;
-    rdfs:label "vicolo del Gallo" ;
+    rdfs:label "Vicolo del Gallo" ;
     p-lod:spatially-within p-lod:r7 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:vicolo-del-gigante a p-lod:street ;
-    rdfs:label "vicolo del Gigante" ;
+    rdfs:label "Vicolo del Gigante" ;
     p-lod:spatially-within p-lod:r7 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:vicolo-del-granaio a p-lod:street ;
-    rdfs:label "vicolo del Granaio" ;
+    rdfs:label "Vicolo del Granaio" ;
     p-lod:spatially-within p-lod:r7 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:vicolo-del-labirinto a p-lod:street ;
-    rdfs:label "vicolo del Labirinto" ;
+    rdfs:label "Vicolo del Labirinto" ;
     p-lod:spatially-within p-lod:r6 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:vicolo-del-lupanare a p-lod:street ;
-    rdfs:label "vicolo del Lupanare" ;
+    rdfs:label "Vicolo del Lupanare" ;
     p-lod:spatially-within p-lod:r7 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:vicolo-del-menandro a p-lod:street ;
-    rdfs:label "vicolo del Menandro" ;
+    rdfs:label "Vicolo del Menandro" ;
     p-lod:spatially-within p-lod:r1 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:vicolo-del-panettiere a p-lod:street ;
-    rdfs:label "vicolo del Panettiere" ;
+    rdfs:label "Vicolo del Panettiere" ;
     p-lod:spatially-within p-lod:r7 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:vicolo-del-scheletri a p-lod:street ;
-    rdfs:label "vicolo del Scheletri" ;
+    rdfs:label "Vicolo del Scheletri" ;
     p-lod:spatially-within p-lod:r7 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:vicolo-dell-anfiteatro a p-lod:street ;
-    rdfs:label "vicolo dell'Anfiteatro" ;
+    rdfs:label "Vicolo dell'Anfiteatro" ;
     p-lod:spatially-within p-lod:r2 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:vicolo-dell-efebo a p-lod:street ;
-    rdfs:label "vicolo dell'Efebo" ;
+    rdfs:label "Vicolo dell'Efebo" ;
     p-lod:spatially-within p-lod:r1 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:vicolo-della-fullonica a p-lod:street ;
-    rdfs:label "vicolo della Fullonica" ;
+    rdfs:label "Vicolo della Fullonica" ;
     p-lod:spatially-within p-lod:r6 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:vicolo-della-maschera a p-lod:street ;
-    rdfs:label "vicolo della Maschera" ;
+    rdfs:label "Vicolo della Maschera" ;
     p-lod:spatially-within p-lod:r7 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:vicolo-della-nave-europa a p-lod:street ;
-    rdfs:label "vicolo della Nave Europa" ;
+    rdfs:label "Vicolo della Nave Europa" ;
     p-lod:spatially-within p-lod:r1 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:vicolo-della-regina a p-lod:street ;
-    rdfs:label "vicolo della Regina" ;
+    rdfs:label "Vicolo della Regina" ;
     p-lod:spatially-within p-lod:r8 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:vicolo-della-venere a p-lod:street ;
-    rdfs:label "vicolo della Venere" ;
+    rdfs:label "Vicolo della Venere" ;
     p-lod:spatially-within p-lod:r2 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:vicolo-delle-nozze-d-argento a p-lod:street ;
-    rdfs:label "vicolo delle nozze d'Argento" ;
+    rdfs:label "Vicolo delle nozze d'Argento" ;
     p-lod:spatially-within p-lod:r5 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:vicolo-delle-pareti-rosse a p-lod:street ;
-    rdfs:label "vicolo delle Pareti rosse" ;
+    rdfs:label "Vicolo delle Pareti rosse" ;
     p-lod:spatially-within p-lod:r8 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:vicolo-delle-terme a p-lod:street ;
-    rdfs:label "vicolo delle Terme" ;
+    rdfs:label "Vicolo delle Terme" ;
     p-lod:spatially-within p-lod:r7 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:vicolo-di-balbo a p-lod:street ;
-    rdfs:label "vicolo di Balbo" ;
+    rdfs:label "Vicolo di Balbo" ;
     p-lod:spatially-within p-lod:r9 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:vicolo-di-cecilio-giocondo a p-lod:street ;
-    rdfs:label "vicolo di Cecilio Giocondo" ;
+    rdfs:label "Vicolo di Cecilio Giocondo" ;
     p-lod:spatially-within p-lod:r5 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:vicolo-di-championnet a p-lod:street ;
-    rdfs:label "vicolo di championnet" ;
+    rdfs:label "Vicolo di championnet" ;
     p-lod:spatially-within p-lod:r8 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:vicolo-di-eumachia a p-lod:street ;
-    rdfs:label "vicolo di Eumachia" ;
+    rdfs:label "Vicolo di Eumachia" ;
     p-lod:spatially-within p-lod:r7 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:vicolo-di-giulia-felice a p-lod:street ;
-    rdfs:label "vicolo di Giulia Felice" ;
+    rdfs:label "Vicolo di Giulia Felice" ;
     p-lod:spatially-within p-lod:r2 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:vicolo-di-lucrezio-frontone a p-lod:street ;
-    rdfs:label "vicolo di Lucrezio Frontone" ;
+    rdfs:label "Vicolo di Lucrezio Frontone" ;
     p-lod:spatially-within p-lod:r5 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:vicolo-di-mercurio a p-lod:street ;
-    rdfs:label "vicolo di Mercurio" ;
+    rdfs:label "Vicolo di Mercurio" ;
     p-lod:spatially-within p-lod:r6 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:vicolo-di-modesto a p-lod:street ;
-    rdfs:label "vicolo di Modesto" ;
+    rdfs:label "Vicolo di Modesto" ;
     p-lod:spatially-within p-lod:r6 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:vicolo-di-narciso a p-lod:street ;
-    rdfs:label "vicolo di Narciso" ;
+    rdfs:label "Vicolo di Narciso" ;
     p-lod:spatially-within p-lod:r6 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:vicolo-di-octavius-quartio a p-lod:street ;
-    rdfs:label "vicolo di Octavius Quartio" ;
+    rdfs:label "Vicolo di Octavius Quartio" ;
     p-lod:spatially-within p-lod:r2 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:vicolo-di-paquius-proculus a p-lod:street ;
-    rdfs:label "vicolo di Paquius Proculus" ;
+    rdfs:label "Vicolo di Paquius Proculus" ;
     p-lod:spatially-within p-lod:r1 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:vicolo-di-tesmo a p-lod:street ;
-    rdfs:label "vicolo di Tesmo" ;
+    rdfs:label "Vicolo di Tesmo" ;
     p-lod:spatially-within p-lod:r9 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:vicolo-r1-i1-i5-fortification-wall a p-lod:street ;
-    rdfs:label "vicolo I.1-5-Fortification Wall" ;
+    rdfs:label "Vicolo I.1-5-Fortification Wall" ;
     p-lod:spatially-within p-lod:r1 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:vicolo-r1-i1-r1-i5 a p-lod:street ;
-    rdfs:label "vicolo I.1-I.5" ;
+    rdfs:label "Vicolo I.1-I.5" ;
     p-lod:spatially-within p-lod:r1 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:vicolo-r1-i17-r1-i16 a p-lod:street ;
-    rdfs:label "vicolo I.17-I.16" ;
+    rdfs:label "Vicolo I.17-I.16" ;
     p-lod:spatially-within p-lod:r1 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:vicolo-r1-i17-r1-i18 a p-lod:street ;
-    rdfs:label "vicolo I.17-I.18" ;
+    rdfs:label "Vicolo I.17-I.18" ;
     p-lod:spatially-within p-lod:r1 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:vicolo-r1-i18-r1-i19 a p-lod:street ;
-    rdfs:label "vicolo I.18-I.19" ;
+    rdfs:label "Vicolo I.18-I.19" ;
     p-lod:spatially-within p-lod:r1 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:vicolo-r1-i2-r1-i19-r1-i3-r1-i10 a p-lod:street ;
-    rdfs:label "vicolo I.2-19-I.3-10" ;
+    rdfs:label "Vicolo I.2-19-I.3-10" ;
     p-lod:spatially-within p-lod:r1 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:vicolo-r1-i20-r1-i22-fortification-wall a p-lod:street ;
-    rdfs:label "vicolo I.20-22-Fortification Wall" ;
+    rdfs:label "Vicolo I.20-22-Fortification Wall" ;
     p-lod:spatially-within p-lod:r1 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:vicolo-r1-i8-r1-i9 a p-lod:street ;
-    rdfs:label "vicolo I.8-I.9" ;
+    rdfs:label "Vicolo I.8-I.9" ;
     p-lod:spatially-within p-lod:r1 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:vicolo-r1-i9-r1-i11 a p-lod:street ;
-    rdfs:label "vicolo I.9-I.11" ;
+    rdfs:label "Vicolo I.9-I.11" ;
     p-lod:spatially-within p-lod:r1 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:vicolo-r3-i1-r3-i2 a p-lod:street ;
-    rdfs:label "vicolo III.1-III.2" ;
+    rdfs:label "Vicolo III.1-III.2" ;
     p-lod:spatially-within p-lod:r3 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:vicolo-r3-i10-r3-i11 a p-lod:street ;
-    rdfs:label "vicolo III.10-III.11" ;
+    rdfs:label "Vicolo III.10-III.11" ;
     p-lod:spatially-within p-lod:r3 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:vicolo-r3-i11-r3-i12 a p-lod:street ;
-    rdfs:label "vicolo III.11-III.12" ;
+    rdfs:label "Vicolo III.11-III.12" ;
     p-lod:spatially-within p-lod:r3 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:vicolo-r3-i2-r3-i3 a p-lod:street ;
-    rdfs:label "vicolo III.2-III.3" ;
+    rdfs:label "Vicolo III.2-III.3" ;
     p-lod:spatially-within p-lod:r3 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:vicolo-r3-i4-r3-i5 a p-lod:street ;
-    rdfs:label "vicolo III.4-III.5" ;
+    rdfs:label "Vicolo III.4-III.5" ;
     p-lod:spatially-within p-lod:r3 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:vicolo-r3-i5-r3-i6 a p-lod:street ;
-    rdfs:label "vicolo III.5-III.6" ;
+    rdfs:label "Vicolo III.5-III.6" ;
     p-lod:spatially-within p-lod:r3 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:vicolo-r3-i6-r3-i7 a p-lod:street ;
-    rdfs:label "vicolo III.6-III.7" ;
+    rdfs:label "Vicolo III.6-III.7" ;
     p-lod:spatially-within p-lod:r3 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:vicolo-r3-i7-fortification-wall a p-lod:street ;
-    rdfs:label "vicolo III.7-Fortification Wall" ;
+    rdfs:label "Vicolo III.7-Fortification Wall" ;
     p-lod:spatially-within p-lod:r3 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:vicolo-r3-i8-r3-i9 a p-lod:street ;
-    rdfs:label "vicolo III.8-III.9" ;
+    rdfs:label "Vicolo III.8-III.9" ;
     p-lod:spatially-within p-lod:r3 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:vicolo-r3-i9-r3-i10 a p-lod:street ;
-    rdfs:label "vicolo III.9-III.10" ;
+    rdfs:label "Vicolo III.9-III.10" ;
     p-lod:spatially-within p-lod:r3 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:vicolo-r4-3-r4-4 a p-lod:street ;
-    rdfs:label "vicolo IV.3-IV.4" ;
+    rdfs:label "Vicolo IV.3-IV.4" ;
     p-lod:spatially-within p-lod:r4 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:vicolo-r4-i1-r4-i2 a p-lod:street ;
-    rdfs:label "vicolo IV.1-IV.2" ;
+    rdfs:label "Vicolo IV.1-IV.2" ;
     p-lod:spatially-within p-lod:r4 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:vicolo-r4-i2-r4-i3 a p-lod:street ;
-    rdfs:label "vicolo IV.2-IV.3" ;
+    rdfs:label "Vicolo IV.2-IV.3" ;
     p-lod:spatially-within p-lod:r4 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:vicolo-r4-i4-r4-i5 a p-lod:street ;
-    rdfs:label "vicolo IV.4-IV.5" ;
+    rdfs:label "Vicolo IV.4-IV.5" ;
     p-lod:spatially-within p-lod:r4 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:vicolo-r4-i5-fortification-wall a p-lod:street ;
-    rdfs:label "vicolo IV.5-Fortification Wall" ;
+    rdfs:label "Vicolo IV.5-Fortification Wall" ;
     p-lod:spatially-within p-lod:r4 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:vicolo-r5-i5-r4-i1 a p-lod:street ;
-    rdfs:label "vicolo V.5-IV.1" ;
-    p-lod:spatially-within p-lod:rpompeii ;
+    rdfs:label "Vicolo V.5-IV.1" ;
+    p-lod:spatially-within p-lod:pompeii ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:vicolo-r5-i6-fortification-wall a p-lod:street ;
-    rdfs:label "vicolo V.6-Fortification Wall" ;
+    rdfs:label "Vicolo V.6-Fortification Wall" ;
     p-lod:spatially-within p-lod:r5 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:vicolo-r8-i5-r8-i5 a p-lod:street ;
-    rdfs:label "vicolo VIII.5-5" ;
+    rdfs:label "Vicolo VIII.5-5" ;
     p-lod:spatially-within p-lod:r8 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:vicolo-r9-i10-r9-i14 a p-lod:street ;
-    rdfs:label "vicolo IX.10-IX.14" ;
+    rdfs:label "Vicolo IX.10-IX.14" ;
     p-lod:spatially-within p-lod:r9 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:vicolo-r9-i11-r9-i12 a p-lod:street ;
-    rdfs:label "vicolo IX.11-IX.12" ;
+    rdfs:label "Vicolo IX.11-IX.12" ;
     p-lod:spatially-within p-lod:r9 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:vicolo-r9-i12-r9-i13 a p-lod:street ;
-    rdfs:label "vicolo IX.12-IX.13" ;
+    rdfs:label "Vicolo IX.12-IX.13" ;
     p-lod:spatially-within p-lod:r9 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:vicolo-r9-i13-r3-i1 a p-lod:street ;
-    rdfs:label "vicolo IX.13-III.1" ;
+    rdfs:label "Vicolo IX.13-III.1" ;
     p-lod:spatially-within p-lod:pompeii ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:vicolo-r9-i14-r3-i8 a p-lod:street ;
-    rdfs:label "vicolo IX.14-III.8" ;
+    rdfs:label "Vicolo IX.14-III.8" ;
     p-lod:spatially-within p-lod:pompeii ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:vicolo-r9-i3-r9-i6-r9-i4-r9-i5 a p-lod:street ;
-    rdfs:label "vicolo IX.3-6-IX.4-5" ;
+    rdfs:label "Vicolo IX.3-6-IX.4-5" ;
     p-lod:spatially-within p-lod:r9 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:vicolo-r9-i7-r9-i11 a p-lod:street ;
-    rdfs:label "vicolo IX.7-IX.11" ;
+    rdfs:label "Vicolo IX.7-IX.11" ;
     p-lod:spatially-within p-lod:r9 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:vicolo-storto a p-lod:street ;
-    rdfs:label "vicolo Storto" ;
+    rdfs:label "Vicolo Storto" ;
     p-lod:spatially-within p-lod:r7 ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:vicolo-storto-nuovo a p-lod:street ;
-    rdfs:label "vicolo Storto Nuovo" ;
+    rdfs:label "Vicolo Storto Nuovo" ;
     p-lod:spatially-within <urn:p-lod:id:r#> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 

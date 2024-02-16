@@ -141,6 +141,11 @@ p-lod:anfitrione a p-lod:concept ;
     rdfs:label "Anfitrione" ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
+p-lod:animal a p-lod:concept ;
+    rdfs:label "Animal" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q729> ;
+    p-lod:x-source p-lod:x-github-p-lod-data .
+
 p-lod:animal-skin a p-lod:concept ;
     rdfs:label "Animal-skin" ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q3291230> ;
@@ -229,7 +234,7 @@ p-lod:aquaria_\(assemblages_of_fish_in_water\) a p-lod:concept ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:aquatic_plant a p-lod:concept ;
-    rdfs:label "Aquatic_plant" ;
+    rdfs:label "Aquatic plant" ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:aqueduct a p-lod:concept ;
@@ -840,6 +845,7 @@ p-lod:club a p-lod:concept ;
 p-lod:cobra a p-lod:concept ;
     rdfs:label "Cobra" ;
     p-lod:broader p-lod:snake ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q2303322> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:cocciopesto a p-lod:concept ;
@@ -4067,7 +4073,7 @@ p-lod:zeus a p-lod:concept ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:zeus_ammon a p-lod:concept ;
-    rdfs:label "Zeus_ammon" ;
+    rdfs:label "Zeus ammon" ;
     p-lod:broader p-lod:deity ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
@@ -4169,10 +4175,5 @@ p-lod:bird a p-lod:concept ;
 
 p-lod:mythological_figure a p-lod:concept ;
     rdfs:label "Mythological figure" ;
-    p-lod:x-source p-lod:x-github-p-lod-data .
-
-p-lod:animal a p-lod:concept ;
-    rdfs:label "Animal" ;
-    p-lod:wikidata-url <http://www.wikidata.org/entity/Q729> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
