@@ -50,8 +50,6 @@ p-lod:aegis a p-lod:concept ;
     rdfs:label "Aegis" ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
-p-lod:aenas a p-lod:concept .
-
 p-lod:aeneas a p-lod:concept ;
     rdfs:label "Aeneas" ;
     p-lod:broader p-lod:mythological_figure ;
@@ -1265,7 +1263,7 @@ p-lod:entablature a p-lod:concept ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q187459> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
-p-lod:entrance_ a p-lod:concept .
+p-lod:entrance a p-lod:concept .
 
 p-lod:epistyle a p-lod:concept ;
     rdfs:label "Epistyle" ;
@@ -1445,7 +1443,9 @@ p-lod:front_porch a p-lod:concept ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q816741> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
-p-lod:fullonica_ a p-lod:concept .
+p-lod:fullonica a p-lod:concept ;
+    rdfs:label "Fullonica"  ;
+    p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:funeral_pyre a p-lod:concept ;
     rdfs:label "Funeral_pyre" ;
@@ -1726,6 +1726,8 @@ p-lod:hermes a p-lod:concept ;
 
 p-lod:hero a p-lod:concept ;
     rdfs:label "Hero" ;
+    p-lod:broader p-lod:mythological_figure ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q19776360> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:heron a p-lod:concept ;
@@ -1736,18 +1738,20 @@ p-lod:heron a p-lod:concept ;
 
 p-lod:hesione a p-lod:concept ;
     rdfs:label "Hesione" ;
+    p-lod:broader p-lod:mythological_figure ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q4137657> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:hesperis a p-lod:concept ;
     rdfs:label "Hesperis" ;
-    p-lod:x-source p-lod:x-github-p-lod-data .
-
-p-lod:hesperos_ a p-lod:concept ;
-    rdfs:label "Hesperos_" ;
+    p-lod:broader p-lod:mythological_figure ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q3134740> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:hesperus a p-lod:concept ;
     rdfs:label "Hesperus" ;
+    p-lod:broader p-lod:mythological_figure ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q59697> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:hestia a p-lod:concept ;
@@ -4068,8 +4072,6 @@ p-lod:zeus_ammon a p-lod:concept ;
 p-lod:zither a p-lod:concept ;
     rdfs:label "Zither" ;
     p-lod:x-source p-lod:x-github-p-lod-data .
-
-p-lod:zither_ a p-lod:concept .
 
 p-lod:fish a p-lod:concept ;
     rdfs:label "Fish" ;
