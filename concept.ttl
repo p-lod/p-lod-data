@@ -1,4 +1,3 @@
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix p-lod: <urn:p-lod:id:> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
@@ -29,11 +28,11 @@ p-lod:actor a p-lod:concept ;
     p-lod:broader p-lod:generic_human_figure ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
-p-lod:admeto a p-lod:concept ;
-    rdfs:label "Admeto" ;
+p-lod:admetus a p-lod:concept ;
+    rdfs:label "Admetus" ;
+    p-lod:broader p-lod:mythological_figure ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q192109> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
-
-p-lod:admetus a p-lod:concept .
 
 p-lod:adonis a p-lod:concept ;
     rdfs:label "Adonis" ;
@@ -72,11 +71,13 @@ p-lod:alabastron a p-lod:concept .
 p-lod:alcestis a p-lod:concept ;
     rdfs:label "Alcestis" ;
     p-lod:broader p-lod:mythological_figure ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q320449> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:alcmene a p-lod:concept ;
     rdfs:label "Alcmene" ;
     p-lod:broader p-lod:mythological_figure ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q190543> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:alcove a p-lod:concept ;
@@ -597,10 +598,11 @@ p-lod:bust a p-lod:concept ;
 p-lod:butterfly a p-lod:concept ;
     rdfs:label "Butterfly" ;
     p-lod:broader p-lod:insect ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q11946202> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:cabin_boat a p-lod:concept ;
-    rdfs:label "Cabin_boat" ;
+    rdfs:label "Cabin boat" ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q1416670> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
