@@ -10,6 +10,7 @@ p-lod:acanthus a p-lod:concept ;
 p-lod:achilles a p-lod:concept ;
     rdfs:label "Achilles" ;
     p-lod:broader p-lod:mythological_figure ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q41746> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:acroterion a p-lod:concept ;
@@ -26,6 +27,7 @@ p-lod:actaeon a p-lod:concept ;
 p-lod:actor a p-lod:concept ;
     rdfs:label "Actor" ;
     p-lod:broader p-lod:generic_human_figure ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q33999> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:admetus a p-lod:concept ;
@@ -57,6 +59,8 @@ p-lod:aeneas a p-lod:concept ;
 
 p-lod:aethra a p-lod:concept ;
     rdfs:label "Aethra" ;
+    p-lod:broader p-lod:mythological_figure ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q11921121> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:agave a p-lod:concept .
@@ -64,6 +68,7 @@ p-lod:agave a p-lod:concept .
 p-lod:ajax a p-lod:concept ;
     rdfs:label "Ajax" ;
     p-lod:broader p-lod:mythological_figure ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q172725> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:alabastron a p-lod:concept .
@@ -98,6 +103,7 @@ p-lod:altar a p-lod:concept ;
 
 p-lod:amazon a p-lod:concept ;
     rdfs:label "Amazon" ;
+    p-lod:broader p-lod:mythological_figure ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q134154> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
@@ -439,6 +445,7 @@ p-lod:bear a p-lod:concept ;
 
 p-lod:bed a p-lod:concept ;
     rdfs:label "Bed" ;
+    p-lod:broader p-lod:furniture ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q42177> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 

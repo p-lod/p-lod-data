@@ -90,4 +90,3 @@ p-lod:r9 a p-lod:region ;
     p-lod:spatially-within p-lod:pompeii ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q3931882> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
-
