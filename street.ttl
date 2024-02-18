@@ -278,6 +278,7 @@ p-lod:via-del-vesuvio a p-lod:street ;
 
 p-lod:via-dell-abbondanza a p-lod:street ;
     rdfs:label "Via dell'Abbondanza" ;
+    p-lod:best-image p-lod:luna_img_PALP_25880 , p-lod:luna_img_PALP_25852 ; 
     p-lod:spatially-within p-lod:pompeii ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
@@ -343,6 +344,7 @@ p-lod:via-mediana a p-lod:street ;
 
 p-lod:via-stabiana a p-lod:street ;
     rdfs:label "Via Stabiana" ;
+    p-lod:best-image p-lod:luna_img_PALP_68956 , p-lod:luna_img_PALP_54266 ;
     p-lod:spatially-within p-lod:pompeii ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 

@@ -256,7 +256,7 @@ p-lod:arch a p-lod:concept ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:arched_opening a p-lod:concept ;
-    rdfs:label "Arched_opening" ;
+    rdfs:label "Arched opening" ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q12277> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
@@ -280,6 +280,7 @@ p-lod:argos a p-lod:concept .
 
 p-lod:ariadne a p-lod:concept ;
     rdfs:label "Ariadne" ;
+    p-lod:best-image p-lod:luna_img_PALP_62535 , p-lod:luna_img_PALP_50065 ; 
     p-lod:broader p-lod:mythological_figure ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q184874> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
@@ -314,7 +315,7 @@ p-lod:artwork a p-lod:concept ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:ashlar_block a p-lod:concept ;
-    rdfs:label "Ashlar_block" ;
+    rdfs:label "Ashlar block" ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:askos a p-lod:concept ;
@@ -469,7 +470,6 @@ p-lod:berry a p-lod:concept ;
     p-lod:broader p-lod:fruit ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q13184> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
-
 
 p-lod:bes a p-lod:concept ;
     rdfs:label "Bes" ;
@@ -829,7 +829,11 @@ p-lod:cithara a p-lod:concept ;
     rdfs:label "Cithara" ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
-p-lod:city a p-lod:concept .
+p-lod:city a p-lod:concept ;
+    rdfs:label "City" ;
+    p-lod:broader p-lod:architecture ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q515> ;
+    p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:clio a p-lod:concept ;
     rdfs:label "Clio" ;
@@ -847,6 +851,7 @@ p-lod:cloak a p-lod:concept ;
 
 p-lod:cloth a p-lod:concept ;
     rdfs:label "Cloth" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q5849500> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:clover a p-lod:concept ;
@@ -979,7 +984,7 @@ p-lod:crescent a p-lod:concept ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:crescent_moon a p-lod:concept ;
-    rdfs:label "Crescent_moon" ;
+    rdfs:label "Crescent moon" ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:crocodile a p-lod:concept ;
@@ -1035,10 +1040,15 @@ p-lod:cymbal a p-lod:concept ;
     rdfs:label "Cymbal" ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
-p-lod:cyparissus a p-lod:concept .
+p-lod:cyparissus a p-lod:concept ;
+    rdfs:label "Cyparissus" ; 
+    p-lod:broader p-lod:mythological_figure ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q1056143> ;
+    p-lod:x-github-p-lod-data .
 
 p-lod:daedalus a p-lod:concept ;
     rdfs:label "Daedalus" ;
+    p-lod:broader p-lod:mythological_figure ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q134756> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
@@ -1053,7 +1063,9 @@ p-lod:danae a p-lod:concept ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:daphne a p-lod:concept ;
-    rdfs:label "Daphne" ;
+    rdfs:label "Daphne"  ;
+    p-lod:broader p-lod:mythological_figure ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q194015> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:date a p-lod:concept ;
@@ -1069,6 +1081,7 @@ p-lod:deer a p-lod:concept ;
 
 p-lod:deianira a p-lod:concept ;
     rdfs:label "Deianira" ;
+    p-lod:broader p-lod:mythological_figure ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q272000> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
@@ -1097,24 +1110,29 @@ p-lod:diamond a p-lod:concept ;
 
 p-lod:diana a p-lod:concept ;
     rdfs:label "Diana" ;
+    p-lod:broader p-lod:roman_deity ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q132543> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:dido a p-lod:concept ;
     rdfs:label "Dido" ;
+    p-lod:broader p-lod:mythological_figure ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q905162> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:diomede a p-lod:concept ;
     rdfs:label "Diomede" ;
+    p-lod:broader p-lod:mythological_figure ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:diomedes a p-lod:concept ;
     rdfs:label "Diomedes" ;
+    p-lod:broader p-lod:mythological_figure ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:dionysius a p-lod:concept ;
     rdfs:label "Dionysius" ;
+    p-lod:broader p-lod:olympian_deity ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q41680> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
@@ -1138,6 +1156,7 @@ p-lod:dipylon a p-lod:concept .
 
 p-lod:dirce a p-lod:concept ;
     rdfs:label "Dirce" ;
+    p-lod:broader p-lod:mythological_figure ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q850192> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
@@ -1305,19 +1324,22 @@ p-lod:eros a p-lod:concept ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:erotic_scene a p-lod:concept ;
-    rdfs:label "Erotic_scene" ;
+    rdfs:label "Erotic scene" ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:eteocles a p-lod:concept ;
     rdfs:label "Eteocles" ;
+    p-lod:broader p-lod:mythological_figure ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:europa a p-lod:concept ;
     rdfs:label "Europa" ;
+    p-lod:broader p-lod:mythological_figure ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:euterpe a p-lod:concept ;
     rdfs:label "Euterpe" ;
+    p-lod:broader p-lod:mythological_figure ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:facade a p-lod:concept ;
@@ -1380,7 +1402,7 @@ p-lod:flecked a p-lod:concept ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:floor_tile a p-lod:concept ;
-    rdfs:label "Floor_tile" ;
+    rdfs:label "Floor tile" ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q17455039> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
@@ -1390,7 +1412,7 @@ p-lod:flooring a p-lod:concept ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:floral_candelabra a p-lod:concept ;
-    rdfs:label "Floral_candelabra" ;
+    rdfs:label "Floral candelabra" ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:flower a p-lod:concept ;
@@ -1439,7 +1461,11 @@ p-lod:fountain a p-lod:concept ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q483453> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
-p-lod:fox a p-lod:concept .
+p-lod:fox a p-lod:concept ;
+    rdfs:label "Fox" ;
+    p-lod:broader p-lod:animal ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q185194> ;
+     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:frame a p-lod:concept ;
     rdfs:label "Frame" ;
@@ -1460,10 +1486,11 @@ p-lod:fritillus a p-lod:concept .
 
 p-lod:frog a p-lod:concept ;
     rdfs:label "Frog" ;
+    p-lod:broader p-lod:animal ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:front_porch a p-lod:concept ;
-    rdfs:label "Front_porch" ;
+    rdfs:label "Front porch" ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q816741> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
@@ -1472,7 +1499,7 @@ p-lod:fullonica a p-lod:concept ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:funeral_pyre a p-lod:concept ;
-    rdfs:label "Funeral_pyre" ;
+    rdfs:label "Funeral pyre" ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q736132> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
@@ -1538,7 +1565,7 @@ p-lod:geometric a p-lod:concept ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:gift_of_fruit a p-lod:concept ;
-    rdfs:label "Gift_of_fruit" ;
+    rdfs:label "Gift of fruit" ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:gladiator a p-lod:concept ;
@@ -1594,6 +1621,7 @@ p-lod:grass a p-lod:concept .
 
 p-lod:grasshopper a p-lod:concept ;
     rdfs:label "Grasshopper" ;
+    p-lod:broader p-lod:insect ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q18398431> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
@@ -1608,7 +1636,7 @@ p-lod:greek a p-lod:concept ;
 p-lod:grenade a p-lod:concept .
 
 p-lod:grid_iron a p-lod:concept ;
-    rdfs:label "Grid_iron" ;
+    rdfs:label "Grid iron" ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:griffin a p-lod:concept ;
@@ -1657,6 +1685,7 @@ p-lod:hare a p-lod:concept ;
 
 p-lod:harp a p-lod:concept ;
     rdfs:label "Harp" ;
+    p-lod:broader p-lod:musical_instrument ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q47369> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
@@ -2396,7 +2425,10 @@ p-lod:muse_-_thalia a p-lod:concept ;
     rdfs:label "Muse_-_thalia" ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
-p-lod:musical_instrument a p-lod:concept .
+p-lod:musical_instrument a p-lod:concept ; 
+    rdfs:label "Musical instrument" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q34379> ;
+    p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:myrtis a p-lod:concept .
 
