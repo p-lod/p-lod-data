@@ -1630,7 +1630,7 @@ p-lod:guilloche a p-lod:concept ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:guinea_hen a p-lod:concept ;
-    rdfs:label "Guinea_hen" ;
+    rdfs:label "Guinea hen" ;
     p-lod:broader p-lod:bird ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q171953> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
@@ -1642,6 +1642,7 @@ p-lod:gymnasium a p-lod:concept ;
 
 p-lod:ham a p-lod:concept ;
     rdfs:label "Ham" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q170486> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:hammer a p-lod:concept .
@@ -1650,6 +1651,7 @@ p-lod:handle a p-lod:concept .
 
 p-lod:hare a p-lod:concept ;
     rdfs:label "Hare" ;
+    p-lod:broader p-lod:animal ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q46076> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
@@ -1802,6 +1804,8 @@ p-lod:hippocamp a p-lod:concept ;
 
 p-lod:hippodamia a p-lod:concept ;
     rdfs:label "Hippodamia" ;
+    p-lod:broader p-lod:mythological_figure ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q328354> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:hippolyte a p-lod:concept ;
@@ -1843,7 +1847,10 @@ p-lod:horseshoe a p-lod:concept .
 
 p-lod:hortus_conclusus a p-lod:concept .
 
-p-lod:hourglass a p-lod:concept .
+p-lod:hourglass a p-lod:concept ;
+    rdfs:label "Hourglass" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q179904> ;
+    p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:hunter a p-lod:concept ;
     rdfs:label "Hunter" ;
@@ -1877,7 +1884,11 @@ p-lod:icarus a p-lod:concept ;
     p-lod:broader p-lod:mythological_figure ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
-p-lod:ichneumon a p-lod:concept .
+p-lod:ichneumon a p-lod:concept ;
+    rdfs:label "Ichneumon or Egyptian mongoose" ;
+    p-lod:broader p-lod:animal ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q649306> ;
+    p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:ilione a p-lod:concept ;
     rdfs:label "Ilione" ;
