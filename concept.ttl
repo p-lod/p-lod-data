@@ -260,6 +260,11 @@ p-lod:arched_opening a p-lod:concept ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q12277> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
+p-lod:architecture a p-lod:concept ;
+    rdfs:label "Architecture" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q12271> ;
+    p-lod:x-source p-lod:x-github-p-lod-data .
+
 p-lod:archway a p-lod:concept ;
     rdfs:label "Archway" ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q40097962> ;
@@ -473,7 +478,7 @@ p-lod:berry a p-lod:concept ;
 
 p-lod:bes a p-lod:concept ;
     rdfs:label "Bes" ;
-    p-lod:broader p-lod:deity ;
+    p-lod:broader p-lod:egyptian_deity ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q188931> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
@@ -484,6 +489,12 @@ p-lod:betyl a p-lod:concept ;
 p-lod:bezel a p-lod:concept .
 
 p-lod:bidder a p-lod:concept .
+
+p-lod:bird a p-lod:concept ;
+    rdfs:label "Bird" ;
+    p-lod:broader p-lod:animal ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q5113> ;
+    p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:boar a p-lod:concept ;
     rdfs:label "Boar" ;
@@ -555,6 +566,7 @@ p-lod:branch a p-lod:concept ;
 
 p-lod:bread a p-lod:concept ;
     rdfs:label "Bread" ;
+    p-lod:broader p-lod:food ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q7802> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
@@ -643,7 +655,10 @@ p-lod:cage a p-lod:concept ;
     rdfs:label "Cage" ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
-p-lod:callisto a p-lod:concept .
+p-lod:callisto a p-lod:concept ;
+    rdfs:label "Callisto" ;
+    p-lod:broader p-lod:mythological_figure ;
+    p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:calyces a p-lod:concept ;
     rdfs:label "Calyces" ;
@@ -761,6 +776,7 @@ p-lod:chandelier a p-lod:concept ;
 
 p-lod:chariot a p-lod:concept ;
     rdfs:label "Chariot" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q203788> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:charioteer a p-lod:concept ;
@@ -1038,13 +1054,14 @@ p-lod:cuttlefish a p-lod:concept ;
 
 p-lod:cymbal a p-lod:concept ;
     rdfs:label "Cymbal" ;
+    p-lod:broader p-lod:musical_instrument ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:cyparissus a p-lod:concept ;
     rdfs:label "Cyparissus" ; 
     p-lod:broader p-lod:mythological_figure ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q1056143> ;
-    p-lod:x-github-p-lod-data .
+    p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:daedalus a p-lod:concept ;
     rdfs:label "Daedalus" ;
@@ -1277,6 +1294,12 @@ p-lod:egg_and_dart a p-lod:concept ;
 
 p-lod:egyptian a p-lod:concept ;
     rdfs:label "Egyptian" ;
+    p-lod:x-source p-lod:x-github-p-lod-data .
+
+p-lod:egyptian_deity a p-lod:concept ;
+    rdfs:label "Egyptian deity" ;
+    p-lod:broader p-lod:deity ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q146083> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:elephant a p-lod:concept ;
@@ -1854,6 +1877,7 @@ p-lod:hole a p-lod:concept .
 
 p-lod:homer a p-lod:concept ;
     rdfs:label "Homer" ;
+    p-lod:broader p-lod:poet ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:hook a p-lod:concept ;
@@ -1941,6 +1965,7 @@ p-lod:io a p-lod:concept ;
 
 p-lod:iphicles a p-lod:concept ;
     rdfs:label "Iphicles" ;
+    p-lod:broader p-lod:mythological_figure ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:iphigenia a p-lod:concept ;
@@ -1952,7 +1977,12 @@ p-lod:iris a p-lod:concept .
 
 p-lod:iron_nail a p-lod:concept .
 
-p-lod:isis a p-lod:concept .
+p-lod:isis a p-lod:concept ;
+    rdfs:label "Isis" ;
+    p-lod:best-image p-lod:luna_img_PALP_11913 ;
+    p-lod:broader p-lod:egyptian_deity ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q79876> ;
+    p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:isis-fortuna a p-lod:concept .
 
@@ -1977,7 +2007,10 @@ p-lod:jar a p-lod:concept ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q1207302> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
-p-lod:jason a p-lod:concept .
+p-lod:jason a p-lod:concept ;
+    rdfs:label "Jason" ;
+    p-lod:broader p-lod:mythological_figure ;
+    p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:jay a p-lod:concept ;
     rdfs:label "Jay" ;
@@ -2506,7 +2539,7 @@ p-lod:nike a p-lod:concept ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:nilotic_landscape a p-lod:concept ;
-    rdfs:label "Nilotic_landscape" ;
+    rdfs:label "Nilotic landscape" ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:niobid a p-lod:concept ;
@@ -2631,7 +2664,11 @@ p-lod:oscillium a p-lod:concept ;
     rdfs:label "Oscillium" ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
-p-lod:osiris a p-lod:concept .
+p-lod:osiris a p-lod:concept ;
+    rdfs:label "Osiris" ;
+    p-lod:broader p-lod:egyptian_deity ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q46491> ;
+    p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:oval a p-lod:concept ;
     rdfs:label "Oval" ;
@@ -3225,6 +3262,7 @@ p-lod:sarnus a p-lod:concept ;
 
 p-lod:saturn a p-lod:concept ;
     rdfs:label "Saturn" ;
+    p-lod:broader p-lod:roman_deity ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:satyr a p-lod:concept ;
@@ -3234,6 +3272,7 @@ p-lod:satyr a p-lod:concept ;
 
 p-lod:sausage a p-lod:concept ;
     rdfs:label "Sausage" ;
+    p-lod:broader p-lod:food ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:sausage_ a p-lod:concept .
@@ -3277,22 +3316,22 @@ p-lod:sea-centaur a p-lod:concept ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:sea-griffin a p-lod:concept ;
-    rdfs:label "Sea-griffin" ;
+    rdfs:label "Sea griffin" ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:sea-monster a p-lod:concept .
 
 p-lod:sea_battle a p-lod:concept ;
-    rdfs:label "Sea_battle" ;
+    rdfs:label "Sea battle" ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:sea_bull a p-lod:concept ;
-    rdfs:label "Sea_bull" ;
+    rdfs:label "Sea bull" ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q17033987> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:sea_monster a p-lod:concept ;
-    rdfs:label "Sea_monster" ;
+    rdfs:label "Sea monster" ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q920028> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
@@ -3343,6 +3382,7 @@ p-lod:serapis a p-lod:concept .
 
 p-lod:serpent a p-lod:concept ;
     rdfs:label "Serpent" ;
+    p-lod:broader p-lod:animal ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q2102> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
@@ -3432,6 +3472,7 @@ p-lod:siringa a p-lod:concept ;
 
 p-lod:sistrum a p-lod:concept ;
     rdfs:label "Sistrum" ;
+    p-lod:broader p-lod:musical_instrument ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:situla a p-lod:concept ;
@@ -3455,11 +3496,12 @@ p-lod:skyros a p-lod:concept ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:small_slope a p-lod:concept ;
-    rdfs:label "Small_slope" ;
+    rdfs:label "Small slope" ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:snail a p-lod:concept ;
     rdfs:label "Snail" ;
+    p-lod:broader p-lod:animal ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q308841> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
@@ -3475,15 +3517,20 @@ p-lod:socrates a p-lod:concept ;
 
 p-lod:soldier a p-lod:concept ;
     rdfs:label "Soldier" ;
+    p-lod:broader p-lod:generic_human_figure ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q4991371> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:spear a p-lod:concept ;
     rdfs:label "Spear" ;
     p-lod:broader p-lod:weapon ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q44475> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:spearhead a p-lod:concept ;
     rdfs:label "Spearhead" ;
+    p-lod:broader p-lod:weapon ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q29477178> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:spes a p-lod:concept ;
@@ -3762,17 +3809,21 @@ p-lod:thalia a p-lod:concept ;
 
 p-lod:theseus a p-lod:concept ;
     rdfs:label "Theseus" ;
+    p-lod:best-images p-lod:luna_imgs_PALP_50065 ;
     p-lod:broader p-lod:mythological_figure ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q1320718> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:thetis a p-lod:concept ;
     rdfs:label "Thetis" ;
+    p-lod:broader p-lod:mythological_figure ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q184437> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:thisbe a p-lod:concept ;
     rdfs:label "Thisbe" ;
     p-lod:broader p-lod:mythological_figure ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q10696861> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:thoas a p-lod:concept ;
@@ -3783,7 +3834,11 @@ p-lod:tholos a p-lod:concept ;
     rdfs:label "Tholos" ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
-p-lod:thoth a p-lod:concept .
+p-lod:thoth a p-lod:concept ;
+    rdfs:label "Thoth" ;
+    p-lod:broader p-lod:egyptian_deity ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q146921> ;
+    p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:threshold a p-lod:concept ;
     rdfs:label "Threshold" ;
@@ -3794,8 +3849,6 @@ p-lod:throne a p-lod:concept ;
     rdfs:label "Throne" ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q189233> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
-
-p-lod:thrysus a p-lod:concept .
 
 p-lod:thunderbolt a p-lod:concept ;
     rdfs:label "Thunderbolt" ;
@@ -3910,6 +3963,7 @@ p-lod:troy a p-lod:concept .
 
 p-lod:trumpet a p-lod:concept ;
     rdfs:label "Trumpet" ;
+    p-lod:broader p-lod:musical_instrument ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:trunk a p-lod:concept ;
@@ -4165,6 +4219,7 @@ p-lod:philosopher a p-lod:concept ;
 
 p-lod:snake a p-lod:concept ;
     rdfs:label "Snake" ;
+    p-lod:best-image p-lod:luna_img_PALP_40966 , p-lod:luna_img_PALP_41174 ;
     p-lod:broader p-lod:animal ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q2102> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
@@ -4208,11 +4263,6 @@ p-lod:olympian_deity a p-lod:concept ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q113103481> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
-p-lod:architecture a p-lod:concept ;
-    rdfs:label "Architecture" ;
-    p-lod:wikidata-url <http://www.wikidata.org/entity/Q12271> ;
-    p-lod:x-source p-lod:x-github-p-lod-data .
-
 p-lod:mythological_creature a p-lod:concept ;
     rdfs:label "Mythological creature" ;
     p-lod:x-source p-lod:x-github-p-lod-data .
@@ -4226,13 +4276,6 @@ p-lod:generic_human_figure a p-lod:concept ;
     rdfs:label "Generic Human Figure" ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
-p-lod:bird a p-lod:concept ;
-    rdfs:label "Bird" ;
-    p-lod:broader p-lod:animal ;
-    p-lod:wikidata-url <http://www.wikidata.org/entity/Q5113> ;
-    p-lod:x-source p-lod:x-github-p-lod-data .
-
 p-lod:mythological_figure a p-lod:concept ;
     rdfs:label "Mythological figure" ;
     p-lod:x-source p-lod:x-github-p-lod-data .
-
