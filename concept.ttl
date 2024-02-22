@@ -270,6 +270,7 @@ p-lod:architecture a p-lod:concept ;
 
 p-lod:archway a p-lod:concept ;
     rdfs:label "Archway" ;
+    p-lod:broader p-lod:architecture ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q40097962> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
@@ -1415,11 +1416,19 @@ p-lod:figure a p-lod:concept ;
 
 p-lod:fire a p-lod:concept ;
     rdfs:label "Fire" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q3196> ;
+    p-lod:x-source p-lod:x-github-p-lod-data .
+
+p-lod:fish a p-lod:concept ;
+    rdfs:label "Fish" ;
+    p-lod:broader p-lod:animal ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q152> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:fisherman a p-lod:concept ;
     rdfs:label "Fisherman" ;
     p-lod:broader p-lod:generic_human_figure ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q331432> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:flecked a p-lod:concept ;
@@ -1449,6 +1458,8 @@ p-lod:flower a p-lod:concept ;
 
 p-lod:flute a p-lod:concept ;
     rdfs:label "Flute" ;
+    p-lod:broader p-lod:musical_instrument ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q11405> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:flutting a p-lod:concept ;
@@ -1475,6 +1486,7 @@ p-lod:foreground a p-lod:concept ;
 
 p-lod:fortification a p-lod:concept ;
     rdfs:label "Fortification" ;
+    p-lod:broader p-lod:architecture ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q57821> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
@@ -2949,9 +2961,9 @@ p-lod:pinax a p-lod:concept ;
 
 p-lod:pindar a p-lod:concept ;
     rdfs:label "Pindar" ;
+    p-lod:broader p-lod:poet ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q134929> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
-
-p-lod:pindaros a p-lod:concept .
 
 p-lod:pine_cone a p-lod:concept ;
     rdfs:label "Pine cone" ;
@@ -4049,6 +4061,8 @@ p-lod:veil a p-lod:concept ;
 
 p-lod:venus a p-lod:concept ;
     rdfs:label "Venus" ;
+    p-lod:broader p-lod:roman_deity ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q47652> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:vermiculatum a p-lod:concept ;
@@ -4061,7 +4075,10 @@ p-lod:vessel a p-lod:concept ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q987767> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
-p-lod:vesuvius a p-lod:concept .
+p-lod:vesuvius a p-lod:concept ;
+    rdfs:label "Vesuvius" ; 
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q524> ;
+    p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:viburnum a p-lod:concept ;
     rdfs:label "Viburnum" ;
@@ -4080,6 +4097,7 @@ p-lod:vignette a p-lod:concept ;
 
 p-lod:vine a p-lod:concept ;
     rdfs:label "Vine" ;
+    p-lod:broader p-lod:plant ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q917284> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
@@ -4095,9 +4113,16 @@ p-lod:vulcan a p-lod:concept ;
 
 p-lod:vulcanus a p-lod:concept .
 
-p-lod:vulture a p-lod:concept .
+p-lod:vulture a p-lod:concept ;
+    rdfs:label "Vulture" ;
+    p-lod:broader p-lod:bird ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q123120> ;
+    p-lod:x-source p-lod:x-github-p-lod-data .
 
-p-lod:wagon a p-lod:concept .
+p-lod:wagon a p-lod:concept ;
+    rdfs:label "Wagon" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q859281> ;
+    p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:wall a p-lod:concept ;
     rdfs:label "Wall" ;
@@ -4113,14 +4138,20 @@ p-lod:warp a p-lod:concept ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q738822> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
-p-lod:water a p-lod:concept .
+p-lod:water a p-lod:concept ;
+    rdfs:label "Water" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q283> ;
+    p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:wave-crest a p-lod:concept ;
     rdfs:label "Wave-crest" ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q864673> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
-p-lod:wayfarer a p-lod:concept .
+p-lod:wayfarer a p-lod:concept ;
+    rdfs:label "Wayfarer" ;
+    p-lod:broader p-lod:generic_human_figure ;
+    p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:wheat a p-lod:concept ;
     rdfs:label "Wheat" ;
@@ -4174,7 +4205,11 @@ p-lod:woman a p-lod:concept ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q467> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
-p-lod:worm a p-lod:concept .
+p-lod:worm a p-lod:concept ;
+    rdfs:label "Worm" ;
+    p-lod:broader p-lod:animal ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q47253> ;
+    p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:wreath a p-lod:concept ;
     rdfs:label "Wreath" ;
@@ -4202,12 +4237,6 @@ p-lod:zeus_ammon a p-lod:concept ;
 
 p-lod:zither a p-lod:concept ;
     rdfs:label "Zither" ;
-    p-lod:x-source p-lod:x-github-p-lod-data .
-
-p-lod:fish a p-lod:concept ;
-    rdfs:label "Fish" ;
-    p-lod:broader p-lod:animal ;
-    p-lod:wikidata-url <http://www.wikidata.org/entity/Q152> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:insect a p-lod:concept ;
