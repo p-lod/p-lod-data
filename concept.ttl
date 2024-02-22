@@ -15,6 +15,7 @@ p-lod:achilles a p-lod:concept ;
 
 p-lod:acroterion a p-lod:concept ;
     rdfs:label "Acroterion" ;
+    p-lod:broader p-lod:architecture ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q421214> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
@@ -49,6 +50,8 @@ p-lod:aediculum a p-lod:concept ;
 
 p-lod:aegis a p-lod:concept ;
     rdfs:label "Aegis" ;
+    p-lod:broader p-lod:shield ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q190662> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:aeneas a p-lod:concept ;
@@ -158,7 +161,7 @@ p-lod:animal-skin a p-lod:concept ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:animal_emblem a p-lod:concept ;
-    rdfs:label "Animal_emblem" ;
+    rdfs:label "Animal emblem" ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q100989638> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
@@ -236,7 +239,7 @@ p-lod:apse a p-lod:concept ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:aquaria_\(assemblages_of_fish_in_water\) a p-lod:concept ;
-    rdfs:label "Aquaria_(assemblages_of_fish_in_water)" ;
+    rdfs:label "Aquaria (assemblages of fish in water)" ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:aquatic_plant a p-lod:concept ;
@@ -505,7 +508,7 @@ p-lod:boar a p-lod:concept ;
 <urn:p-lod:id:boar's_head> a p-lod:concept .
 
 p-lod:boars_head a p-lod:concept ;
-    rdfs:label "Boar's_head" ;
+    rdfs:label "Boar's head" ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:boat a p-lod:concept ;
@@ -913,7 +916,7 @@ p-lod:column a p-lod:concept ;
 p-lod:column__engaged a p-lod:concept .
 
 p-lod:column_drum a p-lod:concept ;
-    rdfs:label "Column_drum" ;
+    rdfs:label "Column drum" ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q4817> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
@@ -939,7 +942,7 @@ p-lod:corinna a p-lod:concept ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:corinthian_capital a p-lod:concept ;
-    rdfs:label "Corinthian_capital" ;
+    rdfs:label "Corinthian capital" ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q54124> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
@@ -1234,7 +1237,7 @@ p-lod:drawer a p-lod:concept ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:drinking_horn a p-lod:concept ;
-    rdfs:label "Drinking_horn" ;
+    rdfs:label "Drinking horn" ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q192771> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
@@ -1288,7 +1291,7 @@ p-lod:egg a p-lod:concept ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:egg_and_dart a p-lod:concept ;
-    rdfs:label "Egg_and_dart" ;
+    rdfs:label "Egg and dart" ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q2458802> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
@@ -1402,7 +1405,7 @@ p-lod:fig a p-lod:concept ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:figural_scene a p-lod:concept ;
-    rdfs:label "Figural_scene" ;
+    rdfs:label "Figural scene" ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:figure a p-lod:concept ;
@@ -1758,7 +1761,7 @@ p-lod:helios a p-lod:concept ;
 p-lod:helle a p-lod:concept .
 
 p-lod:hellenistic_rosette a p-lod:concept ;
-    rdfs:label "Hellenistic_rosette" ;
+    rdfs:label "Hellenistic rosette" ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q1277215> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
@@ -1961,6 +1964,7 @@ p-lod:intercolumniation a p-lod:concept ;
 p-lod:io a p-lod:concept ;
     rdfs:label "Io" ;
     p-lod:broader p-lod:mythological_figure ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q179014> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:iphicles a p-lod:concept ;
@@ -2052,7 +2056,7 @@ p-lod:kantharos a p-lod:concept ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:ketos_\(sea-serpent\) a p-lod:concept ;
-    rdfs:label "Ketos_(sea-serpent)" ;
+    rdfs:label "Ketos (sea-serpent)" ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q3269950> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
@@ -2191,7 +2195,7 @@ p-lod:lion a p-lod:concept ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:lion_skin a p-lod:concept ;
-    rdfs:label "Lion_skin" ;
+    rdfs:label "Lion skin" ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:lizard a p-lod:concept ;
@@ -2275,7 +2279,7 @@ p-lod:marble a p-lod:concept ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:marine_griffin a p-lod:concept ;
-    rdfs:label "Marine_griffin" ;
+    rdfs:label "Marine griffin" ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:mars a p-lod:concept ;
@@ -2455,7 +2459,7 @@ p-lod:muse a p-lod:concept ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:muse_-_thalia a p-lod:concept ;
-    rdfs:label "Muse_-_thalia" ;
+    rdfs:label "Muse - thalia" ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:musical_instrument a p-lod:concept ; 
@@ -2465,10 +2469,14 @@ p-lod:musical_instrument a p-lod:concept ;
 
 p-lod:myrtis a p-lod:concept .
 
+p-lod:mythological_figure a p-lod:concept ;
+    rdfs:label "Mythological figure" ;
+    p-lod:x-source p-lod:x-github-p-lod-data .
+
 p-lod:mythological_figures a p-lod:concept .
 
 p-lod:mythological_scene a p-lod:concept ;
-    rdfs:label "Mythological_scene" ;
+    rdfs:label "Mythological scene" ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:narcissus a p-lod:concept ;
@@ -2627,22 +2635,24 @@ p-lod:opening a p-lod:concept ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:opus_incertum a p-lod:concept ;
-    rdfs:label "Opus_incertum" ;
+    rdfs:label "Opus incertum" ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q1326603> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:opus_quadratum a p-lod:concept ;
-    rdfs:label "Opus_quadratum" ;
+    rdfs:label "Opus quadratum" ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q2631941> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:opus_sectile a p-lod:concept ;
-    rdfs:label "Opus_sectile" ;
+    rdfs:label "Opus sectile" ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q641860> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:orestes a p-lod:concept ;
     rdfs:label "Orestes" ;
+    p-lod:broader p-lod:mythological_figure ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q192407> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:ornament__abstract a p-lod:concept .
@@ -2729,7 +2739,7 @@ p-lod:panel a p-lod:concept ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:panel_painting a p-lod:concept ;
-    rdfs:label "Panel_painting" ;
+    rdfs:label "Panel painting" ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:panther a p-lod:concept ;
@@ -2902,7 +2912,7 @@ p-lod:phrixos a p-lod:concept ;
 p-lod:phrixus a p-lod:concept .
 
 p-lod:phrygian_cap a p-lod:concept ;
-    rdfs:label "Phrygian_cap" ;
+    rdfs:label "Phrygian cap" ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q213240> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
@@ -2944,7 +2954,7 @@ p-lod:pindar a p-lod:concept ;
 p-lod:pindaros a p-lod:concept .
 
 p-lod:pine_cone a p-lod:concept ;
-    rdfs:label "Pine_cone" ;
+    rdfs:label "Pine cone" ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:pitcher a p-lod:concept ;
@@ -3016,7 +3026,7 @@ p-lod:pomegranate a p-lod:concept ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:pomegranate_tree a p-lod:concept ;
-    rdfs:label "Pomegranate_tree" ;
+    rdfs:label "Pomegranate tree" ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:pool a p-lod:concept ;
@@ -3025,7 +3035,7 @@ p-lod:pool a p-lod:concept ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:porphyrion_\(sultan_chicken\) a p-lod:concept ;
-    rdfs:label "Porphyrion_(sultan_chicken)" ;
+    rdfs:label "Porphyrion (sultan chicken)" ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q2914903> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
@@ -3283,7 +3293,7 @@ p-lod:scales a p-lod:concept ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:scendiletto_\(bedside_rug\) a p-lod:concept ;
-    rdfs:label "Scendiletto_(bedside_rug)" ;
+    rdfs:label "Scendiletto (bedside rug)" ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q1989643> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
@@ -3652,11 +3662,11 @@ p-lod:string a p-lod:concept ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:string_course a p-lod:concept ;
-    rdfs:label "String_course" ;
+    rdfs:label "String course" ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:string_course_block a p-lod:concept ;
-    rdfs:label "String_course_block" ;
+    rdfs:label "String course block" ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:stripe a p-lod:concept ;
@@ -3729,7 +3739,7 @@ p-lod:tablet a p-lod:concept ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:tabula_ansata a p-lod:concept ;
-    rdfs:label "Tabula_ansata" ;
+    rdfs:label "Tabula ansata" ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:tambourine a p-lod:concept ;
@@ -3881,7 +3891,7 @@ p-lod:tiger a p-lod:concept ;
 <urn:p-lod:id:tiger's_head> a p-lod:concept .
 
 p-lod:tigers_head a p-lod:concept ;
-    rdfs:label "Tiger's_head" ;
+    rdfs:label "Tiger's head" ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:toga a p-lod:concept ;
@@ -3992,7 +4002,7 @@ p-lod:ulysses a p-lod:concept ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:umbrella_pine a p-lod:concept ;
-    rdfs:label "Umbrella_pine" ;
+    rdfs:label "Umbrella pine" ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q3065538> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
@@ -4022,16 +4032,15 @@ p-lod:vault a p-lod:concept ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q189771> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
-p-lod:vegetable a p-lod:concept .
-
-p-lod:vegetal_scroll a p-lod:concept ;
-    rdfs:label "Vegetal_scroll" ;
-    p-lod:wikidata-url <http://www.wikidata.org/entity/Q106142876> ;
+p-lod:vegetable a p-lod:concept ;
+    rdfs:label "Vegetable" ;
+    p-lod:broader p-lod:plant ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q11004> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
-p-lod:vegtable a p-lod:concept ;
-    rdfs:label "Vegtable" ;
-    p-lod:wikidata-url <http://www.wikidata.org/entity/Q11004> ;
+p-lod:vegetal_scroll a p-lod:concept ;
+    rdfs:label "Vegetal scroll" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q106142876> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:veil a p-lod:concept ;
@@ -4132,7 +4141,7 @@ p-lod:window a p-lod:concept ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:window_panel a p-lod:concept ;
-    rdfs:label "Window_panel" ;
+    rdfs:label "Window panel" ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q52711908> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
@@ -4174,6 +4183,7 @@ p-lod:wreath a p-lod:concept ;
 
 p-lod:wrestler a p-lod:concept ;
     rdfs:label "Wrestler" ;
+    p-lod:broader p-lod:generic_human_figure ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q27978698> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
@@ -4274,8 +4284,4 @@ p-lod:deity a p-lod:concept ;
 
 p-lod:generic_human_figure a p-lod:concept ;
     rdfs:label "Generic Human Figure" ;
-    p-lod:x-source p-lod:x-github-p-lod-data .
-
-p-lod:mythological_figure a p-lod:concept ;
-    rdfs:label "Mythological figure" ;
     p-lod:x-source p-lod:x-github-p-lod-data .

@@ -153,16 +153,17 @@ p-lod:r1-i10-p4 a p-lod:property ;
     p-lod:identifier "r1-i10-p4" ;
     p-lod:p-in-p-url <http://pompeiiinpictures.com/pompeiiinpictures/R1/1%2010%2004%20plan.htm> ;
     p-lod:pleiades-url <https://pleiades.stoa.org/places/690549463> ;
-    p-lod:plod-english-title "Casa del poeta Menandro",
-        "Casa delle argenterie",
-        "Domus of Q. Poppaeus Sabinus and Vatinia Primigenia",
-        "House of Menander" ;
-    p-lod:plod-italian-title "Casa del Menandro",
-        "Casa del tesoro delle argenterie" ;
+    p-lod:plod-english-title "House of Menander",
+        "Domus of Q. Poppaeus Sabinus and Vatinia Primigenia" ;
+    p-lod:plod-italian-title "Casa del poeta Menandro",
+        "Casa del Menandro",
+        "Casa del tesoro delle argenterie",
+        "Casa delle argenterie" ;
     p-lod:spatially-within p-lod:r1-i10 ;
     p-lod:surface-area 1.846709e+03 ;
     p-lod:wiki-en-url <https://en.wikipedia.org/wiki/House_of_Menander> ;
     p-lod:wiki-it-url <https://it.wikipedia.org/wiki/Casa_del_Menandro> ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q1590905> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:r1-i10-p5 a p-lod:property ;
@@ -2395,6 +2396,9 @@ p-lod:r2-i2-p2 a p-lod:property ;
     p-lod:p-in-p-url <http://pompeiiinpictures.com/pompeiiinpictures/R2/2%2002%2002%20p1.htm> ;
     p-lod:spatially-within p-lod:r2-i2 ;
     p-lod:surface-area 2.507155e+03 ;
+    p-lod:wiki-en-url <https://en.wikipedia.org/wiki/House_of_Loreius_Tiburtinus> ;
+    p-lod:wiki-it-url <https://it.wikipedia.org/wiki/Casa_di_Ottavio_Quartione> ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q1590867> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:r2-i2-p3 a p-lod:property ;
@@ -2438,12 +2442,12 @@ p-lod:r2-i3-p3 a p-lod:property ;
     p-lod:geojson "{\"type\": \"Feature\", \"properties\": {\"title\": \"urn:p-lod:id:r2-i3-p3\"}, \"geometry\": {\"type\": \"Polygon\", \"coordinates\": [[[14.49256684945747, 40.75190170827729, 41.827900000003865], [14.49256684945747, 40.75190170827729, 41.827900000003865], [14.492628188561659, 40.7519309022692, 41.827900000003865], [14.492640141764719, 40.75193634311721, 41.827900000003865], [14.49265943548335, 40.751945664191666, 41.827900000003865], [14.49267536302897, 40.75195294308078, 41.827900000003865], [14.492718081538523, 40.75197310267275, 41.827900000003865], [14.492737308144788, 40.751980522910365, 41.827900000003865], [14.492780774036115, 40.75200287380899, 41.827900000003865], [14.492842019282373, 40.751929473449565, 41.827900000003865], [14.492849503914467, 40.75192640486886, 41.827900000003865], [14.492881460377314, 40.75188855488567, 41.827900000003865], [14.49291976985744, 40.75190713412203, 41.827900000003865], [14.492955938205784, 40.75186611939389, 41.827900000003865], [14.492930949621107, 40.75185286392845, 41.827900000003865], [14.492964546971383, 40.751813330480985, 41.827900000003865], [14.492922465726432, 40.75179359925277, 41.827900000003865], [14.492951004950212, 40.75175787874198, 41.827900000003865], [14.492937093151916, 40.75175110836909, 41.827900000003865], [14.492960833177571, 40.751720315848374, 41.827900000003865], [14.492974932651354, 40.751726726480186, 41.827900000003865], [14.492987289272198, 40.751710720650244, 41.827900000003865], [14.492802037844635, 40.75162494048952, 41.827900000003865], [14.492577575953273, 40.751902562674445, 41.827900000003865], [14.492569363186824, 40.751898653860096, 41.827900000003865], [14.49256684945747, 40.75190170827729, 41.827900000003865]]]}, \"id\": \"urn:p-lod:id:r2-i3-p3\"}" ;
     p-lod:identifier "r2-i3-p3" ;
     p-lod:p-in-p-url <http://pompeiiinpictures.com/pompeiiinpictures/R2/2%2003%2003%20part%201.htm> ;
-    p-lod:plod-english-title "Casa del monogramma crisitano",
+    p-lod:plod-english-title "Domus of the DD. Lucretii Satrii Valentes" ;
+    p-lod:plod-italian-title "Casa del monogramma crisitano",
         "Casa della  nascita di Venere",
         "Casa della Venere",
         "Casa della Venere in conchiglia",
         "Casa di Laomedonte",
-        "Domus of the DD. Lucretii Satrii Valentes",
         "della Venere marina" ;
     p-lod:spatially-within p-lod:r2-i3 ;
     p-lod:surface-area 7.621841e+02 ;
@@ -15455,10 +15459,13 @@ p-lod:r9-i9-pg a p-lod:property ;
 
 p-lod:villa-of-the-mysteries a p-lod:property ;
     rdfs:label "Villa of the Mysteries" ;
+    p-lod:best-image p-lod:luna_img_PALP_11804 , p-lod:luna_img_PALP_26501 ;
     p-lod:identifier "villa-of-the-mysteries" ;
     p-lod:p-in-p-url <http://www.pompeiiinpictures.com/pompeiiinpictures/RV/villa%20mysteries%20plan.htm> ;
     p-lod:pleiades-url <https://pleiades.stoa.org/places/396427768> ;
     p-lod:spatially-within p-lod:pompeii ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q1241298> ;
+    p-lod:wiki-en-url <https://en.wikipedia.org/wiki/Villa_of_the_Mysteries> ;
+    p-lod:wiki-it-url <https://it.wikipedia.org/wiki/Villa_dei_Misteri> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
