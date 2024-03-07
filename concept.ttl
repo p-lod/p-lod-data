@@ -2909,13 +2909,11 @@ p-lod:phallus a p-lod:concept ;
     rdfs:label "Phallus" ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
-p-lod:pheonix a p-lod:concept ;
-    rdfs:label "Pheonix" ;
+p-lod:phoenix a p-lod:concept ;
+    rdfs:label "Phoenix" ;
+    p-lod:broader p-lod:mythological-creature ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q48444> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
-
-p-lod:phoenix a p-lod:concept .
-
-p-lod:phoinix a p-lod:concept .
 
 p-lod:phrixos a p-lod:concept ;
     rdfs:label "Phrixos" ;
@@ -3029,7 +3027,11 @@ p-lod:polyphemus a p-lod:concept ;
     rdfs:label "Polyphemus" ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
-p-lod:polyxena a p-lod:concept .
+p-lod:polyxena a p-lod:concept ;
+    rdfs:label "Polyxena" ;
+    p-lod:broader p-lod:mythological_figure ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q750236> ;
+    p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:pomegranate a p-lod:concept ;
     rdfs:label "Pomegranate" ;
