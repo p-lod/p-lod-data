@@ -2915,18 +2915,15 @@ p-lod:phoenix a p-lod:concept ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q48444> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
-p-lod:phrixos a p-lod:concept ;
-    rdfs:label "Phrixos" ;
-    p-lod:x-source p-lod:x-github-p-lod-data .
-
-p-lod:phrixus a p-lod:concept .
+p-lod:phrixus a p-lod:concept ;
+    rdfs:label "Phrixus" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q743482> ;
+    p-lod:x-source p-lod:x-github-p-lod-data ..
 
 p-lod:phrygian_cap a p-lod:concept ;
     rdfs:label "Phrygian cap" ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q213240> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
-
-p-lod:phryxus a p-lod:concept .
 
 p-lod:piece_of_meat a p-lod:concept .
 
