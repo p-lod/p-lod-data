@@ -2918,7 +2918,7 @@ p-lod:phoenix a p-lod:concept ;
 p-lod:phrixus a p-lod:concept ;
     rdfs:label "Phrixus" ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q743482> ;
-    p-lod:x-source p-lod:x-github-p-lod-data ..
+    p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:phrygian_cap a p-lod:concept ;
     rdfs:label "Phrygian cap" ;
