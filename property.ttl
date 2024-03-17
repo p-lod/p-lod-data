@@ -1358,8 +1358,9 @@ p-lod:r1-i3-p23 a p-lod:property ;
     p-lod:geojson "{\"type\": \"Feature\", \"properties\": {\"title\": \"urn:p-lod:id:r1-i3-p23\"}, \"geometry\": {\"type\": \"Polygon\", \"coordinates\": [[[14.489203666453465, 40.74967566776102, 41.827900000003865], [14.489269126679963, 40.74971004363642, 41.827900000003865], [14.48933763151713, 40.74963397486021, 41.827900000003865], [14.489304330220325, 40.749617152885726, 41.827900000003865], [14.48941047110992, 40.74948634591227, 41.827900000003865], [14.489312097434722, 40.74943920862079, 41.827900000003865], [14.489298619396363, 40.74946151120058, 41.827900000003865], [14.489262779403415, 40.74944732819442, 41.827900000003865], [14.489164305183857, 40.74956653099499, 41.827900000003865], [14.489211441511884, 40.74958908948048, 41.827900000003865], [14.489157345641711, 40.74965182117538, 41.827900000003865], [14.489188328728618, 40.74966802874509, 41.827900000003865], [14.489203666453465, 40.74967566776102, 41.827900000003865]]]}, \"id\": \"urn:p-lod:id:r1-i3-p23\"}" ;
     p-lod:identifier "r1-i3-p23" ;
     p-lod:p-in-p-url <http://pompeiiinpictures.com/pompeiiinpictures/R1/1%2003%2023.htm> ;
-    p-lod:plod-english-title "Casa della pittura dell'Anfiteatro",
-        "Domus of Actius Anicetus" ;
+    p-lod:pleiades-url <https://pleiades.stoa.org/places/850954730> ;
+    p-lod:plod-english-title "Domus of Actius Anicetus" ;
+    p-lod:plod-italian-title "Casa della pittura dell'Anfiteatro" ;
     p-lod:spatially-within p-lod:r1-i3 ;
     p-lod:surface-area 3.349762e+02 ;
     p-lod:x-source p-lod:x-github-p-lod-data .

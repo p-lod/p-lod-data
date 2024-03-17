@@ -2483,6 +2483,7 @@ p-lod:myrtis a p-lod:concept .
 
 p-lod:mythological_figure a p-lod:concept ;
     rdfs:label "Mythological figure" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q4271324> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:mythological_figures a p-lod:concept .
@@ -2495,10 +2496,6 @@ p-lod:narcissus a p-lod:concept ;
     rdfs:label "Narcissus" ;
     p-lod:broader p-lod:mythological_figure ;
     p-lod:x-source p-lod:x-github-p-lod-data .
-
-p-lod:narcissus_ a p-lod:concept .
-
-p-lod:narkissos a p-lod:concept .
 
 p-lod:nature a p-lod:concept ;
     rdfs:label "Nature" ;
@@ -2942,16 +2939,19 @@ p-lod:pigeon a p-lod:concept ;
 
 p-lod:pilaster a p-lod:concept ;
     rdfs:label "Pilaster" ;
+    p-lod:broader p-lod:architecture ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q175112> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:pillar a p-lod:concept ;
     rdfs:label "Pillar" ;
+    p-lod:braoder p-lod:architecture ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q29052406> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:pinax a p-lod:concept ;
     rdfs:label "Pinax" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q371900> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:pindar a p-lod:concept ;
@@ -2962,6 +2962,7 @@ p-lod:pindar a p-lod:concept ;
 
 p-lod:pine_cone a p-lod:concept ;
     rdfs:label "Pine cone" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q22710> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:pitcher a p-lod:concept ;
@@ -2982,6 +2983,7 @@ p-lod:plateau a p-lod:concept .
 
 p-lod:plectrum a p-lod:concept ;
     rdfs:label "Plectrum" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q181890> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:plinth a p-lod:concept ;
@@ -3010,6 +3012,8 @@ p-lod:poliphemus a p-lod:concept ;
 
 p-lod:polyhymnia a p-lod:concept ;
     rdfs:label "Polyhymnia" ;
+    p-lod:broader p-lod:muse ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q104425> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:polynices a p-lod:concept ;
