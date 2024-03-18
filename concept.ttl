@@ -1342,6 +1342,8 @@ p-lod:emblema a p-lod:concept ;
 
 p-lod:endymion a p-lod:concept ;
     rdfs:label "Endymion" ;
+    p-lod:broader p-lod:mythological_figure ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q272047> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:entablature a p-lod:concept ;
@@ -1382,7 +1384,8 @@ p-lod:europa a p-lod:concept ;
 
 p-lod:euterpe a p-lod:concept ;
     rdfs:label "Euterpe" ;
-    p-lod:broader p-lod:mythological_figure ;
+    p-lod:broader p-lod:muse ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q104012> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:facade a p-lod:concept ;
@@ -2483,6 +2486,7 @@ p-lod:mule a p-lod:concept ;
 
 p-lod:muse a p-lod:concept ;
     rdfs:label "Muse" ;
+    p-lod:broader p-lod:mythological_figure ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q66016> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
@@ -2502,8 +2506,6 @@ p-lod:mythological_figure a p-lod:concept ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q4271324> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
-p-lod:mythological_figures a p-lod:concept .
-
 p-lod:mythological_scene a p-lod:concept ;
     rdfs:label "Mythological scene" ;
     p-lod:x-source p-lod:x-github-p-lod-data .
@@ -2511,6 +2513,7 @@ p-lod:mythological_scene a p-lod:concept ;
 p-lod:narcissus a p-lod:concept ;
     rdfs:label "Narcissus" ;
     p-lod:broader p-lod:mythological_figure ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q179256> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:nature a p-lod:concept ;
@@ -2530,6 +2533,7 @@ p-lod:necklace a p-lod:concept ;
 p-lod:nemesis a p-lod:concept ;
     rdfs:label "Nemesis" ;
     p-lod:broader p-lod:deity ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q185747> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:neoptolemus a p-lod:concept ;
@@ -2569,6 +2573,7 @@ p-lod:niche a p-lod:concept ;
 p-lod:nike a p-lod:concept ;
     rdfs:label "Nike" ;
     p-lod:broader p-lod:deity ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q165023> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:nilotic_landscape a p-lod:concept ;
@@ -2577,6 +2582,8 @@ p-lod:nilotic_landscape a p-lod:concept ;
 
 p-lod:niobid a p-lod:concept ;
     rdfs:label "Niobid" ;
+    p-lod:broader p-lod:mythological_figure ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q2738502> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:numidian a p-lod:concept ;
@@ -2592,7 +2599,10 @@ p-lod:nymph a p-lod:concept ;
     rdfs:label "Nymph" ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
-p-lod:oar a p-lod:concept .
+p-lod:oar a p-lod:concept ;
+    rdfs:label "Oar" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q2003749> ;
+    p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:obelisk a p-lod:concept ;
     rdfs:label "Obelisk" ;
@@ -2652,7 +2662,10 @@ p-lod:omphalos a p-lod:concept ;
     rdfs:label "Omphalos" ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
-p-lod:onion a p-lod:concept .
+p-lod:onion a p-lod:concept ;
+    rdfs:label "Onion" ;
+    p-lod:broader p-lod:vegetable ;
+    p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:opening a p-lod:concept ;
     rdfs:label "Opening" ;
@@ -4158,6 +4171,7 @@ p-lod:wagon a p-lod:concept ;
 
 p-lod:wall a p-lod:concept ;
     rdfs:label "Wall" ;
+    p-lod:broader p-lod:architecture ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q42948> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
@@ -4187,10 +4201,13 @@ p-lod:wayfarer a p-lod:concept ;
 
 p-lod:wheat a p-lod:concept ;
     rdfs:label "Wheat" ;
+    p-lod:broader p-lod:plant ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q15645384> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:wheel a p-lod:concept ;
     rdfs:label "Wheel" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q446> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:whip a p-lod:concept ;
@@ -4208,7 +4225,10 @@ p-lod:window_panel a p-lod:concept ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q52711908> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
-p-lod:wine a p-lod:concept .
+p-lod:wine a p-lod:concept ;
+    rdfs:label "Wine" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q282> ;
+    p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:wing a p-lod:concept ;
     rdfs:label "Wing" ;
