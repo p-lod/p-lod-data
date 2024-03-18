@@ -2974,7 +2974,7 @@ p-lod:pilaster a p-lod:concept ;
 
 p-lod:pillar a p-lod:concept ;
     rdfs:label "Pillar" ;
-    p-lod:braoder p-lod:architecture ;
+    p-lod:broader p-lod:architecture ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q29052406> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
@@ -3865,7 +3865,7 @@ p-lod:thalia a p-lod:concept ;
 
 p-lod:theseus a p-lod:concept ;
     rdfs:label "Theseus" ;
-    p-lod:best-images p-lod:luna_imgs_PALP_50065 ;
+    p-lod:best-image p-lod:luna_imgs_PALP_50065 ;
     p-lod:broader p-lod:mythological_figure ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q1320718> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
@@ -3884,7 +3884,7 @@ p-lod:thisbe a p-lod:concept ;
 
 p-lod:thoas a p-lod:concept ;
     rdfs:label "Thoas, King of Tauris" ;
-    p-lod:best-images p-lod:luna_img_PALP_57771 ;
+    p-lod:best-image p-lod:luna_img_PALP_57771 ;
     p-lod:broader p-lod:mythological_figure ;
     p-lod:description "Thoas, King of Tauris, shares a name with Thoas, King of Lemnos. The Taurian Thoas is depicted at Pompeii." ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q1246185> ;
