@@ -344,6 +344,7 @@ p-lod:atalante a p-lod:concept ;
 p-lod:athena a p-lod:concept ;
     rdfs:label "Athena" ;
     p-lod:broader p-lod:olympian_deity ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q37122> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:athenian a p-lod:concept .
@@ -1987,6 +1988,11 @@ p-lod:impluvium a p-lod:concept ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q1117244> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
+p-lod:insect a p-lod:concept ;
+    rdfs:label "Insect" ;
+    p-lod:broader p-lod:animal ;
+    p-lod:x-source p-lod:x-github-p-lod-data .
+
 p-lod:intercolumniation a p-lod:concept ;
     rdfs:label "Intercolumniation" ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q1364172> ;
@@ -2401,6 +2407,8 @@ p-lod:micone a p-lod:concept ;
 
 p-lod:midas a p-lod:concept ;
     rdfs:label "Midas" ;
+    p-lod:broader p-lod:mythological_figure ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q308398> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:midwife a p-lod:concept ;
@@ -2436,13 +2444,19 @@ p-lod:modillion a p-lod:concept ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q980198> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
-p-lod:modius a p-lod:concept .
+p-lod:modius a p-lod:concept ;
+    rdfs:label "Modius"  ;
+    p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:mollusc a p-lod:concept ;
     rdfs:label "Mollusc" ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
-p-lod:mongoose a p-lod:concept .
+p-lod:mongoose a p-lod:concept ;
+    rdfs:label "Mongoose" ;
+    p-lod:broader p-lod:animal ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q80479> ;
+    p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:monkey a p-lod:concept ;
     rdfs:label "Monkey" ;
@@ -3927,6 +3941,11 @@ p-lod:thyias a p-lod:concept ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q949266> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
+p-lod:thymiaterion a p-lod:concept ;
+    rdfs:label "Thymiaterion" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q662620> ;
+    p-lod:x-source p-lod:x-github-p-lod-data .  
+
 p-lod:thyrsus a p-lod:concept ;
     rdfs:label "Thrysus" ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q536850> ;
@@ -4289,11 +4308,6 @@ p-lod:zeus_ammon a p-lod:concept ;
 
 p-lod:zither a p-lod:concept ;
     rdfs:label "Zither" ;
-    p-lod:x-source p-lod:x-github-p-lod-data .
-
-p-lod:insect a p-lod:concept ;
-    rdfs:label "Insect" ;
-    p-lod:broader p-lod:animal ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:musician a p-lod:concept ;
