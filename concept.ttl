@@ -2645,11 +2645,6 @@ p-lod:octopus a p-lod:concept ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q611843> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
-p-lod:odysseus a p-lod:concept ;
-    rdfs:label "Odysseus" ;
-    p-lod:broader p-lod:mythological_figure ;
-    p-lod:x-source p-lod:x-github-p-lod-data .
-
 p-lod:offerant a p-lod:concept .
 
 p-lod:offerer a p-lod:concept .
@@ -4045,7 +4040,10 @@ p-lod:trophy a p-lod:concept .
 
 p-lod:trowel a p-lod:concept .
 
-p-lod:troy a p-lod:concept .
+p-lod:troy a p-lod:concept ;
+    rds:label "Troy" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q22647> ;
+    p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:trumpet a p-lod:concept ;
     rdfs:label "Trumpet" ;
@@ -4075,6 +4073,7 @@ p-lod:tympanum a p-lod:concept ;
 p-lod:ulysses a p-lod:concept ;
     rdfs:label "Ulysses" ;
     p-lod:broader p-lod:mythological_figure ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q47231> ;
     p-lod:x-source p-lod:x-github-p-lod-data .
 
 p-lod:umbrella_pine a p-lod:concept ;
