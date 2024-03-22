@@ -15,5 +15,5 @@ p-lod:pompeii a p-lod:city ;
     p-lod:wiki-en-url <https://en.wikipedia.org/wiki/Pompeii> ;
     p-lod:wiki-it-url <https://it.wikipedia.org/wiki/Pompei_(citt%C3%A0_antica)> ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q43332> ;
-    p-lod:x-source p-lod:x-github-p-lod-data .
+    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/city.ttl> .
 

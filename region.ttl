@@ -9,7 +9,7 @@ p-lod:r1 a p-lod:region ;
     p-lod:sort-order-label "r01";
     p-lod:spatially-within p-lod:pompeii ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q3931883> ;
-    p-lod:x-source p-lod:x-github-p-lod-data .
+    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/region.ttl> .
 
 p-lod:r2 a p-lod:region ;
     rdfs:label "Region II" ;
@@ -19,7 +19,7 @@ p-lod:r2 a p-lod:region ;
     p-lod:sort-order-label "r02";
     p-lod:spatially-within p-lod:pompeii ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q3931878> ;
-    p-lod:x-source p-lod:x-github-p-lod-data .
+    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/region.ttl> .
 
 p-lod:r3 a p-lod:region ;
     rdfs:label "Region III" ;
@@ -29,7 +29,7 @@ p-lod:r3 a p-lod:region ;
     p-lod:sort-order-label "r03";
     p-lod:spatially-within p-lod:pompeii ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q3931875> ;
-    p-lod:x-source p-lod:x-github-p-lod-data .
+    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/region.ttl> .
 
 p-lod:r4 a p-lod:region ;
     rdfs:label "Region IV" ;
@@ -39,7 +39,7 @@ p-lod:r4 a p-lod:region ;
     p-lod:sort-order-label "r04";
     p-lod:spatially-within p-lod:pompeii ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q3931881> ;
-    p-lod:x-source p-lod:x-github-p-lod-data .
+    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/region.ttl> .
 
 p-lod:r5 a p-lod:region ;
     rdfs:label "Region V" ;
@@ -49,7 +49,7 @@ p-lod:r5 a p-lod:region ;
     p-lod:sort-order-label "r05";
     p-lod:spatially-within p-lod:pompeii ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q3931890> ;
-    p-lod:x-source p-lod:x-github-p-lod-data .
+    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/region.ttl> .
 
 p-lod:r6 a p-lod:region ;
     rdfs:label "Region VI" ;
@@ -59,7 +59,7 @@ p-lod:r6 a p-lod:region ;
     p-lod:sort-order-label "r06";
     p-lod:spatially-within p-lod:pompeii ;
     p-lod:wikidata-url <https://www.wikidata.org/entity/Q3931889> ;
-    p-lod:x-source p-lod:x-github-p-lod-data .
+    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/region.ttl> .
 
 p-lod:r7 a p-lod:region ;
     rdfs:label "Region VII" ;
@@ -69,7 +69,7 @@ p-lod:r7 a p-lod:region ;
     p-lod:sort-order-label "r07";
     p-lod:spatially-within p-lod:pompeii ;
     p-lod:wikidata-url <https://www.wikidata.org/wiki/Q3931887> ;
-    p-lod:x-source p-lod:x-github-p-lod-data .
+    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/region.ttl> .
 
 p-lod:r8 a p-lod:region ;
     rdfs:label "Region VIII" ;
@@ -79,7 +79,7 @@ p-lod:r8 a p-lod:region ;
     p-lod:sort-order-label "r08";
     p-lod:spatially-within p-lod:pompeii ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q3931888> ;
-    p-lod:x-source p-lod:x-github-p-lod-data .
+    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/region.ttl> .
 
 p-lod:r9 a p-lod:region ;
     rdfs:label "Region IX" ;
@@ -89,4 +89,4 @@ p-lod:r9 a p-lod:region ;
     p-lod:sort-order-label "r09";
     p-lod:spatially-within p-lod:pompeii ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q3931882> ;
-    p-lod:x-source p-lod:x-github-p-lod-data .
+    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/region.ttl> .

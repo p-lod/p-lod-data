@@ -10,133 +10,133 @@ owl:Nothing a owl:Class ;
 
 p-lod:artwork a owl:Class ;
     rdfs:label "Artwork" ;
-    p-lod:x-source p-lod:x-github-p-lod-data .
+    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/owl_Class.ttl> .
 
 p-lod:artwork-component a owl:Class ;
     rdfs:label "Artwork Component" ;
-    p-lod:x-source p-lod:x-github-p-lod-data .
+    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/owl_Class.ttl> .
 
 p-lod:city a owl:Class ;
     rdfs:label "City" ;
     rdfs:subClassOf p-lod:spatial-item ;
-    p-lod:x-source p-lod:x-github-p-lod-data .
+    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/owl_Class.ttl> .
 
 p-lod:city-gate a owl:Class ;
     rdfs:label "City Gate" ;
     rdfs:subClassOf p-lod:spatial-item ;
-    p-lod:x-source p-lod:x-github-p-lod-data .
+    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/owl_Class.ttl> .
 
 p-lod:city-wall a owl:Class ;
     rdfs:label "City Wall" ;
     rdfs:subClassOf p-lod:spatial-item ;
-    p-lod:x-source p-lod:x-github-p-lod-data .
+    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/owl_Class.ttl> .
 
 p-lod:coin a owl:Class ;
     rdfs:label "Coin" ;
-    p-lod:x-source p-lod:x-github-p-lod-data .
+    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/owl_Class.ttl> .
 
 p-lod:commercial-property a owl:Class ;
     rdfs:label "Commercial Property" ;
     rdfs:comment "A property understood to have a primarily commercial purpose." ;
     rdfs:subClassOf p-lod:property ;
-    p-lod:x-source p-lod:x-github-p-lod-data .
+    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/owl_Class.ttl> .
 
 p-lod:doorway a owl:Class ;
     rdfs:label "Doorway" ;
     rdfs:subClassOf p-lod:spatial-item ;
-    p-lod:x-source p-lod:x-github-p-lod-data .
+    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/owl_Class.ttl> .
 
 p-lod:exterior-wall-face a owl:Class ;
     rdfs:label "Exterior Wall Face" ;
     rdfs:subClassOf p-lod:spatial-item ;
-    p-lod:x-source p-lod:x-github-p-lod-data .
+    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/owl_Class.ttl> .
 
 p-lod:feature a owl:Class ;
     rdfs:label "Feature" ;
     rdfs:comment "Physical feature within a space. A generic term." ;
     rdfs:subClassOf p-lod:spatial-item ;
-    p-lod:x-source p-lod:x-github-p-lod-data .
+    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/owl_Class.ttl> .
 
 p-lod:graffito a owl:Class ;
     rdfs:label "Graffito" ;
-    p-lod:x-source p-lod:x-github-p-lod-data .
+    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/owl_Class.ttl> .
 
 p-lod:house a owl:Class ;
     rdfs:label "House" ;
     rdfs:comment "A private Pompeian house." ;
     rdfs:subClassOf p-lod:property ;
-    p-lod:x-source p-lod:x-github-p-lod-data .
+    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/owl_Class.ttl> .
 
 p-lod:insula a owl:Class ;
     rdfs:label "Insula" ;
     rdfs:subClassOf p-lod:spatial-item ;
     owl:equivalentClass <http://www.wikidata.org/entity/Q26960982> ;
-    p-lod:x-source p-lod:x-github-p-lod-data .
+    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/owl_Class.ttl> .
 
 p-lod:interior-door a owl:Class ;
     rdfs:subClassOf p-lod:spatial-item ;
-    p-lod:x-source p-lod:x-github-p-lod-data .
+    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/owl_Class.ttl> .
 
 p-lod:luna-image a owl:Class ;
     rdfs:label "Image stored in the UMass Amherst Luna Server" ;
-    p-lod:x-source p-lod:x-github-p-lod-data .
+    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/owl_Class.ttl> .
 
 p-lod:major-street a owl:Class ;
     rdfs:subClassOf p-lod:street ;
-    p-lod:x-source p-lod:x-github-p-lod-data .
+    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/owl_Class.ttl> .
 
 p-lod:minor-street a owl:Class ;
     rdfs:subClassOf p-lod:street ;
-    p-lod:x-source p-lod:x-github-p-lod-data .
+    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/owl_Class.ttl> .
 
 p-lod:mosaic a owl:Class ;
     rdfs:label "Mosaic" ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q133067> ;
-    p-lod:x-source p-lod:x-github-p-lod-data .
+    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/owl_Class.ttl> .
 
 p-lod:necropolis a owl:Class ;
     rdfs:subClassOf p-lod:spatial-item ;
-    p-lod:x-source p-lod:x-github-p-lod-data .
+    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/owl_Class.ttl> .
 
 p-lod:pompeian-wall-painting-style a owl:Class ;
-    p-lod:x-source p-lod:x-github-p-lod-data .
+    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/owl_Class.ttl> .
 
 p-lod:public-arch a owl:Class ;
     rdfs:subClassOf p-lod:spatial-item ;
-    p-lod:x-source p-lod:x-github-p-lod-data .
+    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/owl_Class.ttl> .
 
 p-lod:region a owl:Class ;
     rdfs:label "Region" ;
     rdfs:subClassOf p-lod:spatial-item ;
     owl:equivalentClass <http://www.wikidata.org/entity/Q26912005> ;
-    p-lod:x-source p-lod:x-github-p-lod-data .
+    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/owl_Class.ttl> .
 
 p-lod:room a owl:Class ;
     rdfs:label "Room" ;
     rdfs:subClassOf p-lod:space ;
-    p-lod:x-source p-lod:x-github-p-lod-data .
+    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/owl_Class.ttl> .
 
 p-lod:statue a owl:Class ;
     rdfs:label "Statue" ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q179700> ;
-    p-lod:x-source p-lod:x-github-p-lod-data .
+    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/owl_Class.ttl> .
 
 p-lod:temple a owl:Class ;
     rdfs:label "Temple" ;
     rdfs:subClassOf p-lod:spatial-item ;
-    p-lod:x-source p-lod:x-github-p-lod-data .
+    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/owl_Class.ttl> .
 
 p-lod:tomb a owl:Class ;
     rdfs:subClassOf p-lod:spatial-item ;
-    p-lod:x-source p-lod:x-github-p-lod-data .
+    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/owl_Class.ttl> .
 
 p-lod:wall-face a owl:Class ;
     rdfs:subClassOf p-lod:spatial-item ;
-    p-lod:x-source p-lod:x-github-p-lod-data .
+    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/owl_Class.ttl> .
 
 p-lod:wall-painting a owl:Class ;
     rdfs:subClassOf p-lod:spatial-item ;
-    p-lod:x-source p-lod:x-github-p-lod-data .
+    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/owl_Class.ttl> .
 
 owl:Thing a owl:Class ;
     rdfs:label "Thing" ;
@@ -147,23 +147,23 @@ p-lod:space a owl:Class ;
     rdfs:label "Space" ;
     rdfs:comment "A reasonably or very well defined space within a built context. A room, atrium, or other area within a house or other property." ;
     rdfs:subClassOf p-lod:spatial-item ;
-    p-lod:x-source p-lod:x-github-p-lod-data .
+    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/owl_Class.ttl> .
 
 p-lod:property a owl:Class ;
     rdfs:label "Property" ;
     rdfs:comment "A spatial division of Pompeii reasonably considered to be a single unit. The default type for private Pompeian residences (houses)." ;
     rdfs:subClassOf p-lod:spatial-item ;
-    p-lod:x-source p-lod:x-github-p-lod-data .
+    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/owl_Class.ttl> .
 
 p-lod:street a owl:Class ;
     rdfs:subClassOf p-lod:spatial-item ;
-    p-lod:x-source p-lod:x-github-p-lod-data .
+    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/owl_Class.ttl> .
 
 p-lod:concept a owl:Class ;
     rdfs:label "Concept" ;
     rdfs:comment "A resource that can be used to describe another resource. It represents an abstract concept." ;
-    p-lod:x-source p-lod:x-github-p-lod-data .
+    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/owl_Class.ttl> .
 
 p-lod:spatial-item a owl:Class ;
-    p-lod:x-source p-lod:x-github-p-lod-data .
+    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/owl_Class.ttl> .
 

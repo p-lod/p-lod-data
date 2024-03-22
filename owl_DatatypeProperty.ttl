@@ -18,45 +18,45 @@ owl:topDataProperty a owl:DatatypeProperty ;
 
 p-lod:arcgis-id a owl:DatatypeProperty ;
     rdfs:label "ArcGIS Id" ;
-    p-lod:x-source p-lod:x-google-lod-triples .
+    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/owl_DatatypeProperty.ttl> .
 
 p-lod:description a owl:DatatypeProperty ;
     rdfs:label "Description" ;
-    p-lod:x-source p-lod:x-google-lod-triples .
+    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/owl_DatatypeProperty.ttl> .
 
 p-lod:geojson a owl:DatatypeProperty ;
     rdfs:label "Geojson String" ;
-    p-lod:x-source p-lod:x-google-lod-triples .
+    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/owl_DatatypeProperty.ttl> .
 
 p-lod:has-action a owl:DatatypeProperty ;
     rdfs:label "Has action" ;
-    p-lod:x-source p-lod:x-google-lod-triples .
+    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/owl_DatatypeProperty.ttl> .
 
 p-lod:identifier a owl:DatatypeProperty ;
     rdfs:label "Identifier" ;
-    p-lod:x-source p-lod:x-google-lod-triples .
+    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/owl_DatatypeProperty.ttl> .
 
 p-lod:is-plural a owl:DatatypeProperty ;
     rdfs:label "Is plural" ;
-    p-lod:x-source p-lod:x-google-lod-triples .
+    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/owl_DatatypeProperty.ttl> .
 
 p-lod:length a owl:DatatypeProperty ;
     rdfs:label "Length (meters)" ;
-    p-lod:x-source p-lod:x-google-lod-triples .
+    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/owl_DatatypeProperty.ttl> .
 
 p-lod:nam-inventory-number a owl:DatatypeProperty ;
     rdfs:label "NAM Inventory Number" ;
-    p-lod:x-source p-lod:x-google-lod-triples .
+    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/owl_DatatypeProperty.ttl> .
 
 p-lod:other-collection-inventory-number a owl:DatatypeProperty ;
     rdfs:label "Other Collection Inventory Number" ;
-    p-lod:x-source p-lod:x-google-lod-triples .
+    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/owl_DatatypeProperty.ttl> .
 
 p-lod:plod-english-title a owl:DatatypeProperty ;
     rdfs:label "English Title" ;
-    p-lod:x-source p-lod:x-google-lod-triples .
+    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/owl_DatatypeProperty.ttl> .
 
 p-lod:surface-area a owl:DatatypeProperty ;
     rdfs:label "Surface Area (in meters)" ;
-    p-lod:x-source p-lod:x-google-lod-triples .
+    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/owl_DatatypeProperty.ttl> .
 
