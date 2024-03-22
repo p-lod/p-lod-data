@@ -3947,6 +3947,7 @@ p-lod:thoas_lemnian a p-lod:concept ;
 
 p-lod:tholos a p-lod:concept ;
     rdfs:label "Tholos" ;
+    p-lod:broader p-lod:architecture ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
 p-lod:thoth a p-lod:concept ;
@@ -4028,7 +4029,10 @@ p-lod:tower a p-lod:concept ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q12518> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
-p-lod:traveler a p-lod:concept .
+p-lod:traveler a p-lod:concept ;
+    rdfs:label "Traveler" ;
+    p-lod:broader p-lod:generic_human_figure ;
+    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
 p-lod:travertine a p-lod:concept ;
     rdfs:label "Travertine" ;
@@ -4048,7 +4052,10 @@ p-lod:triangle a p-lod:concept ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q19821> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
-p-lod:triclinium a p-lod:concept .
+p-lod:triclinium a p-lod:concept ;
+    rdfs:label "Triclinium" ;
+    p-lod:broader p-lod:furniture ;
+    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
 p-lod:trident a p-lod:concept ;
     rdfs:label "Trident" ;
@@ -4064,7 +4071,8 @@ p-lod:tripod a p-lod:concept ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q683906> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
-p-lod:triptolemos a p-lod:concept .
+p-lod:triptolemos a p-lod:concept ;
+    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
 p-lod:triton a p-lod:concept ;
     rdfs:label "Triton" ;
@@ -4077,6 +4085,7 @@ p-lod:trochus a p-lod:concept ;
 
 p-lod:trojan a p-lod:concept ;
     rdfs:label "Trojan" ;
+    p-lod:broader p-lod:generic_human_figure ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
 p-lod:trophy a p-lod:concept .
@@ -4222,8 +4231,6 @@ p-lod:vulcan a p-lod:concept ;
     rdfs:label "Vulcan" ;
     p-lod:broader p-lod:roman_deity ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
-
-p-lod:vulcanus a p-lod:concept .
 
 p-lod:vulture a p-lod:concept ;
     rdfs:label "Vulture" ;
