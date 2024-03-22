@@ -2349,11 +2349,14 @@ p-lod:marine_griffin a p-lod:concept ;
 
 p-lod:mars a p-lod:concept ;
     rdfs:label "Mars" ;
+    p-lod:broader p-lod:roman_deity ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q112> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
 p-lod:marsyas a p-lod:concept ;
     rdfs:label "Marsyas" ;
     p-lod:broader p-lod:mythological_creature ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q599737> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
 p-lod:mask a p-lod:concept ;
@@ -2455,6 +2458,8 @@ p-lod:mini-panel a p-lod:concept ;
 
 p-lod:minos a p-lod:concept ;
     rdfs:label "Minos" ;
+    p-lod:broader p-lod:mythological_figure ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q23168> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
 p-lod:minotaur a p-lod:concept ;
@@ -2693,6 +2698,12 @@ p-lod:oleander a p-lod:concept ;
     rdfs:label "Oleander" ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
+p-lod:olympian_deity a p-lod:concept ;
+    rdfs:label "Olympian Deity" ;
+    p-lod:broader p-lod:deity ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q113103481> ;
+    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
+
 p-lod:olympos a p-lod:concept ;
     rdfs:label "Olympos" ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
@@ -2781,12 +2792,18 @@ p-lod:ovule a p-lod:concept ;
 p-lod:owl a p-lod:concept ;
     rdfs:label "Owl" ;
     p-lod:broader p-lod:bird ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q80213453> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
-p-lod:oyster a p-lod:concept .
+p-lod:oyster a p-lod:concept ;
+    rdfs:label "Oyster" ;
+    p-lod:broader p-lod:animal ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q107411> ;
+    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
 p-lod:palestra a p-lod:concept ;
     rdfs:label "Palestra" ;
+    p-lod:broader p-lod:architecture ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
 p-lod:palla a p-lod:concept ;
@@ -2797,6 +2814,7 @@ p-lod:pallas a p-lod:concept .
 
 p-lod:palm a p-lod:concept ;
     rdfs:label "Palm" ;
+    p-lod:broader p-lod:plant ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q2709536> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
@@ -2816,7 +2834,10 @@ p-lod:pan a p-lod:concept ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q132582> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
-p-lod:pan-pipe a p-lod:concept .
+p-lod:pan-pipe a p-lod:concept ;
+    rdfs:label "Pan pipe" ;
+    p-lod:broader p-lod:musical_instrument ;
+    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
 p-lod:panel a p-lod:concept ;
     rdfs:label "Panel" ;
@@ -2835,6 +2856,7 @@ p-lod:panther a p-lod:concept ;
 
 p-lod:parapet a p-lod:concept ;
     rdfs:label "Parapet" ;
+    p-lod:broader p-lod:architecture ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q1286070> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
@@ -3600,6 +3622,13 @@ p-lod:snail a p-lod:concept ;
     rdfs:label "Snail" ;
     p-lod:broader p-lod:animal ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q308841> ;
+    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
+
+p-lod:snake a p-lod:concept ;
+    rdfs:label "Snake" ;
+    p-lod:best-image p-lod:luna_img_PALP_40966 , p-lod:luna_img_PALP_41174 ;
+    p-lod:broader p-lod:animal ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q2102> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
 p-lod:socle a p-lod:concept ;
@@ -4372,13 +4401,6 @@ p-lod:philosopher a p-lod:concept ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q4964182> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
-p-lod:snake a p-lod:concept ;
-    rdfs:label "Snake" ;
-    p-lod:best-image p-lod:luna_img_PALP_40966 , p-lod:luna_img_PALP_41174 ;
-    p-lod:broader p-lod:animal ;
-    p-lod:wikidata-url <http://www.wikidata.org/entity/Q2102> ;
-    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
-
 p-lod:tree a p-lod:concept ;
     rdfs:label "Tree" ;
     p-lod:broader p-lod:plant ;
@@ -4413,8 +4435,3 @@ p-lod:roman_deity a p-lod:concept ;
     p-lod:broader p-lod:deity ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
-p-lod:olympian_deity a p-lod:concept ;
-    rdfs:label "Olympian Deity" ;
-    p-lod:broader p-lod:deity ;
-    p-lod:wikidata-url <http://www.wikidata.org/entity/Q113103481> ;
-    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
