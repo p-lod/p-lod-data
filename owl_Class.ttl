@@ -2,12 +2,6 @@
 @prefix p-lod: <urn:p-lod:id:> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-owl:Nothing a owl:Class ;
-    rdfs:label "Nothing" ;
-    rdfs:comment "This is the empty class." ;
-    rdfs:isDefinedBy owl: ;
-    rdfs:subClassOf owl:Thing .
-
 p-lod:artwork a owl:Class ;
     rdfs:label "Artwork" ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/owl_Class.ttl> .
