@@ -179,21 +179,14 @@ p-lod:anta a p-lod:concept ;
 
 p-lod:antefix a p-lod:concept ;
     rdfs:label "Antefix" ;
+    p-lod:broader p-lod:architecture ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q571723> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
 p-lod:antelope a p-lod:concept ;
     rdfs:label "Antelope" ;
     p-lod:broader p-lod:animal ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q25894> ;
-    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
-
-p-lod:antilope a p-lod:concept ;
-    rdfs:label "Antilope" ;
-    p-lod:wikidata-url <http://www.wikidata.org/entity/Q1416078> ;
-    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
-
-p-lod:antiopa a p-lod:concept ;
-    rdfs:label "Antiopa" ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
 p-lod:antiope a p-lod:concept ;
@@ -379,6 +372,7 @@ p-lod:autumn a p-lod:concept ;
 
 p-lod:averne a p-lod:concept ;
     rdfs:label "Averne" ;
+    p-lod:broader p-lod:mythological_figure ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
 p-lod:axe a p-lod:concept ;
@@ -496,6 +490,7 @@ p-lod:bes a p-lod:concept ;
 
 p-lod:betyl a p-lod:concept ;
     rdfs:label "Betyl" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q664990> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
 p-lod:bezel a p-lod:concept .
@@ -1604,8 +1599,6 @@ p-lod:ganymede a p-lod:concept ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q131588> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
-p-lod:ganymedes a p-lod:concept .
-
 p-lod:garden a p-lod:concept ;
     rdfs:label "Garden" ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q1107656> ;
@@ -1622,6 +1615,7 @@ p-lod:garland__frame a p-lod:concept .
 
 p-lod:gate a p-lod:concept ;
     rdfs:label "Gate" ;
+    p-lod:broader p-lod:architecture ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q53060> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
@@ -1678,7 +1672,9 @@ p-lod:goat a p-lod:concept ;
 
 p-lod:god a p-lod:concept .
 
-p-lod:goose a p-lod:concept .
+p-lod:goose a p-lod:concept ;
+    rdfs:label "Goose" ;
+    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
 p-lod:gorgon a p-lod:concept ;
     rdfs:label "Gorgon" ;
@@ -2184,6 +2180,7 @@ p-lod:lararium a p-lod:concept ;
 p-lod:lare a p-lod:concept ;
     rdfs:label "Lare" ;
     p-lod:broader p-lod:roman_deity ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q504377> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
 p-lod:lark a p-lod:concept ;
@@ -2197,7 +2194,10 @@ p-lod:latchkey a p-lod:concept ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q132041> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
-p-lod:latrine a p-lod:concept .
+p-lod:latrine a p-lod:concept ;
+    rdfs:label "Latrine" ;
+    p-lod:broader p-lod:architecture ;
+    rdfs:label "Latrine" .
 
 p-lod:lattice a p-lod:concept ;
     rdfs:label "Lattice" ;
@@ -2212,6 +2212,7 @@ p-lod:laurel a p-lod:concept ;
 
 p-lod:leaf a p-lod:concept ;
     rdfs:label "Leaf" ;
+    p-lod:broader p-lod:plant ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q33971> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
@@ -2228,6 +2229,7 @@ p-lod:leda a p-lod:concept ;
 
 p-lod:lekythos a p-lod:concept ;
     rdfs:label "Lekythos" ;
+    p-lod:broader p-lod:vessel ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
 p-lod:lemon a p-lod:concept ;
@@ -2409,11 +2411,14 @@ p-lod:melpomene a p-lod:concept ;
 
 p-lod:menelaus a p-lod:concept ;
     rdfs:label "Menelaus" ;
+    p-lod:broader p-lod:mythological_figure ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q171839> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
 p-lod:mercury a p-lod:concept ;
     rdfs:label "Mercury" ;
     p-lod:broader p-lod:roman_deity ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q1150> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
 p-lod:mermaid a p-lod:concept ;
@@ -2426,6 +2431,7 @@ p-lod:mestra a p-lod:concept ;
 
 p-lod:metope a p-lod:concept ;
     rdfs:label "Metope" ;
+    p-lod:broader p-lod:architecture ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
 p-lod:micon a p-lod:concept ;
@@ -2444,11 +2450,14 @@ p-lod:midas a p-lod:concept ;
 
 p-lod:midwife a p-lod:concept ;
     rdfs:label "Midwife" ;
+    p-lod:broader p-lod:generic_human_figure ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q185196> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
 p-lod:minerva a p-lod:concept ;
     rdfs:label "Minerva" ;
     p-lod:broader p-lod:roman_deity ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q126916> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
 p-lod:mini-panel a p-lod:concept ;
@@ -2465,6 +2474,7 @@ p-lod:minos a p-lod:concept ;
 p-lod:minotaur a p-lod:concept ;
     rdfs:label "Minotaur" ;
     p-lod:broader p-lod:mythological_creature ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q129866> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
 p-lod:mirror a p-lod:concept ;
@@ -2483,6 +2493,7 @@ p-lod:modius a p-lod:concept ;
 
 p-lod:mollusc a p-lod:concept ;
     rdfs:label "Mollusc" ;
+    p-lod:broader p-lod:animal ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
 p-lod:mongoose a p-lod:concept ;
@@ -2494,6 +2505,7 @@ p-lod:mongoose a p-lod:concept ;
 p-lod:monkey a p-lod:concept ;
     rdfs:label "Monkey" ;
     p-lod:broader p-lod:animal ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q1367> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
 p-lod:moon a p-lod:concept ;
@@ -2580,6 +2592,7 @@ p-lod:nature a p-lod:concept ;
 
 p-lod:nebris a p-lod:concept ;
     rdfs:label "Nebris" ;
+    p-lod:broader p-lod:clothing ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q1275155> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
@@ -3319,7 +3332,17 @@ p-lod:roller a p-lod:concept ;
     rdfs:label "Roller" ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
-p-lod:rooster a p-lod:concept .
+p-lod:roman_deity a p-lod:concept ;
+    rdfs:label "Roman deity" ;
+    p-lod:broader p-lod:deity ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q11688446> ;
+    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
+
+p-lod:rooster a p-lod:concept ;
+    rdfs:label "Rooster" ;
+    p-lod:broader p-lod:bird ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q2216236> ;
+    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
 p-lod:rope a p-lod:concept ;
     rdfs:label "Rope" ;
@@ -3328,6 +3351,7 @@ p-lod:rope a p-lod:concept ;
 
 p-lod:rose a p-lod:concept ;
     rdfs:label "Rose" ;
+    p-lod:broader p-lod:flower ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q34687> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
@@ -3340,7 +3364,11 @@ p-lod:rosette a p-lod:concept ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q753457> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
-p-lod:rostrum a p-lod:concept .
+p-lod:rostrum a p-lod:concept ;
+    rdfs:label "Rostrum" ;
+    p-lod:broader p-lod:architecture ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q426372> ;
+    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
 p-lod:roundel a p-lod:concept ;
     rdfs:label "Roundel" ;
@@ -3349,6 +3377,7 @@ p-lod:roundel a p-lod:concept ;
 
 p-lod:rudder a p-lod:concept ;
     rdfs:label "Rudder" ;
+    p-log:wikidata-url <http://www.wikidata.org/entity/Q209760> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
 p-lod:runner a p-lod:concept ;
@@ -3375,10 +3404,14 @@ p-lod:sappho a p-lod:concept ;
     p-lod:broader p-lod:poet ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
-p-lod:sarcophagus a p-lod:concept .
+p-lod:sarcophagus a p-lod:concept ;
+    rdfs:label "Sarcophagus" ;
+    p-log:wikidata-url <http://www.wikidata.org/entity/Q48634> ;
+    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
 p-lod:sarnus a p-lod:concept ;
     rdfs:label "Sarnus" ;
+    p-lod:broader p-lod:roman_deity ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
 p-lod:saturn a p-lod:concept ;
@@ -3476,6 +3509,8 @@ p-lod:season a p-lod:concept ;
 
 p-lod:selene a p-lod:concept ;
     rdfs:label "Selene" ;
+    p-lod:broader p-lod:deity ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q131585> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
 p-lod:seller a p-lod:concept ;
@@ -3497,7 +3532,11 @@ p-lod:semicircle a p-lod:concept ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q1133242> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
-p-lod:serapis a p-lod:concept .
+p-lod:serapis a p-lod:concept ;
+    rdfs:label "Serapis" ;
+    p-lod:broader p-lod:egyptian_deity ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q214554> ;
+    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
 p-lod:serpent a p-lod:concept ;
     rdfs:label "Serpent" ;
@@ -4428,10 +4467,5 @@ p-lod:fruit a p-lod:concept ;
 
 p-lod:plant a p-lod:concept ;
     rdfs:label "Plant" ;
-    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
-
-p-lod:roman_deity a p-lod:concept ;
-    rdfs:label "Roman deity" ;
-    p-lod:broader p-lod:deity ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
