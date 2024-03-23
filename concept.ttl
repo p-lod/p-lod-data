@@ -66,7 +66,12 @@ p-lod:aethra a p-lod:concept ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q11921121> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
-p-lod:agave a p-lod:concept .
+p-lod:agave a p-lod:concept ;
+    rdfs:label "Agave" ;
+    p-lod:description "Daughter of Cadmus" ;
+    p-lod:broader p-lod:mythological-figure ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q381459> ;
+    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
 p-lod:ajax a p-lod:concept ;
     rdfs:label "Ajax" ;
