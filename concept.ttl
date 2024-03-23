@@ -79,7 +79,10 @@ p-lod:ajax a p-lod:concept ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q172725> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
-p-lod:alabastron a p-lod:concept ; .
+p-lod:alabastron a p-lod:concept ;
+    rdfs:label "Alabastron" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q673338> ;
+    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
 p-lod:alcestis a p-lod:concept ;
     rdfs:label "Alcestis" ;
@@ -97,8 +100,6 @@ p-lod:alcove a p-lod:concept ;
     rdfs:label "Alcove" ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q1067091> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
-
-p-lod:alemena a p-lod:concept .
 
 p-lod:aloe a p-lod:concept ;
     rdfs:label "Aloe" ;
