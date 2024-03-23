@@ -3377,7 +3377,7 @@ p-lod:roundel a p-lod:concept ;
 
 p-lod:rudder a p-lod:concept ;
     rdfs:label "Rudder" ;
-    p-log:wikidata-url <http://www.wikidata.org/entity/Q209760> ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q209760> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
 p-lod:runner a p-lod:concept ;
@@ -3406,7 +3406,7 @@ p-lod:sappho a p-lod:concept ;
 
 p-lod:sarcophagus a p-lod:concept ;
     rdfs:label "Sarcophagus" ;
-    p-log:wikidata-url <http://www.wikidata.org/entity/Q48634> ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q48634> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
 p-lod:sarnus a p-lod:concept ;
