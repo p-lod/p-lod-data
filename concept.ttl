@@ -1444,10 +1444,14 @@ p-lod:ferculum a p-lod:concept ;
 
 p-lod:fern a p-lod:concept ;
     rdfs:label "Fern" ;
+    p-lod:broader p-lod:plant ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q80005> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
 p-lod:fig a p-lod:concept ;
     rdfs:label "Fig" ;
+    p-lod:broader p-lod:fruit ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q2746643> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
 p-lod:figural_scene a p-lod:concept ;
@@ -1541,6 +1545,7 @@ p-lod:fortuna a p-lod:concept ;
 
 p-lod:fountain a p-lod:concept ;
     rdfs:label "Fountain" ;
+    p-lod:broader p-lod:architecture ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q483453> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
@@ -3026,7 +3031,7 @@ p-lod:phallus a p-lod:concept ;
 
 p-lod:phoenix a p-lod:concept ;
     rdfs:label "Phoenix" ;
-    p-lod:broader p-lod:mythological-creature ;
+    p-lod:broader p-lod:mythological_creature ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q48444> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
