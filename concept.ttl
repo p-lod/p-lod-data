@@ -10,6 +10,7 @@ p-lod:acanthus a p-lod:concept ;
 p-lod:achilles a p-lod:concept ;
     rdfs:label "Achilles" ;
     p-lod:broader p-lod:mythological_figure ;
+    p-lod:manto-url <https://resource.manto.unh.edu/8182012> ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q41746> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
@@ -295,6 +296,7 @@ p-lod:ariadne a p-lod:concept ;
     rdfs:label "Ariadne" ;
     p-lod:best-image p-lod:luna_img_PALP_62535 , p-lod:luna_img_PALP_50065 ; 
     p-lod:broader p-lod:mythological_figure ;
+    p-lod:manto-url <https://resource.manto.unh.edu/8187817> ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q184874> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
@@ -2891,6 +2893,7 @@ p-lod:parca a p-lod:concept ;
 p-lod:paris a p-lod:concept ;
     rdfs:label "Paris" ;
     p-lod:broader p-lod:mythological_figure ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q167646> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
 p-lod:parrot a p-lod:concept ;

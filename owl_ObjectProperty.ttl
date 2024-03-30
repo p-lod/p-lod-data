@@ -65,6 +65,11 @@ p-lod:image-url a owl:ObjectProperty ;
     rdfs:label "Image URL" ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/owl_ObjectProperty.ttl> .
 
+p-lod:manto-url a owl:ObjectProperty ;
+    rdfs:label "MANTO URL" ;
+    owl:equivalentProperty rdfs:seeAlso ;
+    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/owl_ObjectProperty.ttl> .  
+
 p-lod:neighbor-of a owl:ObjectProperty ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/owl_ObjectProperty.ttl> .
 
