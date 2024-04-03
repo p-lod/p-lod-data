@@ -71,6 +71,7 @@ p-lod:agave a p-lod:concept ;
     rdfs:label "Agave" ;
     p-lod:description "Daughter of Cadmus" ;
     p-lod:broader p-lod:mythological_figure ;
+    p-lod:manto-url <http://resource.manto.unh.edu/8182040> ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q381459> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
@@ -1182,8 +1183,8 @@ p-lod:diomedes a p-lod:concept ;
     p-lod:broader p-lod:mythological_figure ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
-p-lod:dionysius a p-lod:concept ;
-    rdfs:label "Dionysius" ;
+p-lod:dionysus a p-lod:concept ;
+    rdfs:label "Dionysus" ;
     p-lod:broader p-lod:olympian_deity ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q41680> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
@@ -3157,6 +3158,7 @@ p-lod:polyphemus a p-lod:concept ;
 p-lod:polyxena a p-lod:concept ;
     rdfs:label "Polyxena" ;
     p-lod:broader p-lod:mythological_figure ;
+    p-lod:manto-url <https://resource.manto.unh.edu/8189332> ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q750236> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
@@ -4476,6 +4478,7 @@ p-lod:weapon a p-lod:concept ;
 
 p-lod:fruit a p-lod:concept ;
     rdfs:label "Fruit" ;
+    p-lod:broader p-lod:plant ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q3314483> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
