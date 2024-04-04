@@ -1818,10 +1818,14 @@ p-lod:held_by a p-lod:concept ;
 
 p-lod:helen a p-lod:concept ;
     rdfs:label "Helen" ;
+    p-lod:broader p-lod:mythological_figure ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q164061> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
 p-lod:helenus a p-lod:concept ;
     rdfs:label "Helenus" ;
+    p-lod:broader p-lod:mythological_figure ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q729332> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
 p-lod:helios a p-lod:concept ;
