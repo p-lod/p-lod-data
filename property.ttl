@@ -9,6 +9,7 @@ p-lod:r1-i1-p1 a p-lod:property ;
     p-lod:geojson "{\"type\": \"Feature\", \"properties\": {\"title\": \"urn:p-lod:id:r1-i1-p1\"}, \"geometry\": {\"type\": \"Polygon\", \"coordinates\": [[[14.489905526174976, 40.74840557528172, 41.827900000003865], [14.489899705409686, 40.748410843626615, 41.827900000003865], [14.489942941723745, 40.748436706134974, 41.827900000003865], [14.489988695638289, 40.74839551061478, 41.827900000003865], [14.490036015413862, 40.748415137564145, 41.827900000003865], [14.49009825163922, 40.74843972137013, 41.827900000003865], [14.49012506793818, 40.748398504046804, 41.827900000003865], [14.490079574485023, 40.74838509595403, 41.827900000003865], [14.490065281385599, 40.74838023959198, 41.827900000003865], [14.489961738866322, 40.74834876034395, 41.827900000003865], [14.489939805652057, 40.74837198216368, 41.827900000003865], [14.489933436775608, 40.74837903427423, 41.827900000003865], [14.489920132504599, 40.74839087749815, 41.827900000003865], [14.489917774405638, 40.74838954360874, 41.827900000003865], [14.489914946738281, 40.74839243484281, 41.827900000003865], [14.489917155667035, 40.74839368434688, 41.827900000003865], [14.489905526174976, 40.74840557528172, 41.827900000003865]]]}, \"id\": \"urn:p-lod:id:r1-i1-p1\"}" ;
     p-lod:identifier "r1-i1-p1" ;
     p-lod:p-in-p-url <http://pompeiiinpictures.com/pompeiiinpictures/R1/1%2001%2001.htm> ;
+    p-lod:pleiades-url <https://pleiades.stoa.org/places/352725406> ;
     p-lod:plod-english-title "Caupona of Epagatus" ;
     p-lod:spatially-within p-lod:r1-i1 ;
     p-lod:surface-area 9.135819e+01 ;
@@ -75,58 +76,6 @@ p-lod:r1-i10-p1 a p-lod:property ;
     p-lod:p-in-p-url <http://pompeiiinpictures.com/pompeiiinpictures/R1/1%2010%2001.htm> ;
     p-lod:spatially-within p-lod:r1-i10 ;
     p-lod:surface-area 9.390915e+01 ;
-    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/property.ttl> .
-
-p-lod:r1-i10-p10 a p-lod:property ;
-    p-lod:spatially-within p-lod:r1-i10 ;
-    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/property.ttl> .
-
-p-lod:r1-i10-p11 a p-lod:property ;
-    rdfs:label "Property I.10.11" ;
-    p-lod:arcgis-id "BLD_000006" ;
-    p-lod:description "Private Dwellings; Shops" ;
-    p-lod:geojson "{\"type\": \"Feature\", \"properties\": {\"title\": \"urn:p-lod:id:r1-i10-p11\"}, \"geometry\": {\"type\": \"Polygon\", \"coordinates\": [[[14.490137506934206, 40.749460198284254, 41.827900000003865], [14.48984841008632, 40.74931448464177, 41.827900000003865], [14.489813123955882, 40.749345267155945, 41.827900000003865], [14.489801023496025, 40.74935441175419, 41.827900000003865], [14.48977795673151, 40.749375367647424, 41.827900000003865], [14.489755005472189, 40.74939621859207, 41.827900000003865], [14.489740446573666, 40.74940966831921, 41.827900000003865], [14.489738751185158, 40.74941120609337, 41.827900000003865], [14.489794364261938, 40.74944937870308, 41.827900000003865], [14.489859991131471, 40.74949442465119, 41.827900000003865], [14.490029886056577, 40.749590978095334, 41.827900000003865], [14.490102519509131, 40.74950319377545, 41.827900000003865], [14.490137506934206, 40.749460198284254, 41.827900000003865]]]}, \"id\": \"urn:p-lod:id:r1-i10-p11\"}" ;
-    p-lod:identifier "r1-i10-p11" ;
-    p-lod:p-in-p-url <http://pompeiiinpictures.com/pompeiiinpictures/R1/1%2010%2011.htm> ;
-    p-lod:plod-english-title "Casa di Tiberius-Claudius Eulogus",
-        "House of the Lovers" ;
-    p-lod:spatially-within p-lod:r1-i10 ;
-    p-lod:surface-area 4.873808e+02 ;
-    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/property.ttl> .
-
-p-lod:r1-i10-p12 a p-lod:property ;
-    rdfs:label "Property I.10.12" ;
-    p-lod:arcgis-id "BLD_000007" ;
-    p-lod:description "Temples" ;
-    p-lod:geojson "{\"type\": \"Feature\", \"properties\": {\"title\": \"urn:p-lod:id:r1-i10-p12\"}, \"geometry\": {\"type\": \"Polygon\", \"coordinates\": [[[14.49013750515907, 40.749460196682115, 41.827900000003865], [14.490102517681224, 40.749503192236595, 41.827900000003865], [14.490155536032647, 40.749530211970125, 41.827900000003865], [14.49018890110219, 40.749486263946, 41.827900000003865], [14.490182979541165, 40.74948319438079, 41.827900000003865], [14.490174503334286, 40.74947884487469, 41.827900000003865], [14.49013750515907, 40.749460196682115, 41.827900000003865]]]}, \"id\": \"urn:p-lod:id:r1-i10-p12\"}" ;
-    p-lod:identifier "r1-i10-p12" ;
-    p-lod:p-in-p-url <http://pompeiiinpictures.com/pompeiiinpictures/R1/1%2010%2012.htm> ;
-    p-lod:spatially-within p-lod:r1-i10 ;
-    p-lod:surface-area 2.980038e+01 ;
-    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/property.ttl> .
-
-p-lod:r1-i10-p13 a p-lod:property ;
-    rdfs:label "Property I.10.13" ;
-    p-lod:arcgis-id "BLD_000008" ;
-    p-lod:description "Entertainment Buildings" ;
-    p-lod:geojson "{\"type\": \"Feature\", \"properties\": {\"title\": \"urn:p-lod:id:r1-i10-p13\"}, \"geometry\": {\"type\": \"Polygon\", \"coordinates\": [[[14.490364197661876, 40.74957621586584, 41.827900000003865], [14.490299152273538, 40.749542838449386, 41.827900000003865], [14.490271143569531, 40.749576787928845, 41.827900000003865], [14.490337466546242, 40.74961127282469, 41.827900000003865], [14.490342307328083, 40.749605888277415, 41.827900000003865], [14.49036121627937, 40.74957957618888, 41.827900000003865], [14.490364197661876, 40.74957621586584, 41.827900000003865], [14.490364197661876, 40.74957621586584, 41.827900000003865]]]}, \"id\": \"urn:p-lod:id:r1-i10-p13\"}" ;
-    p-lod:identifier "r1-i10-p13" ;
-    p-lod:p-in-p-url <http://pompeiiinpictures.com/pompeiiinpictures/R1/1%2010%2013.htm> ;
-    p-lod:plod-english-title "Caupona of the Poppaei" ;
-    p-lod:spatially-within p-lod:r1-i10 ;
-    p-lod:surface-area 2.999351e+01 ;
-    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/property.ttl> .
-
-p-lod:r1-i10-p18 a p-lod:property ;
-    rdfs:label "Property I.10.18" ;
-    p-lod:arcgis-id "BLD_000009" ;
-    p-lod:description "Private Dwellings" ;
-    p-lod:geojson "{\"type\": \"Feature\", \"properties\": {\"title\": \"urn:p-lod:id:r1-i10-p18\"}, \"geometry\": {\"type\": \"Polygon\", \"coordinates\": [[[14.490042346450194, 40.74992237241906, 41.827900000003865], [14.490052814185782, 40.749910327329694, 41.827900000003865], [14.490084175262469, 40.749881949360365, 41.827900000003865], [14.490057164393402, 40.74986759155845, 41.827900000003865], [14.490007874723071, 40.7498451961885, 41.827900000003865], [14.489991639239824, 40.74984055764027, 41.827900000003865], [14.489896574846629, 40.74979837013456, 41.827900000003865], [14.489873715813998, 40.749824588153146, 41.827900000003865], [14.489895580203155, 40.74983561345501, 41.827900000003865], [14.489883085191966, 40.74984913772722, 41.827900000003865], [14.48990972190434, 40.749863341477585, 41.827900000003865], [14.489896166254532, 40.749879523135775, 41.827900000003865], [14.490019089658546, 40.749944292574, 41.827900000003865], [14.490042346450194, 40.74992237241906, 41.827900000003865]]]}, \"id\": \"urn:p-lod:id:r1-i10-p18\"}" ;
-    p-lod:identifier "r1-i10-p18" ;
-    p-lod:p-in-p-url <http://pompeiiinpictures.com/pompeiiinpictures/R1/1%2010%2018.htm> ;
-    p-lod:plod-english-title "Domus of Aufidius Primus and Ampliatus" ;
-    p-lod:spatially-within p-lod:r1-i10 ;
-    p-lod:surface-area 1.325168e+02 ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/property.ttl> .
 
 p-lod:r1-i10-p2 a p-lod:property ;
@@ -221,6 +170,58 @@ p-lod:r1-i10-p9 a p-lod:property ;
     p-lod:surface-area 1.042447e+01 ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/property.ttl> .
 
+p-lod:r1-i10-p10 a p-lod:property ;
+    p-lod:spatially-within p-lod:r1-i10 ;
+    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/property.ttl> .
+
+p-lod:r1-i10-p11 a p-lod:property ;
+    rdfs:label "Property I.10.11" ;
+    p-lod:arcgis-id "BLD_000006" ;
+    p-lod:description "Private Dwellings; Shops" ;
+    p-lod:geojson "{\"type\": \"Feature\", \"properties\": {\"title\": \"urn:p-lod:id:r1-i10-p11\"}, \"geometry\": {\"type\": \"Polygon\", \"coordinates\": [[[14.490137506934206, 40.749460198284254, 41.827900000003865], [14.48984841008632, 40.74931448464177, 41.827900000003865], [14.489813123955882, 40.749345267155945, 41.827900000003865], [14.489801023496025, 40.74935441175419, 41.827900000003865], [14.48977795673151, 40.749375367647424, 41.827900000003865], [14.489755005472189, 40.74939621859207, 41.827900000003865], [14.489740446573666, 40.74940966831921, 41.827900000003865], [14.489738751185158, 40.74941120609337, 41.827900000003865], [14.489794364261938, 40.74944937870308, 41.827900000003865], [14.489859991131471, 40.74949442465119, 41.827900000003865], [14.490029886056577, 40.749590978095334, 41.827900000003865], [14.490102519509131, 40.74950319377545, 41.827900000003865], [14.490137506934206, 40.749460198284254, 41.827900000003865]]]}, \"id\": \"urn:p-lod:id:r1-i10-p11\"}" ;
+    p-lod:identifier "r1-i10-p11" ;
+    p-lod:p-in-p-url <http://pompeiiinpictures.com/pompeiiinpictures/R1/1%2010%2011.htm> ;
+    p-lod:plod-english-title "Casa di Tiberius-Claudius Eulogus",
+        "House of the Lovers" ;
+    p-lod:spatially-within p-lod:r1-i10 ;
+    p-lod:surface-area 4.873808e+02 ;
+    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/property.ttl> .
+
+p-lod:r1-i10-p12 a p-lod:property ;
+    rdfs:label "Property I.10.12" ;
+    p-lod:arcgis-id "BLD_000007" ;
+    p-lod:description "Temples" ;
+    p-lod:geojson "{\"type\": \"Feature\", \"properties\": {\"title\": \"urn:p-lod:id:r1-i10-p12\"}, \"geometry\": {\"type\": \"Polygon\", \"coordinates\": [[[14.49013750515907, 40.749460196682115, 41.827900000003865], [14.490102517681224, 40.749503192236595, 41.827900000003865], [14.490155536032647, 40.749530211970125, 41.827900000003865], [14.49018890110219, 40.749486263946, 41.827900000003865], [14.490182979541165, 40.74948319438079, 41.827900000003865], [14.490174503334286, 40.74947884487469, 41.827900000003865], [14.49013750515907, 40.749460196682115, 41.827900000003865]]]}, \"id\": \"urn:p-lod:id:r1-i10-p12\"}" ;
+    p-lod:identifier "r1-i10-p12" ;
+    p-lod:p-in-p-url <http://pompeiiinpictures.com/pompeiiinpictures/R1/1%2010%2012.htm> ;
+    p-lod:spatially-within p-lod:r1-i10 ;
+    p-lod:surface-area 2.980038e+01 ;
+    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/property.ttl> .
+
+p-lod:r1-i10-p13 a p-lod:property ;
+    rdfs:label "Property I.10.13" ;
+    p-lod:arcgis-id "BLD_000008" ;
+    p-lod:description "Entertainment Buildings" ;
+    p-lod:geojson "{\"type\": \"Feature\", \"properties\": {\"title\": \"urn:p-lod:id:r1-i10-p13\"}, \"geometry\": {\"type\": \"Polygon\", \"coordinates\": [[[14.490364197661876, 40.74957621586584, 41.827900000003865], [14.490299152273538, 40.749542838449386, 41.827900000003865], [14.490271143569531, 40.749576787928845, 41.827900000003865], [14.490337466546242, 40.74961127282469, 41.827900000003865], [14.490342307328083, 40.749605888277415, 41.827900000003865], [14.49036121627937, 40.74957957618888, 41.827900000003865], [14.490364197661876, 40.74957621586584, 41.827900000003865], [14.490364197661876, 40.74957621586584, 41.827900000003865]]]}, \"id\": \"urn:p-lod:id:r1-i10-p13\"}" ;
+    p-lod:identifier "r1-i10-p13" ;
+    p-lod:p-in-p-url <http://pompeiiinpictures.com/pompeiiinpictures/R1/1%2010%2013.htm> ;
+    p-lod:plod-english-title "Caupona of the Poppaei" ;
+    p-lod:spatially-within p-lod:r1-i10 ;
+    p-lod:surface-area 2.999351e+01 ;
+    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/property.ttl> .
+
+p-lod:r1-i10-p18 a p-lod:property ;
+    rdfs:label "Property I.10.18" ;
+    p-lod:arcgis-id "BLD_000009" ;
+    p-lod:description "Private Dwellings" ;
+    p-lod:geojson "{\"type\": \"Feature\", \"properties\": {\"title\": \"urn:p-lod:id:r1-i10-p18\"}, \"geometry\": {\"type\": \"Polygon\", \"coordinates\": [[[14.490042346450194, 40.74992237241906, 41.827900000003865], [14.490052814185782, 40.749910327329694, 41.827900000003865], [14.490084175262469, 40.749881949360365, 41.827900000003865], [14.490057164393402, 40.74986759155845, 41.827900000003865], [14.490007874723071, 40.7498451961885, 41.827900000003865], [14.489991639239824, 40.74984055764027, 41.827900000003865], [14.489896574846629, 40.74979837013456, 41.827900000003865], [14.489873715813998, 40.749824588153146, 41.827900000003865], [14.489895580203155, 40.74983561345501, 41.827900000003865], [14.489883085191966, 40.74984913772722, 41.827900000003865], [14.48990972190434, 40.749863341477585, 41.827900000003865], [14.489896166254532, 40.749879523135775, 41.827900000003865], [14.490019089658546, 40.749944292574, 41.827900000003865], [14.490042346450194, 40.74992237241906, 41.827900000003865]]]}, \"id\": \"urn:p-lod:id:r1-i10-p18\"}" ;
+    p-lod:identifier "r1-i10-p18" ;
+    p-lod:p-in-p-url <http://pompeiiinpictures.com/pompeiiinpictures/R1/1%2010%2018.htm> ;
+    p-lod:plod-english-title "Domus of Aufidius Primus and Ampliatus" ;
+    p-lod:spatially-within p-lod:r1-i10 ;
+    p-lod:surface-area 1.325168e+02 ;
+    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/property.ttl> .
+
 p-lod:r1-i11-p1 a p-lod:property ;
     rdfs:label "Property I.11.1" ;
     p-lod:arcgis-id "BLD_000016" ;
@@ -230,6 +231,61 @@ p-lod:r1-i11-p1 a p-lod:property ;
     p-lod:p-in-p-url <http://pompeiiinpictures.com/pompeiiinpictures/R1/1%2011%2001.htm> ;
     p-lod:spatially-within p-lod:r1-i11 ;
     p-lod:surface-area 1.994768e+02 ;
+    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/property.ttl> .
+
+p-lod:r1-i11-p2 a p-lod:property ;
+    p-lod:spatially-within p-lod:r1-i11 ;
+    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/property.ttl> .
+
+p-lod:r1-i11-p3 a p-lod:property ;
+    rdfs:label "Property I.11.3" ;
+    p-lod:arcgis-id "BLD_000023" ;
+    p-lod:description "Shops" ;
+    p-lod:geojson "{\"type\": \"Feature\", \"properties\": {\"title\": \"urn:p-lod:id:r1-i11-p3\"}, \"geometry\": {\"type\": \"Polygon\", \"coordinates\": [[[14.490834681967021, 40.751114080095775, 41.827900000003865], [14.490837511543644, 40.751110068618594, 41.827900000003865], [14.490836942949137, 40.75110736176252, 41.827900000003865], [14.49085089034905, 40.751087904498284, 41.827900000003865], [14.490879528154496, 40.75104669732627, 41.827900000003865], [14.490926513848791, 40.75098504447907, 41.827900000003865], [14.490884897278645, 40.75096765024918, 41.827900000003865], [14.490792451277754, 40.751094075080765, 41.827900000003865], [14.490798659719786, 40.75109672936748, 41.827900000003865], [14.490822298093743, 40.751107882210576, 41.827900000003865], [14.490834681967021, 40.751114080095775, 41.827900000003865]]]}, \"id\": \"urn:p-lod:id:r1-i11-p3\"}" ;
+    p-lod:identifier "r1-i11-p3" ;
+    p-lod:p-in-p-url <http://pompeiiinpictures.com/pompeiiinpictures/R1/1%2011%2003.htm> ;
+    p-lod:spatially-within p-lod:r1-i11 ;
+    p-lod:surface-area 6.37853e+01 ;
+    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/property.ttl> .
+
+p-lod:r1-i11-p4 a p-lod:property ;
+    rdfs:label "Property I.11.4" ;
+    p-lod:arcgis-id "BLD_000024" ;
+    p-lod:description "Shops" ;
+    p-lod:geojson "{\"type\": \"Feature\", \"properties\": {\"title\": \"urn:p-lod:id:r1-i11-p4\"}, \"geometry\": {\"type\": \"Polygon\", \"coordinates\": [[[14.490842315705475, 40.751112785989775, 41.827900000003865], [14.490871480638596, 40.75112417250956, 41.827900000003865], [14.490875675905666, 40.751122413017534, 41.827900000003865], [14.490887969948837, 40.75110422232184, 41.827900000003865], [14.49085089034905, 40.751087904498284, 41.827900000003865], [14.490836942949137, 40.75110736176252, 41.827900000003865], [14.490837511543644, 40.751110068618594, 41.827900000003865], [14.490842315705475, 40.751112785989775, 41.827900000003865]]]}, \"id\": \"urn:p-lod:id:r1-i11-p4\"}" ;
+    p-lod:identifier "r1-i11-p4" ;
+    p-lod:p-in-p-url <http://pompeiiinpictures.com/pompeiiinpictures/R1/1%2011%2004.htm> ;
+    p-lod:spatially-within p-lod:r1-i11 ;
+    p-lod:surface-area 9.739082e+00 ;
+    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/property.ttl> .
+
+p-lod:r1-i11-p5 a p-lod:property ;
+    rdfs:label "Property I.11.5" ;
+    p-lod:arcgis-id "BLD_000025" ;
+    p-lod:description "Private Dwellings" ;
+    p-lod:geojson "{\"type\": \"Feature\", \"properties\": {\"title\": \"urn:p-lod:id:r1-i11-p5\"}, \"geometry\": {\"type\": \"Polygon\", \"coordinates\": [[[14.491165502793852, 40.750978719099436, 41.827900000003865], [14.49118679202751, 40.75095016097529, 41.827900000003865], [14.491020677423538, 40.75087886725577, 41.827900000003865], [14.491011089474428, 40.750874664612596, 41.827900000003865], [14.490972518045067, 40.750925006891066, 41.827900000003865], [14.490926513848791, 40.75098504447907, 41.827900000003865], [14.490879528154496, 40.75104669732627, 41.827900000003865], [14.49085089034905, 40.751087904498284, 41.827900000003865], [14.490887969948837, 40.75110422232184, 41.827900000003865], [14.490875675905666, 40.751122413017534, 41.827900000003865], [14.490871480638596, 40.75112417250956, 41.827900000003865], [14.490877642144635, 40.751127440648936, 41.827900000003865], [14.490888624846399, 40.7511320664407, 41.827900000003865], [14.490916445745954, 40.75114515562861, 41.827900000003865], [14.490919522070424, 40.75114486870459, 41.827900000003865], [14.490984431435312, 40.75106406185553, 41.827900000003865], [14.491033354715622, 40.75099476092076, 41.827900000003865], [14.49109164415216, 40.75101875013452, 41.827900000003865], [14.49107679136693, 40.75103818176845, 41.827900000003865], [14.491119941652256, 40.75105715713577, 41.827900000003865], [14.49113683310664, 40.751036012399766, 41.827900000003865], [14.49113108601353, 40.7510335134794, 41.827900000003865], [14.49115804939735, 40.750988882950324, 41.827900000003865], [14.491165502793852, 40.750978719099436, 41.827900000003865]]]}, \"id\": \"urn:p-lod:id:r1-i11-p5\"}" ;
+    p-lod:identifier "r1-i11-p5" ;
+    p-lod:p-in-p-url <http://pompeiiinpictures.com/pompeiiinpictures/R1/1%2011%2005.htm> ;
+    p-lod:plod-english-title "Domus of Lollius Synhodus" ;
+    p-lod:spatially-within p-lod:r1-i11 ;
+    p-lod:surface-area 3.472559e+02 ;
+    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/property.ttl> .
+
+p-lod:r1-i11-p6 a p-lod:property ;
+    rdfs:label "Property I.11.6" ;
+    p-lod:arcgis-id "BLD_000026" ;
+    p-lod:description "Private Dwellings; Shops" ;
+    p-lod:geojson "{\"type\": \"Feature\", \"properties\": {\"title\": \"urn:p-lod:id:r1-i11-p6\"}, \"geometry\": {\"type\": \"Polygon\", \"coordinates\": [[[14.491091645979958, 40.75101875167323, 41.827900000003865], [14.491033356543369, 40.75099476245945, 41.827900000003865], [14.490984433263142, 40.75106406339421, 41.827900000003865], [14.490919523898262, 40.751144870243266, 41.827900000003865], [14.490916447573776, 40.751145157167244, 41.827900000003865], [14.49091318366528, 40.75114922885374, 41.827900000003865], [14.490939335993739, 40.751161372963416, 41.827900000003865], [14.490956795648119, 40.751169489291186, 41.827900000003865], [14.49096716275051, 40.751174587328165, 41.827900000003865], [14.4909972039895, 40.751187922545036, 41.827900000003865], [14.491010671319824, 40.751193610018795, 41.827900000003865], [14.491035237915685, 40.75116291455028, 41.827900000003865], [14.491075544907703, 40.75111255168021, 41.827900000003865], [14.4910789360923, 40.75110849751378, 41.827900000003865], [14.49109408652434, 40.751089184160826, 41.827900000003865], [14.49110161271932, 40.75108010513336, 41.827900000003865], [14.491119943480081, 40.75105715867453, 41.827900000003865], [14.4910767931947, 40.75103818330721, 41.827900000003865], [14.491091645979958, 40.75101875167323, 41.827900000003865]]]}, \"id\": \"urn:p-lod:id:r1-i11-p6\"}" ;
+    p-lod:identifier "r1-i11-p6" ;
+    p-lod:p-in-p-url <http://pompeiiinpictures.com/pompeiiinpictures/R1/1%2011%2006.htm> ;
+    p-lod:plod-english-title "Casa della Venere in bichini",
+        "Domus of Maximus" ;
+    p-lod:spatially-within p-lod:r1-i11 ;
+    p-lod:surface-area 1.806024e+02 ;
+    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/property.ttl> .
+
+p-lod:r1-i11-p7 a p-lod:property ;
+    p-lod:spatially-within p-lod:r1-i11 ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/property.ttl> .
 
 p-lod:r1-i11-p10 a p-lod:property ;
@@ -307,61 +363,6 @@ p-lod:r1-i11-p17 a p-lod:property ;
     p-lod:surface-area 1.356384e+02 ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/property.ttl> .
 
-p-lod:r1-i11-p2 a p-lod:property ;
-    p-lod:spatially-within p-lod:r1-i11 ;
-    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/property.ttl> .
-
-p-lod:r1-i11-p3 a p-lod:property ;
-    rdfs:label "Property I.11.3" ;
-    p-lod:arcgis-id "BLD_000023" ;
-    p-lod:description "Shops" ;
-    p-lod:geojson "{\"type\": \"Feature\", \"properties\": {\"title\": \"urn:p-lod:id:r1-i11-p3\"}, \"geometry\": {\"type\": \"Polygon\", \"coordinates\": [[[14.490834681967021, 40.751114080095775, 41.827900000003865], [14.490837511543644, 40.751110068618594, 41.827900000003865], [14.490836942949137, 40.75110736176252, 41.827900000003865], [14.49085089034905, 40.751087904498284, 41.827900000003865], [14.490879528154496, 40.75104669732627, 41.827900000003865], [14.490926513848791, 40.75098504447907, 41.827900000003865], [14.490884897278645, 40.75096765024918, 41.827900000003865], [14.490792451277754, 40.751094075080765, 41.827900000003865], [14.490798659719786, 40.75109672936748, 41.827900000003865], [14.490822298093743, 40.751107882210576, 41.827900000003865], [14.490834681967021, 40.751114080095775, 41.827900000003865]]]}, \"id\": \"urn:p-lod:id:r1-i11-p3\"}" ;
-    p-lod:identifier "r1-i11-p3" ;
-    p-lod:p-in-p-url <http://pompeiiinpictures.com/pompeiiinpictures/R1/1%2011%2003.htm> ;
-    p-lod:spatially-within p-lod:r1-i11 ;
-    p-lod:surface-area 6.37853e+01 ;
-    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/property.ttl> .
-
-p-lod:r1-i11-p4 a p-lod:property ;
-    rdfs:label "Property I.11.4" ;
-    p-lod:arcgis-id "BLD_000024" ;
-    p-lod:description "Shops" ;
-    p-lod:geojson "{\"type\": \"Feature\", \"properties\": {\"title\": \"urn:p-lod:id:r1-i11-p4\"}, \"geometry\": {\"type\": \"Polygon\", \"coordinates\": [[[14.490842315705475, 40.751112785989775, 41.827900000003865], [14.490871480638596, 40.75112417250956, 41.827900000003865], [14.490875675905666, 40.751122413017534, 41.827900000003865], [14.490887969948837, 40.75110422232184, 41.827900000003865], [14.49085089034905, 40.751087904498284, 41.827900000003865], [14.490836942949137, 40.75110736176252, 41.827900000003865], [14.490837511543644, 40.751110068618594, 41.827900000003865], [14.490842315705475, 40.751112785989775, 41.827900000003865]]]}, \"id\": \"urn:p-lod:id:r1-i11-p4\"}" ;
-    p-lod:identifier "r1-i11-p4" ;
-    p-lod:p-in-p-url <http://pompeiiinpictures.com/pompeiiinpictures/R1/1%2011%2004.htm> ;
-    p-lod:spatially-within p-lod:r1-i11 ;
-    p-lod:surface-area 9.739082e+00 ;
-    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/property.ttl> .
-
-p-lod:r1-i11-p5 a p-lod:property ;
-    rdfs:label "Property I.11.5" ;
-    p-lod:arcgis-id "BLD_000025" ;
-    p-lod:description "Private Dwellings" ;
-    p-lod:geojson "{\"type\": \"Feature\", \"properties\": {\"title\": \"urn:p-lod:id:r1-i11-p5\"}, \"geometry\": {\"type\": \"Polygon\", \"coordinates\": [[[14.491165502793852, 40.750978719099436, 41.827900000003865], [14.49118679202751, 40.75095016097529, 41.827900000003865], [14.491020677423538, 40.75087886725577, 41.827900000003865], [14.491011089474428, 40.750874664612596, 41.827900000003865], [14.490972518045067, 40.750925006891066, 41.827900000003865], [14.490926513848791, 40.75098504447907, 41.827900000003865], [14.490879528154496, 40.75104669732627, 41.827900000003865], [14.49085089034905, 40.751087904498284, 41.827900000003865], [14.490887969948837, 40.75110422232184, 41.827900000003865], [14.490875675905666, 40.751122413017534, 41.827900000003865], [14.490871480638596, 40.75112417250956, 41.827900000003865], [14.490877642144635, 40.751127440648936, 41.827900000003865], [14.490888624846399, 40.7511320664407, 41.827900000003865], [14.490916445745954, 40.75114515562861, 41.827900000003865], [14.490919522070424, 40.75114486870459, 41.827900000003865], [14.490984431435312, 40.75106406185553, 41.827900000003865], [14.491033354715622, 40.75099476092076, 41.827900000003865], [14.49109164415216, 40.75101875013452, 41.827900000003865], [14.49107679136693, 40.75103818176845, 41.827900000003865], [14.491119941652256, 40.75105715713577, 41.827900000003865], [14.49113683310664, 40.751036012399766, 41.827900000003865], [14.49113108601353, 40.7510335134794, 41.827900000003865], [14.49115804939735, 40.750988882950324, 41.827900000003865], [14.491165502793852, 40.750978719099436, 41.827900000003865]]]}, \"id\": \"urn:p-lod:id:r1-i11-p5\"}" ;
-    p-lod:identifier "r1-i11-p5" ;
-    p-lod:p-in-p-url <http://pompeiiinpictures.com/pompeiiinpictures/R1/1%2011%2005.htm> ;
-    p-lod:plod-english-title "Domus of Lollius Synhodus" ;
-    p-lod:spatially-within p-lod:r1-i11 ;
-    p-lod:surface-area 3.472559e+02 ;
-    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/property.ttl> .
-
-p-lod:r1-i11-p6 a p-lod:property ;
-    rdfs:label "Property I.11.6" ;
-    p-lod:arcgis-id "BLD_000026" ;
-    p-lod:description "Private Dwellings; Shops" ;
-    p-lod:geojson "{\"type\": \"Feature\", \"properties\": {\"title\": \"urn:p-lod:id:r1-i11-p6\"}, \"geometry\": {\"type\": \"Polygon\", \"coordinates\": [[[14.491091645979958, 40.75101875167323, 41.827900000003865], [14.491033356543369, 40.75099476245945, 41.827900000003865], [14.490984433263142, 40.75106406339421, 41.827900000003865], [14.490919523898262, 40.751144870243266, 41.827900000003865], [14.490916447573776, 40.751145157167244, 41.827900000003865], [14.49091318366528, 40.75114922885374, 41.827900000003865], [14.490939335993739, 40.751161372963416, 41.827900000003865], [14.490956795648119, 40.751169489291186, 41.827900000003865], [14.49096716275051, 40.751174587328165, 41.827900000003865], [14.4909972039895, 40.751187922545036, 41.827900000003865], [14.491010671319824, 40.751193610018795, 41.827900000003865], [14.491035237915685, 40.75116291455028, 41.827900000003865], [14.491075544907703, 40.75111255168021, 41.827900000003865], [14.4910789360923, 40.75110849751378, 41.827900000003865], [14.49109408652434, 40.751089184160826, 41.827900000003865], [14.49110161271932, 40.75108010513336, 41.827900000003865], [14.491119943480081, 40.75105715867453, 41.827900000003865], [14.4910767931947, 40.75103818330721, 41.827900000003865], [14.491091645979958, 40.75101875167323, 41.827900000003865]]]}, \"id\": \"urn:p-lod:id:r1-i11-p6\"}" ;
-    p-lod:identifier "r1-i11-p6" ;
-    p-lod:p-in-p-url <http://pompeiiinpictures.com/pompeiiinpictures/R1/1%2011%2006.htm> ;
-    p-lod:plod-english-title "Casa della Venere in bichini",
-        "Domus of Maximus" ;
-    p-lod:spatially-within p-lod:r1-i11 ;
-    p-lod:surface-area 1.806024e+02 ;
-    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/property.ttl> .
-
-p-lod:r1-i11-p7 a p-lod:property ;
-    p-lod:spatially-within p-lod:r1-i11 ;
-    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/property.ttl> .
-
 p-lod:r1-i12-p1 a p-lod:property ;
     rdfs:label "Property I.12.1" ;
     p-lod:arcgis-id "BLD_000027" ;
@@ -372,58 +373,6 @@ p-lod:r1-i12-p1 a p-lod:property ;
     p-lod:plod-english-title "Pistrinum of Sotericus" ;
     p-lod:spatially-within p-lod:r1-i12 ;
     p-lod:surface-area 5.297327e+02 ;
-    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/property.ttl> .
-
-p-lod:r1-i12-p11 a p-lod:property ;
-    rdfs:label "Property I.12.11" ;
-    p-lod:arcgis-id "BLD_000028" ;
-    p-lod:description "Private Dwellings; Shops; Workshops" ;
-    p-lod:geojson "{\"type\": \"Feature\", \"properties\": {\"title\": \"urn:p-lod:id:r1-i12-p11\"}, \"geometry\": {\"type\": \"Polygon\", \"coordinates\": [[[14.491690231768084, 40.750657497202525, 41.827900000003865], [14.491737412675137, 40.750595030234514, 41.827900000003865], [14.491741552124065, 40.75059365912236, 41.827900000003865], [14.491722916087044, 40.75058481113715, 41.827900000003865], [14.491700805531512, 40.75057473419234, 41.827900000003865], [14.491688857255403, 40.75056919943749, 41.827900000003865], [14.491672069554836, 40.75056301824932, 41.827900000003865], [14.491637797406598, 40.7505473547529, 41.827900000003865], [14.491592022761976, 40.75060703760942, 41.827900000003865], [14.49153866108148, 40.75058365147342, 41.827900000003865], [14.491537866411505, 40.75058077748516, 41.827900000003865], [14.491530756846657, 40.75057759898496, 41.827900000003865], [14.491465614256862, 40.75066130732181, 41.827900000003865], [14.49163131369026, 40.75073550433862, 41.827900000003865], [14.491690231768084, 40.750657497202525, 41.827900000003865]]]}, \"id\": \"urn:p-lod:id:r1-i12-p11\"}" ;
-    p-lod:identifier "r1-i12-p11" ;
-    p-lod:p-in-p-url <http://pompeiiinpictures.com/pompeiiinpictures/R1/1%2012%2011.htm> ;
-    p-lod:spatially-within p-lod:r1-i12 ;
-    p-lod:surface-area 2.481762e+02 ;
-    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/property.ttl> .
-
-p-lod:r1-i12-p12 a p-lod:property ;
-    rdfs:label "Property I.12.12" ;
-    p-lod:arcgis-id "BLD_000029" ;
-    p-lod:description "Shops" ;
-    p-lod:geojson "{\"type\": \"Feature\", \"properties\": {\"title\": \"urn:p-lod:id:r1-i12-p12\"}, \"geometry\": {\"type\": \"Polygon\", \"coordinates\": [[[14.491582545776037, 40.7505226823206, 41.827900000003865], [14.491549550174414, 40.750566213301866, 41.827900000003865], [14.491544566943407, 40.75057225410115, 41.827900000003865], [14.491537864583815, 40.750580775946375, 41.827900000003865], [14.491538659253818, 40.75058364993471, 41.827900000003865], [14.491592020020468, 40.75060703530125, 41.827900000003865], [14.491637793751222, 40.750547351675415, 41.827900000003865], [14.491630025174285, 40.750543801176754, 41.827900000003865], [14.491601149434535, 40.750531610434635, 41.827900000003865], [14.491582545776037, 40.7505226823206, 41.827900000003865]]]}, \"id\": \"urn:p-lod:id:r1-i12-p12\"}" ;
-    p-lod:identifier "r1-i12-p12" ;
-    p-lod:p-in-p-url <http://pompeiiinpictures.com/pompeiiinpictures/R1/1%2012%2012.htm> ;
-    p-lod:spatially-within p-lod:r1-i12 ;
-    p-lod:surface-area 4.136631e+01 ;
-    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/property.ttl> .
-
-p-lod:r1-i12-p13 a p-lod:property ;
-    p-lod:spatially-within p-lod:r1-i12 ;
-    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/property.ttl> .
-
-p-lod:r1-i12-p14 a p-lod:property ;
-    p-lod:spatially-within p-lod:r1-i12 ;
-    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/property.ttl> .
-
-p-lod:r1-i12-p15 a p-lod:property ;
-    rdfs:label "Property I.12.15" ;
-    p-lod:arcgis-id "BLD_000030" ;
-    p-lod:description "Private Dwellings" ;
-    p-lod:geojson "{\"type\": \"Feature\", \"properties\": {\"title\": \"urn:p-lod:id:r1-i12-p15\"}, \"geometry\": {\"type\": \"Polygon\", \"coordinates\": [[[14.491349366324755, 40.75079234326901, 41.827900000003865], [14.491281330327585, 40.75088343230934, 41.827900000003865], [14.491287528580363, 40.75088610978164, 41.827900000003865], [14.491291150858713, 40.75088555120268, 41.827900000003865], [14.491461597319288, 40.75095906391009, 41.827900000003865], [14.491498601388171, 40.750913133667254, 41.827900000003865], [14.491560040035441, 40.75094078096912, 41.827900000003865], [14.491591098079429, 40.7508994789341, 41.827900000003865], [14.491574707255392, 40.750891960813796, 41.827900000003865], [14.49160950521739, 40.75084491630326, 41.827900000003865], [14.491564303394043, 40.75082532920712, 41.827900000003865], [14.491559159540085, 40.75083161675293, 41.827900000003865], [14.49139343609113, 40.75076026670877, 41.827900000003865], [14.491389147406606, 40.750761029022044, 41.827900000003865], [14.491382290482543, 40.750771182206456, 41.827900000003865], [14.491361114491704, 40.75079746180131, 41.827900000003865], [14.491349366324755, 40.75079234326901, 41.827900000003865]]]}, \"id\": \"urn:p-lod:id:r1-i12-p15\"}" ;
-    p-lod:identifier "r1-i12-p15" ;
-    p-lod:p-in-p-url <http://pompeiiinpictures.com/pompeiiinpictures/R1/1%2012%2015.htm> ;
-    p-lod:spatially-within p-lod:r1-i12 ;
-    p-lod:surface-area 3.394071e+02 ;
-    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/property.ttl> .
-
-p-lod:r1-i12-p16 a p-lod:property ;
-    rdfs:label "Property I.12.16" ;
-    p-lod:arcgis-id "BLD_000031" ;
-    p-lod:description "Private Dwellings" ;
-    p-lod:geojson "{\"type\": \"Feature\", \"properties\": {\"title\": \"urn:p-lod:id:r1-i12-p16\"}, \"geometry\": {\"type\": \"Polygon\", \"coordinates\": [[[14.491257069091454, 40.750924869904836, 41.827900000003865], [14.49123202867072, 40.75095819780548, 41.827900000003865], [14.491404070124046, 40.75103428814233, 41.827900000003865], [14.491461597319288, 40.75095906391009, 41.827900000003865], [14.491291150858713, 40.75088555120268, 41.827900000003865], [14.491287528580363, 40.75088610978164, 41.827900000003865], [14.491268965873088, 40.75091022889525, 41.827900000003865], [14.491257069091454, 40.750924869904836, 41.827900000003865]]]}, \"id\": \"urn:p-lod:id:r1-i12-p16\"}" ;
-    p-lod:identifier "r1-i12-p16" ;
-    p-lod:p-in-p-url <http://pompeiiinpictures.com/pompeiiinpictures/R1/1%2012%2016.htm> ;
-    p-lod:spatially-within p-lod:r1-i12 ;
-    p-lod:surface-area 1.607543e+02 ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/property.ttl> .
 
 p-lod:r1-i12-p3 a p-lod:property ;
@@ -505,6 +454,58 @@ p-lod:r1-i12-p9 a p-lod:property ;
     p-lod:p-in-p-url <http://pompeiiinpictures.com/pompeiiinpictures/R1/1%2012%2009.htm> ;
     p-lod:spatially-within p-lod:r1-i12 ;
     p-lod:surface-area 3.955468e+02 ;
+    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/property.ttl> .
+
+p-lod:r1-i12-p11 a p-lod:property ;
+    rdfs:label "Property I.12.11" ;
+    p-lod:arcgis-id "BLD_000028" ;
+    p-lod:description "Private Dwellings; Shops; Workshops" ;
+    p-lod:geojson "{\"type\": \"Feature\", \"properties\": {\"title\": \"urn:p-lod:id:r1-i12-p11\"}, \"geometry\": {\"type\": \"Polygon\", \"coordinates\": [[[14.491690231768084, 40.750657497202525, 41.827900000003865], [14.491737412675137, 40.750595030234514, 41.827900000003865], [14.491741552124065, 40.75059365912236, 41.827900000003865], [14.491722916087044, 40.75058481113715, 41.827900000003865], [14.491700805531512, 40.75057473419234, 41.827900000003865], [14.491688857255403, 40.75056919943749, 41.827900000003865], [14.491672069554836, 40.75056301824932, 41.827900000003865], [14.491637797406598, 40.7505473547529, 41.827900000003865], [14.491592022761976, 40.75060703760942, 41.827900000003865], [14.49153866108148, 40.75058365147342, 41.827900000003865], [14.491537866411505, 40.75058077748516, 41.827900000003865], [14.491530756846657, 40.75057759898496, 41.827900000003865], [14.491465614256862, 40.75066130732181, 41.827900000003865], [14.49163131369026, 40.75073550433862, 41.827900000003865], [14.491690231768084, 40.750657497202525, 41.827900000003865]]]}, \"id\": \"urn:p-lod:id:r1-i12-p11\"}" ;
+    p-lod:identifier "r1-i12-p11" ;
+    p-lod:p-in-p-url <http://pompeiiinpictures.com/pompeiiinpictures/R1/1%2012%2011.htm> ;
+    p-lod:spatially-within p-lod:r1-i12 ;
+    p-lod:surface-area 2.481762e+02 ;
+    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/property.ttl> .
+
+p-lod:r1-i12-p12 a p-lod:property ;
+    rdfs:label "Property I.12.12" ;
+    p-lod:arcgis-id "BLD_000029" ;
+    p-lod:description "Shops" ;
+    p-lod:geojson "{\"type\": \"Feature\", \"properties\": {\"title\": \"urn:p-lod:id:r1-i12-p12\"}, \"geometry\": {\"type\": \"Polygon\", \"coordinates\": [[[14.491582545776037, 40.7505226823206, 41.827900000003865], [14.491549550174414, 40.750566213301866, 41.827900000003865], [14.491544566943407, 40.75057225410115, 41.827900000003865], [14.491537864583815, 40.750580775946375, 41.827900000003865], [14.491538659253818, 40.75058364993471, 41.827900000003865], [14.491592020020468, 40.75060703530125, 41.827900000003865], [14.491637793751222, 40.750547351675415, 41.827900000003865], [14.491630025174285, 40.750543801176754, 41.827900000003865], [14.491601149434535, 40.750531610434635, 41.827900000003865], [14.491582545776037, 40.7505226823206, 41.827900000003865]]]}, \"id\": \"urn:p-lod:id:r1-i12-p12\"}" ;
+    p-lod:identifier "r1-i12-p12" ;
+    p-lod:p-in-p-url <http://pompeiiinpictures.com/pompeiiinpictures/R1/1%2012%2012.htm> ;
+    p-lod:spatially-within p-lod:r1-i12 ;
+    p-lod:surface-area 4.136631e+01 ;
+    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/property.ttl> .
+
+p-lod:r1-i12-p13 a p-lod:property ;
+    p-lod:spatially-within p-lod:r1-i12 ;
+    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/property.ttl> .
+
+p-lod:r1-i12-p14 a p-lod:property ;
+    p-lod:spatially-within p-lod:r1-i12 ;
+    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/property.ttl> .
+
+p-lod:r1-i12-p15 a p-lod:property ;
+    rdfs:label "Property I.12.15" ;
+    p-lod:arcgis-id "BLD_000030" ;
+    p-lod:description "Private Dwellings" ;
+    p-lod:geojson "{\"type\": \"Feature\", \"properties\": {\"title\": \"urn:p-lod:id:r1-i12-p15\"}, \"geometry\": {\"type\": \"Polygon\", \"coordinates\": [[[14.491349366324755, 40.75079234326901, 41.827900000003865], [14.491281330327585, 40.75088343230934, 41.827900000003865], [14.491287528580363, 40.75088610978164, 41.827900000003865], [14.491291150858713, 40.75088555120268, 41.827900000003865], [14.491461597319288, 40.75095906391009, 41.827900000003865], [14.491498601388171, 40.750913133667254, 41.827900000003865], [14.491560040035441, 40.75094078096912, 41.827900000003865], [14.491591098079429, 40.7508994789341, 41.827900000003865], [14.491574707255392, 40.750891960813796, 41.827900000003865], [14.49160950521739, 40.75084491630326, 41.827900000003865], [14.491564303394043, 40.75082532920712, 41.827900000003865], [14.491559159540085, 40.75083161675293, 41.827900000003865], [14.49139343609113, 40.75076026670877, 41.827900000003865], [14.491389147406606, 40.750761029022044, 41.827900000003865], [14.491382290482543, 40.750771182206456, 41.827900000003865], [14.491361114491704, 40.75079746180131, 41.827900000003865], [14.491349366324755, 40.75079234326901, 41.827900000003865]]]}, \"id\": \"urn:p-lod:id:r1-i12-p15\"}" ;
+    p-lod:identifier "r1-i12-p15" ;
+    p-lod:p-in-p-url <http://pompeiiinpictures.com/pompeiiinpictures/R1/1%2012%2015.htm> ;
+    p-lod:spatially-within p-lod:r1-i12 ;
+    p-lod:surface-area 3.394071e+02 ;
+    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/property.ttl> .
+
+p-lod:r1-i12-p16 a p-lod:property ;
+    rdfs:label "Property I.12.16" ;
+    p-lod:arcgis-id "BLD_000031" ;
+    p-lod:description "Private Dwellings" ;
+    p-lod:geojson "{\"type\": \"Feature\", \"properties\": {\"title\": \"urn:p-lod:id:r1-i12-p16\"}, \"geometry\": {\"type\": \"Polygon\", \"coordinates\": [[[14.491257069091454, 40.750924869904836, 41.827900000003865], [14.49123202867072, 40.75095819780548, 41.827900000003865], [14.491404070124046, 40.75103428814233, 41.827900000003865], [14.491461597319288, 40.75095906391009, 41.827900000003865], [14.491291150858713, 40.75088555120268, 41.827900000003865], [14.491287528580363, 40.75088610978164, 41.827900000003865], [14.491268965873088, 40.75091022889525, 41.827900000003865], [14.491257069091454, 40.750924869904836, 41.827900000003865]]]}, \"id\": \"urn:p-lod:id:r1-i12-p16\"}" ;
+    p-lod:identifier "r1-i12-p16" ;
+    p-lod:p-in-p-url <http://pompeiiinpictures.com/pompeiiinpictures/R1/1%2012%2016.htm> ;
+    p-lod:spatially-within p-lod:r1-i12 ;
+    p-lod:surface-area 1.607543e+02 ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/property.ttl> .
 
 p-lod:r1-i13-p1 a p-lod:property ;
