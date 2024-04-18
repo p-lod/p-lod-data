@@ -4744,6 +4744,7 @@ p-lod:r6-i11-p8 a p-lod:property ;
 
 p-lod:r6-i12-p2 a p-lod:property ;
     rdfs:label "Property VI.12.2" ;
+    p-lod:arachne-url <https://arachne.dainst.org/entity/5653> ;
     p-lod:arcgis-id "BLD_000522" ;
     p-lod:best-image p-lod:luna_img_PALP_35496, p-lod:luna_img_PALP_40944 ;
     p-lod:description "Private Dwellings; Shops" ;
