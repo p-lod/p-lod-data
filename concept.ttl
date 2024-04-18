@@ -3038,7 +3038,7 @@ p-lod:penthesilea a p-lod:concept ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
 p-lod:pentheus a p-lod:concept ;
-    rds:label "Pentheus" ;
+    rdfs:label "Pentheus" ;
     p-lod:broader p-lod:mythological_figure ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q391091> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
