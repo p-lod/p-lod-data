@@ -1072,6 +1072,7 @@ p-lod:cube__perspective a p-lod:concept .
 
 p-lod:cup a p-lod:concept ;
     rdfs:label "Cup" ;
+    p-lod:broader p-ld:vessel ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
 p-lod:cupid a p-lod:concept ;
@@ -1120,7 +1121,7 @@ p-lod:danae a p-lod:concept ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
 p-lod:daphne a p-lod:concept ;
-    rdfs:label "Daphne"  ;
+    rdfs:label "Daphne" ;
     p-lod:broader p-lod:mythological_figure ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q194015> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
@@ -1597,8 +1598,14 @@ p-lod:front_porch a p-lod:concept ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q816741> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
+p-lod:fruit a p-lod:concept ;
+    rdfs:label "Fruit" ;
+    p-lod:broader p-lod:plant ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q3314483> ;
+    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
+
 p-lod:fullonica a p-lod:concept ;
-    rdfs:label "Fullonica"  ;
+    rdfs:label "Fullonica" ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
 p-lod:funeral_pyre a p-lod:concept ;
@@ -2538,7 +2545,7 @@ p-lod:modillion a p-lod:concept ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
 p-lod:modius a p-lod:concept ;
-    rdfs:label "Modius"  ;
+    rdfs:label "Modius" ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
 p-lod:mollusc a p-lod:concept ;
@@ -4005,6 +4012,7 @@ p-lod:tablet a p-lod:concept ;
 
 p-lod:tabula_ansata a p-lod:concept ;
     rdfs:label "Tabula ansata" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q1238297> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
 p-lod:tambourine a p-lod:concept ;
@@ -4155,11 +4163,12 @@ p-lod:thyia a p-lod:concept ;
 
 p-lod:thymiaterion a p-lod:concept ;
     rdfs:label "Thymiaterion" ;
+    p-lod:broader p-lod:vessel ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q662620> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .  
 
 p-lod:thyrsus a p-lod:concept ;
-    rdfs:label "Thrysus" ;
+    rdfs:label "Thyrsus" ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q536850> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
@@ -4576,11 +4585,7 @@ p-lod:weapon a p-lod:concept ;
     rdfs:label "Weapon" ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
-p-lod:fruit a p-lod:concept ;
-    rdfs:label "Fruit" ;
-    p-lod:broader p-lod:plant ;
-    p-lod:wikidata-url <http://www.wikidata.org/entity/Q3314483> ;
-    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
+
 
 
 
