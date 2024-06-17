@@ -151,6 +151,7 @@ p-lod:r1-i10-p8 a p-lod:property ;
     p-lod:geojson "{\"type\": \"Feature\", \"properties\": {\"title\": \"urn:p-lod:id:r1-i10-p8\"}, \"geometry\": {\"type\": \"Polygon\", \"coordinates\": [[[14.489423660479158, 40.749770058475356, 41.827900000003865], [14.489519172260676, 40.74981318414973, 41.827900000003865], [14.489625612441339, 40.74965465254446, 41.827900000003865], [14.489616040290501, 40.74964998642257, 41.827900000003865], [14.48966059378238, 40.74960460954173, 41.827900000003865], [14.48961049593689, 40.74957839940619, 41.827900000003865], [14.48960691263711, 40.74958113635479, 41.827900000003865], [14.4895738797191, 40.74956304343017, 41.827900000003865], [14.489527813336537, 40.74960615727268, 41.827900000003865], [14.489521853821238, 40.749607532751554, 41.827900000003865], [14.489401296649353, 40.7497221109455, 41.827900000003865], [14.489428394091757, 40.74973516718456, 41.827900000003865], [14.4894083824467, 40.74975925455937, 41.827900000003865], [14.489408898718471, 40.749763180265354, 41.827900000003865], [14.489423660479158, 40.749770058475356, 41.827900000003865]]]}, \"id\": \"urn:p-lod:id:r1-i10-p8\"}" ;
     p-lod:identifier "r1-i10-p8" ;
     p-lod:p-in-p-url <http://pompeiiinpictures.com/pompeiiinpictures/R1/1%2010%2008.htm> ;
+    p-lod:pleiades-url <https://pleiades.stoa.org/places/195475335> ;
     p-lod:plod-english-title "Casa degli amanti",
         "Domus of Tiberius-Claudius Eulogus",
         "degli amanti felici" ;
@@ -4207,7 +4208,7 @@ p-lod:r5-i4-p11 a p-lod:property ;
     p-lod:description "Private Dwellings" ;
     p-lod:identifier "r5-i4-p11" ;
     p-lod:p-in-p-url <http://pompeiiinpictures.com/pompeiiinpictures/R5/5%2004%2011.htm> ;
-    p-lod:pleiades-id "https://pleiades.stoa.org/places/894852237" ;
+    p-lod:pleiades-url <https://pleiades.stoa.org/places/894852237> ;
     p-lod:plod-italian-title "Casa della nuova caccia";
     p-lod:plod-english-title "Domus of M. Lucretius Fronto and M. Lucretius Lirus" ;
     p-lod:spatially-within p-lod:r5-i4 ;

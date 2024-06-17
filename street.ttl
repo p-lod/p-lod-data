@@ -754,6 +754,6 @@ p-lod:vicolo-storto a p-lod:street ;
 
 p-lod:vicolo-storto-nuovo a p-lod:street ;
     rdfs:label "Vicolo Storto Nuovo" ;
-    p-lod:spatially-within <urn:p-lod:id:r#> ;
+    p-lod:spatially-within <urn:p-lod:id:r3> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/street.ttl> .
 
