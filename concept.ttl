@@ -105,6 +105,8 @@ p-lod:alcove a p-lod:concept ;
 
 p-lod:aloe a p-lod:concept ;
     rdfs:label "Aloe" ;
+    p-lod:broader p-lod:plant ;
+    p-lod:wikipedia-url <http://www.wikidata.org/entity/Q127134ß> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
 p-lod:altar a p-lod:concept ;
@@ -121,6 +123,7 @@ p-lod:amazon a p-lod:concept ;
 p-lod:amor a p-lod:concept ;
     rdfs:label "Amor" ;
     p-lod:broader p-lod:deity ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q5011> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
 p-lod:amphitrite a p-lod:concept ;
@@ -147,6 +150,7 @@ p-lod:ampitheater a p-lod:concept ;
 
 p-lod:amulet a p-lod:concept ;
     rdfs:label "Amulet" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q131557> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
 p-lod:amymone a p-lod:concept ;
@@ -157,6 +161,7 @@ p-lod:amymone a p-lod:concept ;
 
 p-lod:anchor a p-lod:concept ;
     rdfs:label "Anchor" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q168432> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
 p-lod:andromeda a p-lod:concept ;
@@ -214,6 +219,7 @@ p-lod:antiope a p-lod:concept ;
 
 p-lod:anvil a p-lod:concept ;
     rdfs:label "Anvil" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q104363> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
 p-lod:ape a p-lod:concept ;
@@ -260,6 +266,8 @@ p-lod:aquaria_\(assemblages_of_fish_in_water\) a p-lod:concept ;
 
 p-lod:aquatic_plant a p-lod:concept ;
     rdfs:label "Aquatic plant" ;
+    p-lod:broader p-lod:plant ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q186101> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
 p-lod:aqueduct a p-lod:concept ;
