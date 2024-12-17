@@ -106,7 +106,7 @@ p-lod:alcove a p-lod:concept ;
 p-lod:aloe a p-lod:concept ;
     rdfs:label "Aloe" ;
     p-lod:broader p-lod:plant ;
-    p-lod:wikipedia-url <http://www.wikidata.org/entity/Q127134> ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q127134> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
 p-lod:altar a p-lod:concept ;
@@ -1221,7 +1221,7 @@ p-lod:dido a p-lod:concept ;
 p-lod:diomedes a p-lod:concept ;
     rdfs:label "Diomedes" ;
     p-lod:broader p-lod:mythological_figure ;
-    p-lod:wikidata <http://www.wikidata.org/entity/Q208256> ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q208256> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
 p-lod:dionysus a p-lod:concept ;
@@ -1920,7 +1920,7 @@ p-lod:hera a p-lod:concept ;
 p-lod:herb a p-lod:concept ;
     rdfs:label "Herb" ;
     p-lod:broader p-lod:plant ;
-    p-lod:wiki-url <http://www.wikidata.org/entity/Q207123> ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q207123> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
 p-lod:hercules a p-lod:concept ;
