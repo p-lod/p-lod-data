@@ -106,7 +106,7 @@ p-lod:alcove a p-lod:concept ;
 p-lod:aloe a p-lod:concept ;
     rdfs:label "Aloe" ;
     p-lod:broader p-lod:plant ;
-    p-lod:wikipedia-url <http://www.wikidata.org/entity/Q127134ß> ;
+    p-lod:wikipedia-url <http://www.wikidata.org/entity/Q127134> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
 p-lod:altar a p-lod:concept ;
@@ -172,6 +172,7 @@ p-lod:andromeda a p-lod:concept ;
 
 p-lod:anfitrione a p-lod:concept ;
     rdfs:label "Anfitrione" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q206214> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
 p-lod:animal a p-lod:concept ;
@@ -215,6 +216,7 @@ p-lod:antelope a p-lod:concept ;
 
 p-lod:antiope a p-lod:concept ;
     rdfs:label "Antiope" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q461439> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
 p-lod:anvil a p-lod:concept ;
@@ -308,6 +310,7 @@ p-lod:ares a p-lod:concept ;
 p-lod:argo a p-lod:concept ;
     rdfs:label "Argo" ;
     p-lod:broader p-lod:mythological_figure ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q317932> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
 p-lod:argos a p-lod:concept .
@@ -328,6 +331,7 @@ p-lod:arimaspian a p-lod:concept ;
 p-lod:arion a p-lod:concept ;
     rdfs:label "Arion" ;
     p-lod:broader p-lod:poet ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q312422> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
 p-lod:armor a p-lod:concept ;
@@ -338,6 +342,7 @@ p-lod:armor a p-lod:concept ;
 p-lod:arrow a p-lod:concept ;
     rdfs:label "Arrow" ;
     p-lod:broader p-lod:weapon ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q45922> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
 p-lod:artemis a p-lod:concept ;
@@ -348,10 +353,12 @@ p-lod:artemis a p-lod:concept ;
 
 p-lod:artwork a p-lod:concept ;
     rdfs:label "Artwork" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q838948> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
 p-lod:ashlar_block a p-lod:concept ;
     rdfs:label "Ashlar block" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q1122603> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
 p-lod:askos a p-lod:concept ;
@@ -361,10 +368,12 @@ p-lod:askos a p-lod:concept ;
 
 p-lod:atalanta a p-lod:concept ;
     rdfs:label "Atalanta" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q190323> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
 p-lod:atalante a p-lod:concept ;
     rdfs:label "Atalante" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q13375989> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
 p-lod:athena a p-lod:concept ;
@@ -397,6 +406,7 @@ p-lod:auge a p-lod:concept ;
 
 p-lod:autumn a p-lod:concept ;
     rdfs:label "Autumn" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q1314> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
 p-lod:averne a p-lod:concept ;
@@ -428,14 +438,17 @@ p-lod:background a p-lod:concept ;
 
 p-lod:bag a p-lod:concept ;
     rdfs:label "Bag" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q1323314> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
 p-lod:balcony a p-lod:concept ;
     rdfs:label "Balcony" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q170552> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
 p-lod:ball a p-lod:concept ;
     rdfs:label "Ball" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q18545> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
 p-lod:balustrade a p-lod:concept ;
@@ -503,6 +516,7 @@ p-lod:bellerophon a p-lod:concept ;
 p-lod:bench a p-lod:concept ;
     rdfs:label "Bench" ;
     p-lod:broader p-lod:furniture ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q204776> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
 p-lod:berry a p-lod:concept ;
@@ -551,10 +565,12 @@ p-lod:boat a p-lod:concept ;
 
 p-lod:boot a p-lod:concept ;
     rdfs:label "Boot" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q190868> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
 p-lod:border a p-lod:concept ;
     rdfs:label "Border" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q365980> ;   
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
 p-lod:border__frame a p-lod:concept .
@@ -572,6 +588,7 @@ p-lod:boss a p-lod:concept ;
 p-lod:bow a p-lod:concept ;
     rdfs:label "Bow" ;
     p-lod:broader p-lod:weapon ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q46311> ;    
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
 p-lod:bowl a p-lod:concept ;
@@ -624,10 +641,12 @@ p-lod:bronze a p-lod:concept ;
 
 p-lod:brooch a p-lod:concept ;
     rdfs:label "Brooch" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q324926> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
 p-lod:brush a p-lod:concept ;
     rdfs:label "Brush" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q614467> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
 p-lod:bucket a p-lod:concept .
@@ -854,10 +873,15 @@ p-lod:child a p-lod:concept ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q7569> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
-p-lod:chiron a p-lod:concept .
+p-lod:chiron a p-lod:concept ;
+    rdfs:label "Chiron" ;
+    p-lod:broader p-lod:mythological_creature ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q183417> ;
+    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
 p-lod:chiton a p-lod:concept ;
     rdfs:label "Chiton" ;
+    p-lod:broader p-lod:clothing ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q944031> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
