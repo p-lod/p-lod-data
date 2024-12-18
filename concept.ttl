@@ -780,11 +780,13 @@ p-lod:casket a p-lod:concept .
 p-lod:cassandra a p-lod:concept ;
     rdfs:label "Cassandra" ;
     p-lod:broader p-lod:mythological_figure ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q170779> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
 p-lod:cassiopeia a p-lod:concept ;
     rdfs:label "Cassiopeia" ;
     p-lod:broader p-lod:mythological_figure ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q207681> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
 p-lod:castle a p-lod:concept .
@@ -1830,7 +1832,10 @@ p-lod:ham a p-lod:concept ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q170486> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
-p-lod:hammer a p-lod:concept .
+p-lod:hammer a p-lod:concept ;
+    rdfs:label "Hammer" ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q25294> ;
+    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
 p-lod:handle a p-lod:concept .
 
@@ -1846,7 +1851,11 @@ p-lod:harp a p-lod:concept ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q47369> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
-p-lod:harpocrates a p-lod:concept .
+p-lod:harpocrates a p-lod:concept ;
+    rdfs:label "Harpocrates" ;
+    p-lod:broader p-lod:egyptian_deity ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q787492> ;
+    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
 p-lod:hat a p-lod:concept ;
     rdfs:label "Hat" ;
@@ -2125,12 +2134,13 @@ p-lod:iphigenia a p-lod:concept ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
 p-lod:iris a p-lod:concept ;
+    rdfs:label "Iris" ;
     p-lod:broader p-lod:deity ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q184570> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
 p-lod:iron_nail a p-lod:concept ;
-    p-lod:label "Iron label" ;
+    rdfs:label "Iron" ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q37077> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
