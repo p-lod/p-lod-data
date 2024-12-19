@@ -1900,6 +1900,8 @@ p-lod:helenus a p-lod:concept ;
 
 p-lod:helios a p-lod:concept ;
     rdfs:label "Helios" ;
+    p-lod:broader p-lod:greek_deity ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q134270> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
 p-lod:helle a p-lod:concept .
@@ -2030,6 +2032,7 @@ p-lod:hole a p-lod:concept .
 p-lod:homer a p-lod:concept ;
     rdfs:label "Homer" ;
     p-lod:broader p-lod:poet ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q6691> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
 p-lod:hook a p-lod:concept ;
@@ -2077,6 +2080,7 @@ p-lod:hymenaios a p-lod:concept ;
 p-lod:hypnos a p-lod:concept ;
     rdfs:label "Hypnos" ;
     p-lod:broader p-lod:deity ;
+    p-lod:wikidata-url <http://www.wikidata.org/entity/Q189347> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
 p-lod:ibis a p-lod:concept ;
