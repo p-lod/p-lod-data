@@ -1,0 +1,33 @@
+@prefix p-lod: <urn:p-lod:id:> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+p-lod:first_style a p-lod:pompeian-wall-painting-style ; 
+    rdfs:label	"First Style" ;
+    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/style.ttl> .	
+
+p-lod:second_style a p-lod:pompeian-wall-painting-style ;
+    rdfs:label	"Second Style";
+    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/style.ttl> .
+																						
+p-lod:third_style a p-lod:pompeian-wall-painting-style ;
+    rdfs:label	"Third Style" ;
+    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/style.ttl>.
+
+p-lod:third_style_paratattica a p-lod:pompeian-wall-painting-style ;
+    rdfs:label	"Third Style (Paratattica)" ;						
+    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/style.ttl> .
+																						
+p-lod:fourth_style a p-lod:pompeian-wall-painting-style ;
+    rdfs:label	"Fourth Style" ;																							
+    p-lod:getty-lod-url	<http://vocab.getty.edu/page/aat/300020613> ;
+    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/style.ttl> .
+
+p-lod:fourth_style_continua a p-lod:pompeian-wall-painting-style ;
+    rdfs:label	"Fourth Style (Continua)" ;																							
+    p-lod:getty-lod-url	<http://vocab.getty.edu/page/aat/300020613> ;
+    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/style.ttl> .																				
+
+p-lod:fourth_style_paratattica a p-lod:pompeian-wall-painting-style ;
+    rdfs:label	"Fourth Style (Paratattica)" ;																							
+    p-lod:getty-lod-url	<http://vocab.getty.edu/page/aat/300020613> ;
+    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/style.ttl> .																				

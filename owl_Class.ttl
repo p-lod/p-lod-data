@@ -93,6 +93,8 @@ p-lod:necropolis a owl:Class ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/owl_Class.ttl> .
 
 p-lod:pompeian-wall-painting-style a owl:Class ;
+    rdfs:label "Pompeian Wall Painting Style" ;
+    rdfs:seeAlso <https://en.wikipedia.org/wiki/Pompeian_Styles> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/owl_Class.ttl> .
 
 p-lod:public-arch a owl:Class ;
