@@ -3,22 +3,68 @@
 
 p-lod:first_style a p-lod:pompeian-wall-painting-style ; 
     rdfs:label	"First Style" ;
+    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/style.ttl> .
+
+p-lod:first_style_anticamera a p-lod:pompeian-wall-painting-style ; 
+    rdfs:label	"First Style (Anticamera)" ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/style.ttl> .	
+
+p-lod:first_style_continua a p-lod:pompeian-wall-painting-style ; 
+    rdfs:label	"First Style (Continua)" ;
+    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/style.ttl> .
+
+p-lod:first_style_paratattica a p-lod:pompeian-wall-painting-style ; 
+    rdfs:label	"First Style (Paratattica)" ;
+    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/style.ttl> .
 
 p-lod:second_style a p-lod:pompeian-wall-painting-style ;
     rdfs:label	"Second Style";
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/style.ttl> .
-																						
+
+p-lod:second_style_anticamera a p-lod:pompeian-wall-painting-style ;
+    rdfs:label	"Second Style (Anticamera)" ;
+    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/style.ttl> .
+
+p-lod:second_style_continua a p-lod:pompeian-wall-painting-style ;
+    rdfs:label	"Second Style (Continua)" ;
+    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/style.ttl> .
+
+p-lod:second_style_paratattica a p-lod:pompeian-wall-painting-style ;
+    rdfs:label	"Second Style (Paratattica)" ;
+    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/style.ttl> .
+
 p-lod:third_style a p-lod:pompeian-wall-painting-style ;
     rdfs:label	"Third Style" ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/style.ttl>.
 
+p-lod:third_style_bipartita a p-lod:pompeian-wall-painting-style ;
+    rdfs:label	"Third Style (Bipartita)" ;						
+    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/style.ttl> .
+
+p-lod:third_style_continua a p-lod:pompeian-wall-painting-style ;
+    rdfs:label	"Third Style (Continua)" ;						
+    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/style.ttl> .
+
 p-lod:third_style_paratattica a p-lod:pompeian-wall-painting-style ;
     rdfs:label	"Third Style (Paratattica)" ;						
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/style.ttl> .
-																						
+
+p-lod:third_style_simmetrica a p-lod:pompeian-wall-painting-style ;
+    rdfs:label	"Third Style (Simmetrica)" ;						
+    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/style.ttl> .
+
 p-lod:fourth_style a p-lod:pompeian-wall-painting-style ;
     rdfs:label	"Fourth Style" ;																							
+    p-lod:getty-lod-url	<http://vocab.getty.edu/page/aat/300020613> ;
+    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/style.ttl> .
+
+p-lod:fourth_style_anticamera a p-lod:pompeian-wall-painting-style ;
+    rdfs:label	"Fourth Style (Anticamera)" ;																							
+    p-lod:getty-lod-url	<http://vocab.getty.edu/page/aat/300020613> ;
+    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/style.ttl> .
+
+p-lod:fourth_style_bipartita a p-lod:pompeian-wall-painting-style ;
+    rdfs:label	"Fourth Style (Bipartita)" ;																							
     p-lod:getty-lod-url	<http://vocab.getty.edu/page/aat/300020613> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/style.ttl> .
 
@@ -30,4 +76,9 @@ p-lod:fourth_style_continua a p-lod:pompeian-wall-painting-style ;
 p-lod:fourth_style_paratattica a p-lod:pompeian-wall-painting-style ;
     rdfs:label	"Fourth Style (Paratattica)" ;																							
     p-lod:getty-lod-url	<http://vocab.getty.edu/page/aat/300020613> ;
-    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/style.ttl> .																				
+    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/style.ttl> .
+
+p-lod:fourth_style_simmetrica a p-lod:pompeian-wall-painting-style ;
+    rdfs:label	"Fourth Style (Simmetrica)" ;																							
+    p-lod:getty-lod-url	<http://vocab.getty.edu/page/aat/300020613> ;
+    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/style.ttl> .															

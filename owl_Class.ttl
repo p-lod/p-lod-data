@@ -94,7 +94,7 @@ p-lod:necropolis a owl:Class ;
 
 p-lod:pompeian-wall-painting-style a owl:Class ;
     rdfs:label "Pompeian Wall Painting Style" ;
-    rdfs:seeAlso <https://en.wikipedia.org/wiki/Pompeian_Styles> ;
+    rdfs:seeAlso <https://en.wikipedia.org/wiki/Pompeian_Styles> , <http://vocab.getty.edu/page/aat/300020605>;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/owl_Class.ttl> .
 
 p-lod:public-arch a owl:Class ;
