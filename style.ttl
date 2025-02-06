@@ -44,6 +44,16 @@ p-lod:second_style_subtype_i_b a p-lod:pompeian-wall-painting-style ;
     p-lod:broader p-lod:second_style ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/style.ttl> .
 
+p-lod:second_style_subtype_ii_a a p-lod:pompeian-wall-painting-style ;
+    rdfs:label	"Second Style (Subtype II A)" ;
+    p-lod:broader p-lod:second_style ;
+    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/style.ttl> .
+
+p-lod:second_style_subtype_ii_b a p-lod:pompeian-wall-painting-style ;
+    rdfs:label	"Second Style (Subtype II B)" ;
+    p-lod:broader p-lod:second_style ;
+    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/style.ttl> .
+
 p-lod:third_style a p-lod:pompeian-wall-painting-style ;
     rdfs:label	"Third Style" ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/style.ttl>.
