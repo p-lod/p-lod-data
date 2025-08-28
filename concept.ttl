@@ -325,11 +325,14 @@ p-lod:ariadne a p-lod:concept ;
 
 p-lod:arimaspian a p-lod:concept ;
     rdfs:label "Arimaspian" ;
+    p-lod:broader p-lod:mythological_figure ;
+    p-lod:manto-url <https://resource.manto.unh.edu/11293296> ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q661584> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
 p-lod:arion a p-lod:concept ;
     rdfs:label "Arion" ;
+    p-lod:best-image p-lod:luna_img_PALP_62840 ;
     p-lod:broader p-lod:poet ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q312422> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
