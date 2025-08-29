@@ -339,6 +339,7 @@ p-lod:arion a p-lod:concept ;
 
 p-lod:armor a p-lod:concept ;
     rdfs:label "Armor" ;
+    p-lod:best-image p-lod:luna_img_PPM1_536 ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q20793164> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
@@ -563,6 +564,7 @@ p-lod:boars_head a p-lod:concept ;
 
 p-lod:boat a p-lod:concept ;
     rdfs:label "Boat" ;
+    p-lod:best-image p-lod:luna_img_PPM5_799 ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q35872> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
@@ -590,6 +592,7 @@ p-lod:boss a p-lod:concept ;
 
 p-lod:bow a p-lod:concept ;
     rdfs:label "Bow" ;
+    p-lod:best-image p-lod:luna_img_PALP_34172 ;
     p-lod:broader p-lod:weapon ;
     p-lod:wikidata-url <http://www.wikidata.org/entity/Q46311> ;    
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
