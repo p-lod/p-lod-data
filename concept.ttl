@@ -11,7 +11,7 @@ p-lod:acanthus a :concept ;
 p-lod:achilles a :concept ;
     rdfs:label "Achilles" ;
     :broader :mythological_figure ;
-    p-lod:manto-url <https://resource.manto.unh.edu/8182012> ;
+    :manto-url <https://resource.manto.unh.edu/8182012> ;
     :wikidata-url <http://www.wikidata.org/entity/Q41746> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
@@ -70,9 +70,9 @@ p-lod:aethra a :concept ;
 
 p-lod:agave a :concept ;
     rdfs:label "Agave" ;
-    p-lod:description "Daughter of Cadmus" ;
+    :description "Daughter of Cadmus" ;
     :broader :mythological_figure ;
-    p-lod:manto-url <http://resource.manto.unh.edu/8182040> ;
+    :manto-url <http://resource.manto.unh.edu/8182040> ;
     :wikidata-url <http://www.wikidata.org/entity/Q381459> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
@@ -318,29 +318,29 @@ p-lod:argos a :concept .
 
 p-lod:ariadne a :concept ;
     rdfs:label "Ariadne" ;
-    p-lod:best-image p-lod:luna_img_PALP_62535 , p-lod:luna_img_PALP_50065 ; 
+    :best-image :luna_img_PALP_62535 , :luna_img_PALP_50065 ; 
     :broader :mythological_figure ;
-    p-lod:manto-url <https://resource.manto.unh.edu/8187817> ;
+    :manto-url <https://resource.manto.unh.edu/8187817> ;
     :wikidata-url <http://www.wikidata.org/entity/Q184874> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
 p-lod:arimaspian a :concept ;
     rdfs:label "Arimaspian" ;
     :broader :mythological_figure ;
-    p-lod:manto-url <https://resource.manto.unh.edu/11293296> ;
+    :manto-url <https://resource.manto.unh.edu/11293296> ;
     :wikidata-url <http://www.wikidata.org/entity/Q661584> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
 p-lod:arion a :concept ;
     rdfs:label "Arion" ;
-    p-lod:best-image p-lod:luna_img_PALP_62840 ;
+    :best-image :luna_img_PALP_62840 ;
     :broader :poet ;
     :wikidata-url <http://www.wikidata.org/entity/Q312422> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
 p-lod:armor a :concept ;
     rdfs:label "Armor" ;
-    p-lod:best-image p-lod:luna_img_PPM1_536 ;
+    :best-image :luna_img_PPM1_536 ;
     :wikidata-url <http://www.wikidata.org/entity/Q20793164> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
@@ -565,7 +565,7 @@ p-lod:boars_head a :concept ;
 
 p-lod:boat a :concept ;
     rdfs:label "Boat" ;
-    p-lod:best-image p-lod:luna_img_PPM5_799 ;
+    :best-image :luna_img_PPM5_799 ;
     :wikidata-url <http://www.wikidata.org/entity/Q35872> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
@@ -593,7 +593,7 @@ p-lod:boss a :concept ;
 
 p-lod:bow a :concept ;
     rdfs:label "Bow" ;
-    p-lod:best-image p-lod:luna_img_PALP_34172 ;
+    :best-image :luna_img_PALP_34172 ;
     :broader :weapon ;
     :wikidata-url <http://www.wikidata.org/entity/Q46311> ;    
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
@@ -626,7 +626,7 @@ p-lod:branch a :concept ;
 
 p-lod:bread a :concept ;
     rdfs:label "Bread" ;
-    p-lod:best-image p-lod:luna_img_PALP_40651 , p-lod:luna_img_PPM6_1687 ;
+    :best-image :luna_img_PALP_40651 , :luna_img_PPM6_1687 ;
     :broader :food ;
     :wikidata-url <http://www.wikidata.org/entity/Q7802> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
@@ -659,13 +659,13 @@ p-lod:brush a :concept ;
 
 p-lod:bucket a :concept ;
     rdfs:label "Bucket" ;
-    p-lod:best-image <> ;
+    :best-image <> ;
     :wikidata-url <https://www.wikidata.org/entity/Q47107>;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
 p-lod:bucranium a :concept ;
     rdfs:label "Bucranium" ;
-    p-lod:best-image p-lod:luna_img_PPM10_22 ;
+    :best-image :luna_img_PPM10_22 ;
     :wikidata-url <http://www.wikidata.org/entity/Q1003461> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
@@ -677,7 +677,7 @@ p-lod:building a :concept ;
 
 p-lod:bull a :concept ;
     rdfs:label "Bull" ;
-    p-lod:best-image p-lod:luna_img_PALP_52062 ;
+    :best-image :luna_img_PALP_52062 ;
     :broader :animal ;
     :wikidata-url <http://www.wikidata.org/entity/Q693690> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
@@ -1344,7 +1344,7 @@ p-lod:drops a :concept ;
 
 p-lod:drum a :concept ;
     rdfs:label "Drum" ;
-    p-lod:best-image p-lod:luna_img_PALP_47089 ;
+    :best-image :luna_img_PALP_47089 ;
     :broader :musical_instrument ;
     :wikidata-url <http://www.wikidata.org/entity/Q11404> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
@@ -1784,14 +1784,14 @@ p-lod:graffito a :concept ;
 
 p-lod:grape a :concept ;
     rdfs:label "Grape" ;
-    p-lod:best-image p-lod:luna_img_PALP_23501 ;
+    :best-image :luna_img_PALP_23501 ;
     :broader :fruit ;
     :wikidata-url <http://www.wikidata.org/entity/Q10978> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
 p-lod:grapes a :concept ;
     rdfs:label "Grapes" ;
-    p-lod:best-image p-lod:luna_img_PALP_23501 ;
+    :best-image :luna_img_PALP_23501 ;
     :broader :fruit ;
     :wikidata-url <http://www.wikidata.org/entity/Q10978> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
@@ -1854,7 +1854,7 @@ p-lod:gymnasium a :concept ;
 
 p-lod:ham a :concept ;
     rdfs:label "Ham" ;
-    p-lod:best-image p-lod:luna_img_PPM2_911 ;
+    :best-image :luna_img_PPM2_911 ;
     :broader :food ;
     :wikidata-url <http://www.wikidata.org/entity/Q170486> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
@@ -1874,7 +1874,7 @@ p-lod:hare a :concept ;
 
 p-lod:harp a :concept ;
     rdfs:label "Harp" ;
-    p-lod:best-image p-lod:luna_img_PALP_60167 ;
+    :best-image :luna_img_PALP_60167 ;
     :broader :musical_instrument ;
     :wikidata-url <http://www.wikidata.org/entity/Q47369> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
@@ -1882,7 +1882,7 @@ p-lod:harp a :concept ;
 p-lod:harpocrates a :concept ;
     rdfs:label "Harpocrates" ;
     :broader :egyptian_deity ;
-    p-lod:manto-url <https://resource.manto.unh.edu/11323153> ;
+    :manto-url <https://resource.manto.unh.edu/11323153> ;
     :wikidata-url <http://www.wikidata.org/entity/Q787492> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
@@ -2179,7 +2179,7 @@ p-lod:iron_nail a :concept ;
 
 p-lod:isis a :concept ;
     rdfs:label "Isis" ;
-    p-lod:best-image p-lod:luna_img_PALP_11913 ;
+    :best-image :luna_img_PALP_11913 ;
     :broader :egyptian_deity ;
     :wikidata-url <http://www.wikidata.org/entity/Q79876> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
@@ -2277,6 +2277,7 @@ p-lod:knucklebones a :concept ;
 
 p-lod:labrum a :concept ;
     rdfs:label "Labrum" ;
+    :best-image :luna_img_PPM2_340 ;
     :wikidata-url <http://www.wikidata.org/entity/Q6467643> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
@@ -3318,7 +3319,7 @@ p-lod:polyphemus a :concept ;
 p-lod:polyxena a :concept ;
     rdfs:label "Polyxena" ;
     :broader :mythological_figure ;
-    p-lod:manto-url <https://resource.manto.unh.edu/8189332> ;
+    :manto-url <https://resource.manto.unh.edu/8189332> ;
     :wikidata-url <http://www.wikidata.org/entity/Q750236> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
@@ -3445,6 +3446,7 @@ p-lod:quiver a :concept ;
 
 p-lod:rabbit a :concept ;
     rdfs:label "Rabbit" ;
+    :best-image :luna_img_PALP_63765 ;
     :broader :animal ;
     :wikidata-url <http://www.wikidata.org/entity/Q9394> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
@@ -3586,6 +3588,7 @@ p-lod:sacred_object a :concept .
 
 p-lod:sandal a :concept ;
     rdfs:label "Sandal" ;
+    :broader :clothing ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
 p-lod:sangarios a :concept ;
@@ -3878,7 +3881,7 @@ p-lod:snail a :concept ;
 
 p-lod:snake a :concept ;
     rdfs:label "Snake" ;
-    p-lod:best-image p-lod:luna_img_PALP_40966 , p-lod:luna_img_PALP_41174 ;
+    :best-image :luna_img_PALP_40966 , :luna_img_PALP_41174 ;
     :broader :animal ;
     :wikidata-url <http://www.wikidata.org/entity/Q2102> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
@@ -4206,7 +4209,7 @@ p-lod:thalia a :concept ;
 
 p-lod:theseus a :concept ;
     rdfs:label "Theseus" ;
-    p-lod:best-image p-lod:luna_imgs_PALP_50065 ;
+    :best-image :luna_imgs_PALP_50065 ;
     :broader :mythological_figure ;
     :wikidata-url <http://www.wikidata.org/entity/Q1320718> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
@@ -4225,16 +4228,16 @@ p-lod:thisbe a :concept ;
 
 p-lod:thoas a :concept ;
     rdfs:label "Thoas, King of Tauris" ;
-    p-lod:best-image p-lod:luna_img_PALP_57771 ;
+    :best-image :luna_img_PALP_57771 ;
     :broader :mythological_figure ;
-    p-lod:description "Thoas, King of Tauris, shares a name with Thoas, King of Lemnos. The Taurian Thoas is depicted at Pompeii." ;
+    :description "Thoas, King of Tauris, shares a name with Thoas, King of Lemnos. The Taurian Thoas is depicted at Pompeii." ;
     :wikidata-url <http://www.wikidata.org/entity/Q1246185> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
 p-lod:thoas_lemnian a :concept ;
     rdfs:label "Thoas, King of Lemnos" ;
     :broader :mythological_figure ;
-    p-lod:description "Thoas, King of Lemnos, shares a name with Thoas, King of Tauris. The Lemnian Thoas is not currently recorded as being depicted at Pompeii." ;
+    :description "Thoas, King of Lemnos, shares a name with Thoas, King of Tauris. The Lemnian Thoas is not currently recorded as being depicted at Pompeii." ;
     :wikidata-url <https://www.wikidata.org/wiki/Q1230535> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
@@ -4389,7 +4392,7 @@ p-lod:trowel a :concept .
 
 p-lod:troy a :concept ;
     rdfs:label "Troy" ;
-    p-lod:pleiades-url <https://pleiades.stoa.org/places/550595> ;
+    :pleiades-url <https://pleiades.stoa.org/places/550595> ;
     :wikidata-url <http://www.wikidata.org/entity/Q22647> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
@@ -4422,7 +4425,7 @@ p-lod:tympanum a :concept ;
 
 p-lod:ulysses a :concept ;
     rdfs:label "Ulysses" ;
-    p-lod:best-image p-lod:luna_img_PPM4_1646 ;
+    :best-image :luna_img_PPM4_1646 ;
     :broader :mythological_figure ;
     :wikidata-url <http://www.wikidata.org/entity/Q47231> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
@@ -4501,8 +4504,8 @@ p-lod:vessel a :concept ;
 
 p-lod:vesuvius a :concept ;
     rdfs:label "Vesuvius" ;
-    p-lod:best-image p-lod:luna_img_PALP_53196 ;
-    p-lod:pleiades-url <https://pleiades.stoa.org/places/433189> ;
+    :best-image :luna_img_PALP_53196 ;
+    :pleiades-url <https://pleiades.stoa.org/places/433189> ;
     :wikidata-url <http://www.wikidata.org/entity/Q524> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
@@ -4514,7 +4517,7 @@ p-lod:viburnum a :concept ;
 
 p-lod:victory a :concept ;
     rdfs:label "Victory" ;
-    p-lod:best-image p-lod:luna_img_PALP_14751 ;
+    :best-image :luna_img_PALP_14751 ;
     :broader :roman_deity ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .
 
@@ -4543,7 +4546,7 @@ p-lod:vulcan a :concept ;
 
 p-lod:vulture a :concept ;
     rdfs:label "Vulture" ;
-    p-lod:best-image p-lod:PPM8_1803 ;
+    :best-image :PPM8_1803 ;
     :broader :bird ;
     :wikidata-url <http://www.wikidata.org/entity/Q123120> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/concept.ttl> .

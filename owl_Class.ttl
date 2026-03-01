@@ -151,6 +151,10 @@ p-lod:property a owl:Class ;
     rdfs:subClassOf p-lod:spatial-item ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/owl_Class.ttl> .
 
+p-lod:space-characterization a owl:Class ;
+    rdfs:label "Space Characterization" ;
+    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/owl_Class.ttl> .
+
 p-lod:street a owl:Class ;
     rdfs:subClassOf p-lod:spatial-item ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/owl_Class.ttl> .

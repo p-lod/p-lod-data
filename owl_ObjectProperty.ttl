@@ -57,6 +57,10 @@ p-lod:has-color a owl:ObjectProperty ;
     rdfs:label "Has color" ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/owl_ObjectProperty.ttl> .
 
+p-lod:has-space-characterization  a owl:ObjectProperty ;
+    rdfs:label "Has spatial characterization" ;
+    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/owl_ObjectProperty.ttl> .
+
 p-lod:has-pompeian-wall-painting-style a owl:ObjectProperty ;
     rdfs:label "Has Pompeian Wall-Painting Style" ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/owl_ObjectProperty.ttl> .
@@ -76,6 +80,11 @@ p-lod:neighbor-of a owl:ObjectProperty ;
 p-lod:p-in-p-url a owl:ObjectProperty ;
     rdfs:label "Pompeii-in-Pictures URL" ;
     owl:equivalentProperty rdfs:seeAlso ;
+    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/owl_ObjectProperty.ttl> .
+
+p-lod:is-part-of a owl:ObjectProperty ;
+    rdfs:label "Is Part Of" ;
+    owl:equivalentProperty <http://www.wikidata.org/entity/P361> ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/owl_ObjectProperty.ttl> .
 
 p-lod:pbmp-zotero-entry a owl:ObjectProperty ;
@@ -113,8 +122,4 @@ p-lod:x-source a owl:ObjectProperty ;
     rdfs:label "x-source" ;
     rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/owl_ObjectProperty.ttl> .
 
-p-lod:is-part-of a owl:ObjectProperty ;
-    rdfs:label "Is Part Of" ;
-    owl:equivalentProperty <http://www.wikidata.org/entity/P361> ;
-    rdfs:isDefinedBy <https://p-lod.github.io/p-lod-data/owl_ObjectProperty.ttl> .
 
